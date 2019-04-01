@@ -124,7 +124,7 @@ def populate_search_page(browser, num_pages=10):
 
 
 ########################################
-#   Recipe/ingredient scraping functions
+#   Recipe scraping functions
 ########################################
 
 def get_name():
@@ -171,13 +171,16 @@ def get_categories():
     categories = browser.find_elements_by_css_selector(sel)
     return [category.text for category in categories]
 
-def parse_ingredients(ingredients, units):
+
+########################################
+#   Ingredient parsing functions
+########################################
+def parse_ingredients(ingredients, units, flag_words=['can', 'cans', 'package', 'packages']):
     '''
     Parses a list of ingredients into a list of dictionaries with the following format: 
-        {'ingredient': (str),
-         'quantity': (float),
+        {'quantity': (float),
          'units': (str),
-         'preparation': (str)}
+         'ingredient': (str)}
     Also takes argument 'units', a list of accepted units (e.g., ['cups', 'tablespoon']).
     If an ingredident does not specify a unit in this list, the label 'each' will be applied.
     '''
@@ -185,38 +188,87 @@ def parse_ingredients(ingredients, units):
     for item in ingredients:
         item_dict = {}
         
-        # Determine quantity
-        quantity = item.split()[0]
-        try:
-            item_dict['quantity'] = float(quantity)
-        except:
-            numer, denom = quantity.split('/')
-            item_dict['quantity'] = float(numer) / float(denom)
+        # Check item for flag words (require special parsing treatment)
+        flag = False
+        for word in item.split():
+            if word in flag_words:
+                flag = True
         
-        # Determine units
-        if item.split()[2] not in ['can', 'cans']:
-            if item.split()[1] in units:
-                item_dict['units'] = item.split()[1]
-                remainder = ' '.join(item.split()[2:])
+        # Parse quantities and units        
+        if flag:
+            quantity, unit, remainder = _parse_special(item, flag_words)
+            item_dict['quantity'] = quantity
+            item_dict['units'] = unit if unit[-1] != 's' else unit[:-1]
+        else:
+            quantity, remainder = _determine_quantity(item) 
+            item_dict['quantity'] = quantity
+            if remainder.split()[0] in units:
+                unit = remainder.split()[0]
+                item_dict['units'] = unit if unit[-1] != 's' else unit[:-1]
+                remainder = ' '.join(remainder.split()[1:])
             else:
                 item_dict['units'] = 'each'
-                remainder = ' '.join(item.split()[1:])
-        else:
-            item_dict['units'] = item.split()[1:3]
-            remainder = ' '.join(item.split()[3:])
-            
-        # Split remaining text between ingredient and preparation
-        if len(remainder.split(' - ')) != 1:
-            item_dict['ingredient'] = remainder.split(' - ')[0]
-            item_dict['preparation'] = remainder.split(' - ')[1]
-        else:
-            item_dict['ingredient'] = remainder.split(', ')[0]
-            if len(remainder.split(', ')) != 1:
-                item_dict['preparation'] = remainder.split(', ')[1]
-            else:
-                item_dict['preparation'] = None
-                
+        
+        # Remove preparation instructions from remaining text to isolate ingredient
+        item_dict['ingredient'] = _remove_descriptors(remainder)
+        
         # Add item dictionary to list
         ing_list.append(item_dict)
     
-    return ing_list   
+    return ing_list
+
+
+def _determine_quantity(item):
+    quantity = 0
+    for i, elem in enumerate(item.split()):
+        if elem[0] in string.digits:
+            try:
+                quantity += float(elem)
+            except:
+                numer, denom = elem.split('/')
+                quantity += float(numer) / float(denom)
+        else:
+            idx = i
+            break
+    remainder = ' '.join(item.split()[idx:])
+    return quantity, remainder
+
+
+def _parse_special(item, flag_words):
+    # Determine special word
+    for word in flag_words:
+        if word in item.split():
+            sp_word = ' ' + word + ' '
+            break
+    
+    # Parse item 
+    count_and_size = item.split(sp_word)[0]
+    remainder = item.split(sp_word)[1]
+    count, rest = _determine_quantity(count_and_size)
+    size, unit = _determine_quantity(rest[1:-1])
+    quantity = count * size
+    return quantity, unit, remainder
+
+
+def _remove_descriptors(item, stopwords=['and'], endings=['ed','less','ly']):
+    
+    # Remove meat preparation instructions
+    if len(item.split(' - ')) > 1:
+        item = item.split(' - ')[0]
+    
+    # Remove punctuation and stopwords
+    words = []
+    for elem in item.split():
+        word = ''.join([letter for letter in elem.lower() if letter in string.ascii_lowercase])
+        if word not in stopwords:
+            words.append(word)
+    
+    # Remove adjectives and adverbs    
+    for ending in endings:
+        for word in words.copy():
+            try:
+                if word[-len(ending):] == ending:
+                    words.remove(word)
+            except:
+                continue
+    return ' '.join(words)
