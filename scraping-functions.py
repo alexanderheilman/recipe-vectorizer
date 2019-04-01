@@ -48,7 +48,7 @@ def type_word(word, field, typo_rate=0.1):
         field.send_keys(char)
         time.sleep(0.05 * np.random.random() + typo_rate)
 
-def make_typo(key, repeat=True):
+def make_typo(key):
     '''
     Returns a letter adjacent or identical to the input key.
     Inputs:
@@ -58,7 +58,7 @@ def make_typo(key, repeat=True):
     row2 = list('qwertyuiop[')
     row3 = list("asdfghjkl;")
     row4 = list('zxcvbnm,.')
-    adj_keys = [key] if repeat else []
+    adj_keys = [key]
     if key in row2:
         idx = row2.index(key)
         if idx > 0:
@@ -130,3 +130,21 @@ def get_categories():
     categories = browser.find_elements_by_css_selector(sel)
     return [category.text for category in categories]
 
+def get_search_results(browser):
+    '''
+    Finds and returns all recipe names and hyperlink references on current browser page.
+    '''
+    sel = 'article.fixed-recipe-card'
+    search_results = browser.find_elements_by_css_selector(sel)
+    hrefs = []
+    names = []
+    for element in search_results:
+        try:
+            sel = 'div.fixed-recipe-card__info h3 a'
+            info = element.find_element_by_css_selector(sel)
+            href = info.get_attribute('href')
+            hrefs.append(href.split('/?')[0])
+            names.append(info.text)
+        except:
+            continue
+    return names, hrefs
