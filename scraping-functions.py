@@ -10,6 +10,10 @@ import time
 import numpy as np
 import pandas as pd
 
+
+####################################
+#   Searching and crawling functions
+####################################
 def search_allrecipes(search_item, browser, typo_rate=0.1):
     """
     Goes to the Allrecipes.com homepage and searches for
@@ -86,6 +90,43 @@ def clear_field(field):
         field.send_keys('\b')
         time.sleep(0.02 * np.random.random() + 0.05)
 
+def get_search_results(browser):
+    '''
+    Finds and returns all recipe names and hyperlink references on current browser page.
+    '''
+    sel = 'article.fixed-recipe-card'
+    search_results = browser.find_elements_by_css_selector(sel)
+    hrefs = []
+    names = []
+    for element in search_results:
+        try:
+            sel = 'div.fixed-recipe-card__info h3 a'
+            info = element.find_element_by_css_selector(sel)
+            href = info.get_attribute('href')
+            hrefs.append(href.split('/?')[0])
+            names.append(info.text)
+        except:
+            continue
+    return names, hrefs
+
+def populate_search_page(browser, num_pages=10):
+    '''
+    Populates browser page with specified number of pages of search results.
+    '''
+    for _ in range(num_pages):
+        try:
+            sel = 'button#btnMoreResults'
+            more_button = browser.find_element_by_css_selector(sel)
+            more_button.click()
+        except:
+            browser.execute_script('window.scrollTo(0, document.body.scrollHeight - 1000);')
+        time.sleep(5 + 3*np.random.random())
+
+
+########################################
+#   Recipe/ingredient scraping functions
+########################################
+
 def get_name():
     '''Finds the name of the recipe and returns it as a string'''
     sel = 'h1#recipe-main-content'
@@ -130,21 +171,52 @@ def get_categories():
     categories = browser.find_elements_by_css_selector(sel)
     return [category.text for category in categories]
 
-def get_search_results(browser):
+def parse_ingredients(ingredients, units):
     '''
-    Finds and returns all recipe names and hyperlink references on current browser page.
+    Parses a list of ingredients into a list of dictionaries with the following format: 
+        {'ingredient': (str),
+         'quantity': (float),
+         'units': (str),
+         'preparation': (str)}
+    Also takes argument 'units', a list of accepted units (e.g., ['cups', 'tablespoon']).
+    If an ingredident does not specify a unit in this list, the label 'each' will be applied.
     '''
-    sel = 'article.fixed-recipe-card'
-    search_results = browser.find_elements_by_css_selector(sel)
-    hrefs = []
-    names = []
-    for element in search_results:
+    ing_list = []
+    for item in ingredients:
+        item_dict = {}
+        
+        # Determine quantity
+        quantity = item.split()[0]
         try:
-            sel = 'div.fixed-recipe-card__info h3 a'
-            info = element.find_element_by_css_selector(sel)
-            href = info.get_attribute('href')
-            hrefs.append(href.split('/?')[0])
-            names.append(info.text)
+            item_dict['quantity'] = float(quantity)
         except:
-            continue
-    return names, hrefs
+            numer, denom = quantity.split('/')
+            item_dict['quantity'] = float(numer) / float(denom)
+        
+        # Determine units
+        if item.split()[2] not in ['can', 'cans']:
+            if item.split()[1] in units:
+                item_dict['units'] = item.split()[1]
+                remainder = ' '.join(item.split()[2:])
+            else:
+                item_dict['units'] = 'each'
+                remainder = ' '.join(item.split()[1:])
+        else:
+            item_dict['units'] = item.split()[1:3]
+            remainder = ' '.join(item.split()[3:])
+            
+        # Split remaining text between ingredient and preparation
+        if len(remainder.split(' - ')) != 1:
+            item_dict['ingredient'] = remainder.split(' - ')[0]
+            item_dict['preparation'] = remainder.split(' - ')[1]
+        else:
+            item_dict['ingredient'] = remainder.split(', ')[0]
+            if len(remainder.split(', ')) != 1:
+                item_dict['preparation'] = remainder.split(', ')[1]
+            else:
+                item_dict['preparation'] = None
+                
+        # Add item dictionary to list
+        ing_list.append(item_dict)
+    
+    return ing_list   
