@@ -127,13 +127,13 @@ def populate_search_page(browser, num_pages=10):
 #   Recipe scraping functions
 ########################################
 
-def get_name():
+def get_name(browser):
     '''Finds the name of the recipe and returns it as a string'''
     sel = 'h1#recipe-main-content'
     name = browser.find_element_by_css_selector(sel)
     return name.text
 
-def get_ingredients():
+def get_ingredients(browser):
     '''
     Finds all ingredients required for the recipe on the current page
     and returns them as a list of strings
@@ -154,7 +154,7 @@ def get_ingredients():
             ingredients.append(item)
     return ingredients
 
-def get_rating():
+def get_rating(browser):
     '''
     Finds the rating of the current recipe and returns it as a float
     '''
@@ -162,7 +162,7 @@ def get_rating():
     rating = browser.find_element_by_css_selector(sel)
     return float(rating.get_attribute('data-ratingstars'))
 
-def get_categories():
+def get_categories(browser):
     '''
     Finds the hierarchy of categories to which the recipe belongs
     and returns it as a list of strings
@@ -175,7 +175,16 @@ def get_categories():
 ########################################
 #   Ingredient parsing functions
 ########################################
-def parse_ingredients(ingredients, units, flag_words=['can', 'cans', 'package', 'packages']):
+
+# Constants
+units = ['pound', 'pounds', 'cup', 'cups', 'tablespoon', 'tablespoons', 'teaspoon', 'teaspoons',
+         'clove', 'cloves', 'stalk', 'stalks', 'ounce', 'ounces', 'oz.']
+phrases = [' - ',', or', ', for garnish', ', cut']
+stopwords = ['and', 'into', 'very', 'hot', 'cold', 'fresh', 'large', 'medium', 'small']
+suffixes = ['ed','less','ly']
+flag_words = ['can', 'cans', 'package', 'packages']
+
+def parse_ingredients(ingredients, units=units, flag_words=flag_words):
     '''
     Parses a list of ingredients into a list of dictionaries with the following format: 
         {'quantity': (float),
@@ -187,13 +196,13 @@ def parse_ingredients(ingredients, units, flag_words=['can', 'cans', 'package', 
     ing_list = []
     for item in ingredients:
         item_dict = {}
-        
         # Check item for flag words (require special parsing treatment)
         flag = False
         for word in item.split():
             if word in flag_words:
                 flag = True
-        
+        if item.split()[1][0] == '(':
+            flag = True  
         # Parse quantities and units        
         if flag:
             quantity, unit, remainder = _parse_special(item, flag_words)
@@ -208,15 +217,11 @@ def parse_ingredients(ingredients, units, flag_words=['can', 'cans', 'package', 
                 remainder = ' '.join(remainder.split()[1:])
             else:
                 item_dict['units'] = 'each'
-        
         # Remove preparation instructions from remaining text to isolate ingredient
         item_dict['ingredient'] = _remove_descriptors(remainder)
-        
         # Add item dictionary to list
         ing_list.append(item_dict)
-    
     return ing_list
-
 
 def _determine_quantity(item):
     quantity = 0
@@ -233,9 +238,9 @@ def _determine_quantity(item):
     remainder = ' '.join(item.split()[idx:])
     return quantity, remainder
 
-
 def _parse_special(item, flag_words):
     # Determine special word
+    sp_word = ')'
     for word in flag_words:
         if word in item.split():
             sp_word = ' ' + word + ' '
@@ -245,29 +250,32 @@ def _parse_special(item, flag_words):
     count_and_size = item.split(sp_word)[0]
     remainder = item.split(sp_word)[1]
     count, rest = _determine_quantity(count_and_size)
-    size, unit = _determine_quantity(rest[1:-1])
+    if sp_word == ')':
+        size, unit = _determine_quantity(rest[1:])
+    else:
+        size, unit = _determine_quantity(rest[1:-1])
     quantity = count * size
     return quantity, unit, remainder
 
-
-def _remove_descriptors(item, stopwords=['and'], endings=['ed','less','ly']):
-    
-    # Remove meat preparation instructions
-    if len(item.split(' - ')) > 1:
-        item = item.split(' - ')[0]
-    
+def _remove_descriptors(item,
+                        phrases=phrases,
+                        stopwords=stopwords,
+                        suffixes=suffixes):
+    # Remove common/unnecessary ending phrases
+    for phrase in phrases:
+        if len(item.split(phrase)) > 1:
+            item = item.split(phrase)[0]
     # Remove punctuation and stopwords
     words = []
     for elem in item.split():
         word = ''.join([letter for letter in elem.lower() if letter in string.ascii_lowercase])
         if word not in stopwords:
             words.append(word)
-    
     # Remove adjectives and adverbs    
-    for ending in endings:
+    for suffix in suffixes:
         for word in words.copy():
             try:
-                if word[-len(ending):] == ending:
+                if word[-len(suffix):] == suffix:
                     words.remove(word)
             except:
                 continue
