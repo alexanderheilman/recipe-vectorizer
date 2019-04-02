@@ -53,4 +53,4 @@ if __name__ == '__main__':
         else:
             populate_search_page(browser, num_pages=1)
             add_results_to_collection(browser, results_coll)
- print('Search complete. {} recipes found'.format(count))
+    print('Search complete. {} recipes found'.format(count))

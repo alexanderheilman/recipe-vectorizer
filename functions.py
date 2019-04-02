@@ -155,7 +155,10 @@ def get_recipe_info(browser):
     recipe_info['href'] = browser.current_url.split('?')[0]
     recipe_info['category'] = _get_categories(browser)
     recipe_info['rating_info'] = _get_rating_info(browser)
-    recipe_info['submitter_info'] = _get_submitter_info(browser)
+    try:
+        recipe_info['submitter_info'] = _get_submitter_info(browser)
+    except:
+        recipe_info['submitter_info'] = None
     ingredients = _get_ingredients(browser)
     recipe_info['ingredients'] = parse_ingredients(ingredients)
     recipe_info['directions'] = _get_directions(browser)
@@ -267,6 +270,9 @@ def _parse_timing_string(string):
     if len(string.split('Hours')) > 1:
         total += 60 * int(string.split('Hours')[0])
         string = string.split('Hours')[1]
+    if len(string.split('Hour')) > 1:
+        total += 60 * int(string.split('Hour')[0])
+        string = string.split('Hour')[1]
     if len(string.split('Minutes')) > 1:
         total += int(string.split('Minutes')[0])
     return total
