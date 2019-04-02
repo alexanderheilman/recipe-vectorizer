@@ -9,7 +9,7 @@ from string import ascii_lowercase
 import time
 import numpy as np
 import pandas as pd
-
+import pymongo
 
 ####################################
 #   Searching and crawling functions
@@ -92,7 +92,7 @@ def clear_field(field):
 
 def get_search_results(browser):
     '''
-    Finds and returns all recipe names and hyperlink references on current browser page.
+    Finds and returns all recipe ids, names, and hyperlinks on current browser page.
     '''
     sel = 'article.fixed-recipe-card'
     search_results = browser.find_elements_by_css_selector(sel)
@@ -107,12 +107,14 @@ def get_search_results(browser):
             names.append(info.text)
         except:
             continue
-    return names, hrefs
+    ids = []
+    for href in hrefs:
+        id_and_name = href.split('recipe/')[1]
+        ids.append(int(id_and_name.split('/')[0]))
+    return ids, names, hrefs
 
-def populate_search_page(browser, num_pages=10):
-    '''
-    Populates browser page with specified number of pages of search results.
-    '''
+def populate_search_page(browser, num_pages=10, scroll_delay=4):
+    '''Populates browser page with specified number of pages of search results'''
     for _ in range(num_pages):
         try:
             sel = 'button#btnMoreResults'
@@ -120,7 +122,27 @@ def populate_search_page(browser, num_pages=10):
             more_button.click()
         except:
             browser.execute_script('window.scrollTo(0, document.body.scrollHeight - 1000);')
-        time.sleep(5 + 3*np.random.random())
+        time.sleep(scroll_delay + scroll_delay*np.random.random())
+
+
+########################################
+#   Database management functions
+########################################
+def add_results_to_collection(browser, collection):
+    ids, names, hrefs = get_search_results(browser)
+    for i, name, href in zip(ids, names, hrefs):
+        # If 'id' is not in database, add entry
+        if len(list(collection.find({'id':i}))) == 0:
+            item = {'id':i,
+                    'name': name,
+                    'href': href,
+                    'viewed': 0}
+            collection.insert_one(item)
+
+def mark_as_viewed(recipe_id, collection):
+    collection.update_one({'id':recipe_id},
+                          {"$set":{'viewed': 1}}, upsert=False)
+
 
 
 ########################################
@@ -141,7 +163,7 @@ def get_recipe_info(browser):
 
 def _get_id(browser):
     id_and_name = browser.current_url.split('recipe/')[1]
-    return id_and_name.split('/')[0]
+    return int(id_and_name.split('/')[0])
     
 def _get_name(browser):
     sel = 'h1#recipe-main-content'
