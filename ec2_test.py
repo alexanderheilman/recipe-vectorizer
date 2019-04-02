@@ -44,11 +44,15 @@ if __name__ == '__main__':
             search_page = browser.current_url
             browser.get(next_recipe['href'])
             time.sleep(5)
-            recipes_coll.insert_one(get_recipe_info(browser))
-            mark_as_viewed(next_recipe['id'], results_coll)
-            count += 1
-            print('Last recipe: {}'.format(next_recipe['name']))
-            print('{} recipes collected'.format(count))
+            try:
+                recipes_coll.insert_one(get_recipe_info(browser))
+                mark_as_viewed(next_recipe['id'], results_coll)
+                count += 1
+                print('Last recipe: {}'.format(next_recipe['name']))
+                print('{} recipes collected'.format(count))
+            except:
+                mark_as_viewed(next_recipe['id'], results_coll, error=True)
+                print('Error reading recipe: {}'.format(next_recipe['name']))
             browser.get(search_page)
         else:
             populate_search_page(browser, num_pages=1)

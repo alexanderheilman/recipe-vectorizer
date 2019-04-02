@@ -139,9 +139,10 @@ def add_results_to_collection(browser, collection):
                     'viewed': 0}
             collection.insert_one(item)
 
-def mark_as_viewed(recipe_id, collection):
+def mark_as_viewed(recipe_id, collection, error=False):
+    indicator = -1 if error else 1
     collection.update_one({'id':recipe_id},
-                          {"$set":{'viewed': 1}}, upsert=False)
+                          {"$set":{'viewed': indicator}}, upsert=False)
 
 
 
@@ -161,6 +162,7 @@ def get_recipe_info(browser):
         recipe_info['submitter_info'] = None
     ingredients = _get_ingredients(browser)
     recipe_info['ingredients'] = parse_ingredients(ingredients)
+    recipe_info['ingredients_raw'] = ingredients
     recipe_info['directions'] = _get_directions(browser)
     return recipe_info
 
@@ -194,7 +196,7 @@ def _get_rating_info(browser):
     sel = 'div.rating-stars'
     rating = browser.find_element_by_css_selector(sel)
     rating_info['rating'] = float(rating.get_attribute('data-ratingstars'))
-    sel = 'div.summary-stats-box a.read--reviews'
+    sel = 'div.summary-stats-box'
     reviews = browser.find_element_by_css_selector(sel).text.split()
     try:
         n_made = int(reviews[0])
@@ -206,7 +208,6 @@ def _get_rating_info(browser):
         n_reviews = int(reviews[4][:-1]) * 1000    
     rating_info['made_by'] = n_made
     rating_info['reviews'] = n_reviews
-    return rating_info
 
 def _get_submitter_info(browser):
     submitter_info = {}
