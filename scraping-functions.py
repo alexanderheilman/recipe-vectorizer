@@ -126,14 +126,79 @@ def populate_search_page(browser, num_pages=10):
 ########################################
 #   Recipe scraping functions
 ########################################
+def get_recipe_info(browser):
+    recipe_info = {}
+    recipe_info['id'] = _get_id(browser)
+    recipe_info['name'] = _get_name(browser)
+    recipe_info['href'] = browser.current_url.split('?')[0]
+    recipe_info['category'] = _get_categories(browser)
+    recipe_info['rating_info'] = _get_rating_info(browser)
+    recipe_info['submitter_info'] = _get_submitter_info(browser)
+    ingredients = _get_ingredients(browser)
+    recipe_info['ingredients'] = parse_ingredients(ingredients)
+    recipe_info['directions'] = _get_directions(browser)
+    return recipe_info
 
-def get_name(browser):
-    '''Finds the name of the recipe and returns it as a string'''
+def _get_id(browser):
+    id_and_name = browser.current_url.split('recipe/')[1]
+    return id_and_name.split('/')[0]
+    
+def _get_name(browser):
     sel = 'h1#recipe-main-content'
     name = browser.find_element_by_css_selector(sel)
     return name.text
 
-def get_ingredients(browser):
+def _get_categories(browser):
+    sel = 'ol.breadcrumbs li'
+    categories = browser.find_elements_by_css_selector(sel)
+    cat_list = [category.text for category in categories]
+    cat_dict = {}
+    cat_dict['lvl_1'] = cat_list[2]
+    try:
+        cat_dict['lvl_2'] = cat_list[3]
+    except:
+        cat_dict['lvl_2'] = None
+    try:
+        cat_dict['lvl_3'] = cat_list[4]
+    except:
+        cat_dict['lvl_3'] = None
+    return cat_dict
+
+def _get_rating_info(browser):
+    rating_info = {}
+    sel = 'div.rating-stars'
+    rating = browser.find_element_by_css_selector(sel)
+    rating_info['rating'] = float(rating.get_attribute('data-ratingstars'))
+    sel = 'div.summary-stats-box a.read--reviews'
+    reviews = browser.find_element_by_css_selector(sel).text.split()
+    try:
+        n_made = int(reviews[0])
+    except:
+        n_made = int(reviews[0][:-1]) * 1000
+    try:
+        n_reviews = int(reviews[4])
+    except:
+        n_reviews = int(reviews[4][:-1]) * 1000    
+    rating_info['made_by'] = n_made
+    rating_info['reviews'] = n_reviews
+    return rating_info
+
+def _get_submitter_info(browser):
+    submitter_info = {}
+    sel = 'div.summary-background div.submitter'
+    submitter = browser.find_element_by_css_selector(sel)
+    followers = submitter.find_element_by_css_selector('div.submitter__img span').text
+    name = submitter.find_element_by_css_selector('p span.submitter__name').text
+    href = (submitter.find_element_by_css_selector('div.submitter__img a')
+                     .get_attribute('href'))
+    id_num = href.split('/')[-2]
+    submitter_info['id'] = int(id_num)
+    submitter_info['name'] = name
+    submitter_info['followers'] = int(followers)
+    submitter_info['href'] = href
+    return submitter_info
+
+def _get_ingredients(browser):
     '''
     Finds all ingredients required for the recipe on the current page
     and returns them as a list of strings
@@ -154,23 +219,28 @@ def get_ingredients(browser):
             ingredients.append(item)
     return ingredients
 
-def get_rating(browser):
-    '''
-    Finds the rating of the current recipe and returns it as a float
-    '''
-    sel = 'div.rating-stars'
-    rating = browser.find_element_by_css_selector(sel)
-    return float(rating.get_attribute('data-ratingstars'))
+def _get_directions(browser):
+    directions = {}
+    directions['timing'] = _get_timing(browser)
+    sel = 'div.directions--section li.step'
+    steps = browser.find_elements_by_css_selector(sel)
+    directions['steps'] = [step.text for step in steps if step.text]
+    return directions
 
-def get_categories(browser):
-    '''
-    Finds the hierarchy of categories to which the recipe belongs
-    and returns it as a list of strings
-    '''
-    sel = 'ol.breadcrumbs li'
-    categories = browser.find_elements_by_css_selector(sel)
-    return [category.text for category in categories]
-
+def _get_timing(browser):
+    timing = {}
+    sel = 'div.directions--section ul.prepTime li.prepTime__item'
+    timing_list = browser.find_elements_by_css_selector(sel)
+    prep_time = timing_list[1].get_attribute('aria-label')
+    num, unit = prep_time.split(': ')[1].split()
+    timing['prep'] = int(num) if unit == 'Minutes' else 60 * int(num)
+    cook_time = timing_list[2].get_attribute('aria-label')
+    num, unit = cook_time.split(': ')[1].split()
+    timing['cook'] = int(num) if unit == 'Minutes' else 60 * int(num)
+    total_time = timing_list[3].get_attribute('aria-label')
+    num, unit = total_time.split('Ready in ')[1].split()
+    timing['ready_in'] = int(num) if unit == 'Minutes' else 60 * int(num)
+    return timing
 
 ########################################
 #   Ingredient parsing functions
@@ -178,11 +248,12 @@ def get_categories(browser):
 
 # Constants
 units = ['pound', 'pounds', 'cup', 'cups', 'tablespoon', 'tablespoons', 'teaspoon', 'teaspoons',
-         'clove', 'cloves', 'stalk', 'stalks', 'ounce', 'ounces', 'oz.']
+         'clove', 'cloves', 'stalk', 'stalks', 'ounce', 'ounces', 'oz.', 'cubes', 'pint', 'pints',
+         'quart', 'quarts']
 phrases = [' - ',', or', ', for garnish', ', cut']
-stopwords = ['and', 'into', 'very', 'hot', 'cold', 'fresh', 'large', 'medium', 'small']
+stopwords = ['and', 'into', 'very', 'hot', 'cold', 'fresh', 'large', 'medium', 'small', 'halves', 'torn']
 suffixes = ['ed','less','ly']
-flag_words = ['can', 'cans', 'package', 'packages']
+flag_words = ['can', 'cans', 'package', 'packages', 'jar', 'jars', 'container', 'containers']
 
 def parse_ingredients(ingredients, units=units, flag_words=flag_words):
     '''
