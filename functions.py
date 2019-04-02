@@ -225,6 +225,7 @@ def _get_directions(browser):
     sel = 'div.directions--section li.step'
     steps = browser.find_elements_by_css_selector(sel)
     directions['steps'] = [step.text for step in steps if step.text]
+    directions['servings'] = _get_servings(browser)
     return directions
 
 def _get_timing(browser):
@@ -248,6 +249,11 @@ def _parse_timing_string(string):
         total += int(string.split('Minutes')[0])
     return total
 
+def _get_servings(browser):
+    sel = 'span.servings-count span.ng-binding'
+    servings = browser.find_element_by_css_selector(sel)
+    return int(servings.text)
+
 ########################################
 #   Ingredient parsing functions
 ########################################
@@ -256,7 +262,7 @@ def _parse_timing_string(string):
 units = ['pound', 'pounds', 'cup', 'cups', 'tablespoon', 'tablespoons', 'teaspoon', 'teaspoons',
          'clove', 'cloves', 'stalk', 'stalks', 'ounce', 'ounces', 'oz.', 'cubes', 'pint', 'pints',
          'quart', 'quarts']
-phrases = [' - ',', or', ', for garnish', ', cut', ' such as', ' like']
+phrases = [' - ',', or', ', for garnish', ', cut', ' such as', ' like', 'e.g.']
 stopwords = ['and', 'into', 'very', 'hot', 'cold', 'fresh', 'large', 'medium', 'small', 'halves', 'torn', 'bulk']
 suffixes = ['ed','less','ly']
 flag_words = ['can', 'cans', 'package', 'packages', 'jar', 'jars', 'container', 'containers', 'bag', 'bags']
