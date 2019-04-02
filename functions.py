@@ -246,11 +246,17 @@ def _get_ingredients(browser):
 
 def _get_directions(browser):
     directions = {}
-    directions['timing'] = _get_timing(browser)
+    try:
+        directions['timing'] = _get_timing(browser)
+    except:
+        directions['timing'] = None
     sel = 'div.directions--section li.step'
     steps = browser.find_elements_by_css_selector(sel)
     directions['steps'] = [step.text for step in steps if step.text]
-    directions['servings'] = _get_servings(browser)
+    try:
+        directions['servings'] = _get_servings(browser)
+    except:
+        directions['servings'] = None
     return directions
 
 def _get_timing(browser):
