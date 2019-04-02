@@ -231,16 +231,22 @@ def _get_timing(browser):
     timing = {}
     sel = 'div.directions--section ul.prepTime li.prepTime__item'
     timing_list = browser.find_elements_by_css_selector(sel)
-    prep_time = timing_list[1].get_attribute('aria-label')
-    num, unit = prep_time.split(': ')[1].split()
-    timing['prep'] = int(num) if unit == 'Minutes' else 60 * int(num)
-    cook_time = timing_list[2].get_attribute('aria-label')
-    num, unit = cook_time.split(': ')[1].split()
-    timing['cook'] = int(num) if unit == 'Minutes' else 60 * int(num)
-    total_time = timing_list[3].get_attribute('aria-label')
-    num, unit = total_time.split('Ready in ')[1].split()
-    timing['ready_in'] = int(num) if unit == 'Minutes' else 60 * int(num)
+    time_str = timing_list[1].get_attribute('aria-label').split(': ')[1]
+    timing['prep'] = _parse_timing_string(time_str)
+    time_str = timing_list[2].get_attribute('aria-label').split(': ')[1]
+    timing['cook'] = _parse_timing_string(time_str)
+    time_str = timing_list[3].get_attribute('aria-label').split('Ready in ')[1]
+    timing['total'] = _parse_timing_string(time_str)
     return timing
+
+def _parse_timing_string(string):
+    total = 0
+    if len(string.split('Hours')) > 1:
+        total += 60 * int(string.split('Hours')[0])
+        string = string.split('Hours')[1]
+    if len(string.split('Minutes')) > 1:
+        total += int(string.split('Minutes')[0])
+    return total
 
 ########################################
 #   Ingredient parsing functions
@@ -250,10 +256,10 @@ def _get_timing(browser):
 units = ['pound', 'pounds', 'cup', 'cups', 'tablespoon', 'tablespoons', 'teaspoon', 'teaspoons',
          'clove', 'cloves', 'stalk', 'stalks', 'ounce', 'ounces', 'oz.', 'cubes', 'pint', 'pints',
          'quart', 'quarts']
-phrases = [' - ',', or', ', for garnish', ', cut']
-stopwords = ['and', 'into', 'very', 'hot', 'cold', 'fresh', 'large', 'medium', 'small', 'halves', 'torn']
+phrases = [' - ',', or', ', for garnish', ', cut', ' such as', ' like']
+stopwords = ['and', 'into', 'very', 'hot', 'cold', 'fresh', 'large', 'medium', 'small', 'halves', 'torn', 'bulk']
 suffixes = ['ed','less','ly']
-flag_words = ['can', 'cans', 'package', 'packages', 'jar', 'jars', 'container', 'containers']
+flag_words = ['can', 'cans', 'package', 'packages', 'jar', 'jars', 'container', 'containers', 'bag', 'bags']
 
 def parse_ingredients(ingredients, units=units, flag_words=flag_words):
     '''
@@ -346,7 +352,7 @@ def _remove_descriptors(item,
     for suffix in suffixes:
         for word in words.copy():
             try:
-                if word[-len(suffix):] == suffix:
+                if (word[-len(suffix):] == suffix) and word != 'red':
                     words.remove(word)
             except:
                 continue
