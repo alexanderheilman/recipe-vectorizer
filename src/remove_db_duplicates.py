@@ -11,6 +11,7 @@ while True:
     for recipe in cursor:
         if len(list(recipes_coll.find({'id':recipe['id']}))) > 1:
             repeats.add(recipe['id'])
+    print('{} repeats found in "recipes" collection.'.format(len(repeats)))
     if len(repeats) == 0:
         break
     for recipe_id in repeats:
@@ -25,6 +26,7 @@ while True:
         if len(list(results_coll.find({'id':result['id']}))) > 1:
             repeats.add(result['id'])
         len_current += 1
+    print('{} repeats found in "search_results" collection.'.format(len(repeats)))
     if len(repeats) == 0:
         break
     # Remove 'unviewed' repeats before removing 'viewed' repeats
