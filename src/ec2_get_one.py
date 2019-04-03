@@ -21,6 +21,7 @@ if __name__ == '__main__':
     browser = Chrome(options=options)
     next_recipe = results_coll.find_one({'viewed':0})
     # Go to recipe page and scrape data
+    print('Getting {}...'.format(next_recipe['href']))
     browser.get(next_recipe['href'])
     try:
         recipes_coll.insert_one(get_recipe_info(browser))
