@@ -14,7 +14,7 @@ import pymongo
 ####################################
 #   Searching and crawling functions
 ####################################
-def search_allrecipes(search_item, browser, typo_rate=0.1):
+def search_allrecipes(search_item, browser, typo_rate=0.1, sleep=1):
     """
     Goes to the Allrecipes.com homepage and searches for
     item specified by 'search_item'
@@ -27,7 +27,7 @@ def search_allrecipes(search_item, browser, typo_rate=0.1):
     """
     url='https://www.allrecipes.com'
     browser.get(url)
-    time.sleep(1+np.random.random())
+    time.sleep(sleep+np.random.random())
     sel = 'input#searchText'
     search_bar = browser.find_element_by_css_selector(sel)
     search_bar.click()
