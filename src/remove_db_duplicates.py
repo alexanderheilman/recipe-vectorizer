@@ -34,7 +34,9 @@ while True:
     # 'unviewed' entries.)
     if len_prev == len_current:
         for result_id in repeats:
-            results_coll.delete_one({'id':result_id, 'viewed':1})
+            del_result = results_coll.delete_one({'id':result_id, 'viewed':-1})
+            if del_result.deleted_count == 0:
+                results_coll.delete_one({'id':result_id, 'viewed':1})
     else:
         for result_id in repeats:
             results_coll.delete_one({'id':result_id, 'viewed':0})
