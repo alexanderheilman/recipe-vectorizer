@@ -29,6 +29,7 @@ if __name__ == '__main__':
     search_allrecipes(food, browser, typo_rate=0.1)
     add_results_to_collection(browser, results_coll)
     count = 0
+    irrelevant = False
     while True:
         # Find next unviewed recipe; or load more results
         next_recipe = results_coll.find_one({'viewed':0})
