@@ -44,6 +44,6 @@ if __name__ == '__main__':
         except:
             mark_as_viewed(next_recipe['id'], results_coll, error=True)
             print('Error reading recipe: {}'.format(next_recipe['name']))
-        next_recipe = get_next_recipe(recipes_coll, reverse=reverse)
+        next_recipe = get_next_recipe(results_coll, reverse=reverse)
     browser.quit()
     print('Search complete. {} recipes found'.format(count))
