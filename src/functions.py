@@ -124,6 +124,15 @@ def populate_search_page(browser, num_pages=10, scroll_delay=4):
             browser.execute_script('window.scrollTo(0, document.body.scrollHeight - 1000);')
         time.sleep(scroll_delay + scroll_delay*np.random.random())
 
+def create_search_url(keyword, page_num, sort_order='p'):
+    '''
+    sort_order options:'p' = Popular, 're' = Best Match, 'n' = Newest
+    '''
+    if page_num == 1:
+        url = 'https://www.allrecipes.com/search/results/?wt={0}&sort={1}'.format(keyword, sort_order)
+    else:
+        url = 'https://www.allrecipes.com/search/results/?wt={0}&sort={1}&page={2}'.format(keyword, sort_order, page_num)
+    return url
 
 ########################################
 #   Database management functions
