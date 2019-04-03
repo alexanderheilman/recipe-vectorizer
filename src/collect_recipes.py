@@ -11,10 +11,11 @@ from sys import argv, exit
 import pymongo
 
 if __name__ == '__main__':
-    if len(argv) != 2:
-        print("Usage: python {} <max_count>".format(argv[0]))
+    if len(argv) != 3:
+        print("Usage: python {} <max_count> <reverse?>".format(argv[0]))
         exit(1)
     max_count = int(argv[1])
+    reverse = bool(int(argv[2]))
     # Connect to MongoClient and get collection handles
     mc = pymongo.MongoClient()
     db = mc['allrecipes']
@@ -28,7 +29,7 @@ if __name__ == '__main__':
     browser = Chrome(desired_capabilities=capabilities, options=options)
     # Go to individual recipe pages and scrape
     count = 0
-    next_recipe = results_coll.find_one({'viewed':0})
+    next_recipe = get_next_recipe(results_coll, reverse=reverse)
     while next_recipe:
         browser.get(next_recipe['href'])
         time.sleep(10)
@@ -43,6 +44,6 @@ if __name__ == '__main__':
         except:
             mark_as_viewed(next_recipe['id'], results_coll, error=True)
             print('Error reading recipe: {}'.format(next_recipe['name']))
-        next_recipe = results_coll.find_one({'viewed':0})
+        next_recipe = get_next_recipe(recipes_coll, reverse=reverse)
     browser.quit()
     print('Search complete. {} recipes found'.format(count))

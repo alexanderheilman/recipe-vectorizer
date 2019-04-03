@@ -153,6 +153,10 @@ def mark_as_viewed(recipe_id, collection, error=False):
     collection.update_one({'id':recipe_id},
                           {"$set":{'viewed': indicator}}, upsert=False)
 
+def get_next_recipe(collection, reverse=False):
+    direction = -1 if reverse else 1
+    cursor = collection.find({'viewed':0}).sort([('_id',direction)]).limit(1)
+    return next(cursor)
 
 
 ########################################
