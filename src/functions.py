@@ -356,14 +356,89 @@ def _get_servings(browser):
 #   Ingredient parsing functions
 ########################################
 
-# Constants
+### CONSTANTS ###
+
 units = ['pound', 'pounds', 'cup', 'cups', 'tablespoon', 'tablespoons', 'teaspoon', 'teaspoons',
-         'clove', 'cloves', 'stalk', 'stalks', 'ounce', 'ounces', 'oz.', 'cubes', 'pint', 'pints',
-         'quart', 'quarts']
-phrases = [' - ',', or', ', for garnish', ', cut', ' such as', ' like', 'e.g.']
-stopwords = ['and', 'into', 'very', 'hot', 'cold', 'fresh', 'large', 'medium', 'small', 'halves', 'torn', 'bulk']
+         'clove', 'cloves', 'stalk', 'stalks', 'ounce', 'ounces', 'oz.', 'oz', 'cubes', 'pint', 'pints',
+         'quart', 'quarts', 'dash', 'dashs', 'dashes', 'rib', 'ribs', 'bunch', 'bunches', 'pinch', 'head',
+         'heads']
+
+manual = ['2 to 3 pound', 'finely chopped from 1 can', 'onion soup, prepared from']
+
+phrases = [' - ',', or ', ' for garnish', 'cut ', 'such as', ' like ', 'e.g.', 'with', ' or ', 'see note', 
+           'to taste']
+
+stopwords = ['and', 'into', 'very', 'hot', 'cold', 'warm', 'fresh', 'frozen', 'large', 'medium', 'small', 'halves', 'torn', 'bulk',
+             'optional', 'fatfree', 'lowsodium', 'low', 'sodium', 'reducedsodium', 'reducedfat', 'ripe', 'lean',
+             'extra', 'pure', 'goya', 'whole', 'ground']
+
 suffixes = ['ed','less','ly']
-flag_words = ['can', 'cans', 'package', 'packages', 'jar', 'jars', 'container', 'containers', 'bag', 'bags']
+
+flag_words = ['can or bottle', 'can', 'cans', 'package', 'packages', 'jar', 'jars', 'container', 'containers', 'bag', 'bags',
+              'bottle', 'bottles', 'envelope', 'envelopes', 'carton','cartons', 'packet', 'packets']
+flag_words.sort(key=len)
+flag_words.reverse()
+
+conversion_dict = {}
+conversion_dict['ounce'] = {'other':1}
+conversion_dict['cup'] = {'other':8}
+conversion_dict['pint'] = {'other':16}
+conversion_dict['quart'] = {'other':32}
+conversion_dict['gallon'] = {'other':128}
+conversion_dict['fluid ounce'] = {'other':1}
+conversion_dict['milliliter'] = {'other':0.034}
+conversion_dict['pound'] = {'other': 16}
+conversion_dict['tablespoon'] = {'other': 1/2}
+conversion_dict['teaspoon'] = {'other': 1/6}
+conversion_dict['pinch'] = {'other': 0.1}
+conversion_dict['dash'] = {'other': 0.1}
+
+conversion_dict['bunch'] =  {'green onion': 3,
+                             'cilantro': 2.8,
+                             'parsley': 2,
+                             'other': 3}
+conversion_dict['bunche'] = conversion_dict['bunch']
+conversion_dict['clove'] = {'garlic': 0.5, 'other': 0.5}
+conversion_dict['cube'] = {'chicken bouillon': 0.4,
+                           'beef bouillon': 0.4,
+                           'vegetable bouillon': 0.4,
+                           'other': 0.4}
+conversion_dict['packet'] = {'other':1}
+conversion_dict['head'] = {'other': 20,
+                             'escarole': 10,
+                             'garlic clove': 1.5,
+                             'cabbage': 30,
+                             'cauliflower': 30,
+                             'broccoli': 20}
+conversion_dict['rib'] = {'celery': 2, 'other': 2}
+conversion_dict['stalk'] = {'celery': 2, 'other': 2}
+conversion_dict['each'] = {'onion': 8,
+                             'green bell pepper': 6,
+                             'potato': 6,
+                             'carrot': 4,
+                             'red bell pepper': 6,
+                             'jalapeno pepper': 0.7,
+                             'chicken breast': 10,
+                             'bay leaf': 1,
+                             'yellow onion': 8,
+                             'tomato': 6,
+                             'green onion': 0.5,
+                             'zucchini': 5,
+                             'bay leave': 1,
+                             'red onion': 8,
+                             'yellow bell pepper': 6,
+                             'slices bacon': 1,
+                             'lime': 1.5,
+                             'head cabbage': 30,
+                             'sweet onion': 8,
+                             'habanero pepper': 0.1,
+                             'sweet potato': 6,
+                             'eggs': 1,
+                             'green chile pepper': 1,
+                             'white onion': 8,
+                             'other': 1}
+
+### MAIN FUNCTIONS ###
 
 def parse_ingredients(ingredients, units=units, flag_words=flag_words):
     '''
@@ -377,18 +452,34 @@ def parse_ingredients(ingredients, units=units, flag_words=flag_words):
     ing_list = []
     for item in ingredients:
         item_dict = {}
-        # Check item for flag words (require special parsing treatment)
-        flag = False
+        # Check item for flag words/phrases(require special parsing treatment)
+        manual_flag = False
+        for man_phrase in manual:
+            if len(item.split(man_phrase)) > 1:
+                manual_flag = True
+        sp_flag = False
         for word in item.split():
             if word in flag_words:
-                flag = True
+                f_word = word
+                sp_flag = True
         if item.split()[1][0] == '(':
-            flag = True  
+            f_word = '('
+            sp_flag = True  
         # Parse quantities and units        
-        if flag:
-            quantity, unit, remainder = _parse_special(item, flag_words)
+        if manual_flag:
+            quantity, unit, remainder = _parse_manual(item)
             item_dict['quantity'] = quantity
             item_dict['units'] = unit if unit[-1] != 's' else unit[:-1]
+        elif sp_flag:
+            try:
+                quantity, unit, remainder = _parse_special(item, flag_words)                
+                item_dict['quantity'] = quantity
+                item_dict['units'] = unit if unit[-1] != 's' else unit[:-1]
+            except:
+                # Exception for special units of unspecified size
+                item_dict['quantity'] = float(item.split()[0])
+                item_dict['units'] = f_word if f_word[-1] != 's' else f_word[:-1]
+                remainder = ' '.join(item.split()[2:])
         else:
             quantity, remainder = _determine_quantity(item) 
             item_dict['quantity'] = quantity
@@ -399,15 +490,22 @@ def parse_ingredients(ingredients, units=units, flag_words=flag_words):
             else:
                 item_dict['units'] = 'each'
         # Remove preparation instructions from remaining text to isolate ingredient
-        item_dict['ingredient'] = _remove_descriptors(remainder)
+        parsed = _remove_descriptors(remainder)
+        if not parsed:
+            continue
+        item_dict['ingredient'] = parsed
+        item_dict['normalized_qty'] = _normalize_ingredient_quantity(item_dict, conversion_dict)
         # Add item dictionary to list
         ing_list.append(item_dict)
     return ing_list
 
+
+### HELPER FUNCTIONS ###
+
 def _determine_quantity(item):
     quantity = 0
     for i, elem in enumerate(item.split()):
-        if elem[0] in string.digits:
+        if elem[0] in string.digits + '.':
             try:
                 quantity += float(elem)
             except:
@@ -423,7 +521,7 @@ def _parse_special(item, flag_words):
     # Determine special word
     sp_word = ')'
     for word in flag_words:
-        if word in item.split():
+        if len(item.split(word)) > 1:
             sp_word = ' ' + word + ' '
             break
     
@@ -437,6 +535,23 @@ def _parse_special(item, flag_words):
         size, unit = _determine_quantity(rest[1:-1])
     quantity = count * size
     return quantity, unit, remainder
+
+def _parse_manual(item):
+    if len(item.split('2 to 3 pound')) > 1:
+        quantity = float(item.split()[0]) * 2.5
+        unit = 'pound'
+        remainder = item.split('2 to 3 pound')[1]
+        return quantity, unit, remainder
+    if len(item.split('finely chopped from 1 can')) > 1:
+        quantity = 1.0
+        unit = 'ounce'
+        remainder = 'chipotle chile'
+        return quantity, unit, remainder
+    if len(item.split('onion soup, prepared from')) > 1:
+        quantity = 1.5
+        unit = 'cup'
+        remainder = 'onion soup'
+        return quantity, unit, remainder
 
 def _remove_descriptors(item,
                         phrases=phrases,
@@ -459,5 +574,29 @@ def _remove_descriptors(item,
                 if (word[-len(suffix):] == suffix) and word != 'red':
                     words.remove(word)
             except:
-                continue
-    return ' '.join(words)
+                continue    
+    # Remove trailing spaces
+    result = ' '.join([word for word in words if word])
+    # Singularize (when not beans)...also, this code is asinine
+    if result[-3:] == 'oes':
+        result = result[:-2]
+    if len(result) < 5:
+        return result
+    if result[-5:] == 'beans':
+        return result
+    else:
+        return result if result[-1] != 's' else result[:-1]
+    
+def _normalize_ingredient_quantity(ingredient_dict, conversion_dict):
+    ing = ingredient_dict['ingredient']
+    qty = ingredient_dict['quantity']
+    units = ingredient_dict['units']
+    if units in conversion_dict.keys():
+        conv_factor_dict = conversion_dict[units]
+        if ing in conv_factor_dict.keys():
+            conv_factor = conv_factor_dict[ing]
+        else:
+            conv_factor = conv_factor_dict['other']
+        return qty * conv_factor
+    else:
+        return qty
