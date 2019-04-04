@@ -21,6 +21,7 @@ if __name__ == '__main__':
     db = mc['allrecipes']
     recipes_coll = db['recipes']
     results_coll = db['search_results']
+    remove_duplicates()
     # Launch headless browser with selenium
     options = Options()
     options.headless = True
