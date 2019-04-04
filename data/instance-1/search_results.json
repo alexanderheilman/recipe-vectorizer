@@ -149,7 +149,7 @@
 {"_id":{"$oid":"5ca3e81ec6d0b005b6f9abbd"},"id":154121,"name":"Colorado Buffalo Chili","href":"https://www.allrecipes.com/recipe/154121/colorado-buffalo-chili","viewed":1}
 {"_id":{"$oid":"5ca3e81ec6d0b005b6f9abbe"},"id":159965,"name":"Turkey-Lentil Chili","href":"https://www.allrecipes.com/recipe/159965/turkey-lentil-chili","viewed":1}
 {"_id":{"$oid":"5ca3e81ec6d0b005b6f9abbf"},"id":234160,"name":"Pumpkin Pineapple Chili","href":"https://www.allrecipes.com/recipe/234160/pumpkin-pineapple-chili","viewed":1}
-{"_id":{"$oid":"5ca3e81ec6d0b005b6f9abc0"},"id":24652,"name":"DB's Seven Pepper Chili","href":"https://www.allrecipes.com/recipe/24652/dbs-seven-pepper-chili","viewed":-1}
+{"_id":{"$oid":"5ca3e81ec6d0b005b6f9abc0"},"id":24652,"name":"DB's Seven Pepper Chili","href":"https://www.allrecipes.com/recipe/24652/dbs-seven-pepper-chili","viewed":1}
 {"_id":{"$oid":"5ca3e81ec6d0b005b6f9abc1"},"id":240509,"name":"Baked Chili Hot Dogs","href":"https://www.allrecipes.com/recipe/240509/baked-chili-hot-dogs","viewed":1}
 {"_id":{"$oid":"5ca3e81ec6d0b005b6f9abc2"},"id":239887,"name":"Vegan Sweet Potato Chili","href":"https://www.allrecipes.com/recipe/239887/vegan-sweet-potato-chili","viewed":1}
 {"_id":{"$oid":"5ca3f1e0c6d0b007d9d1a20f"},"id":228293,"name":"Curry Stand Chicken Tikka Masala Sauce","href":"https://www.allrecipes.com/recipe/228293/curry-stand-chicken-tikka-masala-sauce","viewed":1}
@@ -347,7 +347,7 @@
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb326fb"},"id":24405,"name":"Sorrel Soup","href":"https://www.allrecipes.com/recipe/24405/sorrel-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb326fc"},"id":12959,"name":"Camp Soup","href":"https://www.allrecipes.com/recipe/12959/camp-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb326fd"},"id":12916,"name":"Sitta Soup","href":"https://www.allrecipes.com/recipe/12916/sitta-soup","viewed":1}
-{"_id":{"$oid":"5ca4dc7fc6d0b0060eb326fe"},"id":58485,"name":"Yam Soup","href":"https://www.allrecipes.com/recipe/58485/yam-soup","viewed":-1}
+{"_id":{"$oid":"5ca4dc7fc6d0b0060eb326fe"},"id":58485,"name":"Yam Soup","href":"https://www.allrecipes.com/recipe/58485/yam-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb326ff"},"id":15281,"name":"Berry Soup","href":"https://www.allrecipes.com/recipe/15281/berry-soup","viewed":-1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb32700"},"id":210051,"name":"Caribou Soup","href":"https://www.allrecipes.com/recipe/210051/caribou-soup","viewed":-1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb32701"},"id":13199,"name":"Wonton Soup","href":"https://www.allrecipes.com/recipe/13199/wonton-soup","viewed":1}
@@ -514,9 +514,9 @@
 {"_id":{"$oid":"5ca511a7c6d0b00f6683d095"},"id":216111,"name":"Sweet and Spicy Curry with Chickpeas","href":"https://www.allrecipes.com/recipe/216111/sweet-and-spicy-curry-with-chickpeas","viewed":1}
 {"_id":{"$oid":"5ca511a7c6d0b00f6683d096"},"id":228626,"name":"Paleo Coconut Curry Stir Fry","href":"https://www.allrecipes.com/recipe/228626/paleo-coconut-curry-stir-fry","viewed":1}
 {"_id":{"$oid":"5ca511a7c6d0b00f6683d097"},"id":239854,"name":"South Asian-Style Ground Beef (Keema)","href":"https://www.allrecipes.com/recipe/239854/south-asian-style-ground-beef-keema","viewed":1}
-{"_id":{"$oid":"5ca511a7c6d0b00f6683d098"},"id":85498,"name":"Curried Mustard Greens with Kidney Beans","href":"https://www.allrecipes.com/recipe/85498/curried-mustard-greens-with-kidney-beans","viewed":-1}
+{"_id":{"$oid":"5ca511a7c6d0b00f6683d098"},"id":85498,"name":"Curried Mustard Greens with Kidney Beans","href":"https://www.allrecipes.com/recipe/85498/curried-mustard-greens-with-kidney-beans","viewed":1}
 {"_id":{"$oid":"5ca511a7c6d0b00f6683d099"},"id":270885,"name":"Creamy Cashew Chicken Curry","href":"https://www.allrecipes.com/recipe/270885/creamy-cashew-chicken-curry","viewed":1}
-{"_id":{"$oid":"5ca511a7c6d0b00f6683d09a"},"id":106349,"name":"Beef and Spinach Curry","href":"https://www.allrecipes.com/recipe/106349/beef-and-spinach-curry","viewed":-1}
+{"_id":{"$oid":"5ca511a7c6d0b00f6683d09a"},"id":106349,"name":"Beef and Spinach Curry","href":"https://www.allrecipes.com/recipe/106349/beef-and-spinach-curry","viewed":1}
 {"_id":{"$oid":"5ca511a7c6d0b00f6683d09b"},"id":159251,"name":"Roasted Curried Chicken with Couscous","href":"https://www.allrecipes.com/recipe/159251/roasted-curried-chicken-with-couscous","viewed":1}
 {"_id":{"$oid":"5ca511a7c6d0b00f6683d09c"},"id":53195,"name":"Curried Cauliflower","href":"https://www.allrecipes.com/recipe/53195/curried-cauliflower","viewed":-1}
 {"_id":{"$oid":"5ca511a7c6d0b00f6683d09d"},"id":64251,"name":"Pork Chops with Apple Curry Sauce","href":"https://www.allrecipes.com/recipe/64251/pork-chops-with-apple-curry-sauce","viewed":1}
@@ -574,227 +574,448 @@
 {"_id":{"$oid":"5ca511cdf07ba52dd725ebdd"},"id":13167,"name":"Skyline Chili I","href":"https://www.allrecipes.com/recipe/13167/skyline-chili-i","viewed":1}
 {"_id":{"$oid":"5ca511cdf07ba52dd725ebde"},"id":222977,"name":"Quick and Tasty Turkey Chili","href":"https://www.allrecipes.com/recipe/222977/quick-and-tasty-turkey-chili","viewed":1}
 {"_id":{"$oid":"5ca511cdf07ba52dd725ebdf"},"id":219880,"name":"White Chili VI","href":"https://www.allrecipes.com/recipe/219880/white-chili-vi","viewed":1}
-{"_id":{"$oid":"5ca511cdf07ba52dd725ebe0"},"id":26468,"name":"Spicy Turkey Chili","href":"https://www.allrecipes.com/recipe/26468/spicy-turkey-chili","viewed":0}
-{"_id":{"$oid":"5ca511cdf07ba52dd725ebe1"},"id":228545,"name":"Chilly Day Chili","href":"https://www.allrecipes.com/recipe/228545/chilly-day-chili","viewed":0}
-{"_id":{"$oid":"5ca511cdf07ba52dd725ebe2"},"id":212818,"name":"Five Meat Habanero Chili","href":"https://www.allrecipes.com/recipe/212818/five-meat-habanero-chili","viewed":0}
-{"_id":{"$oid":"5ca511cdf07ba52dd725ebe3"},"id":154321,"name":"Chicken and Two Bean Chili","href":"https://www.allrecipes.com/recipe/154321/chicken-and-two-bean-chili","viewed":0}
-{"_id":{"$oid":"5ca511cdf07ba52dd725ebe4"},"id":26442,"name":"Minnesota Golf Course Chili","href":"https://www.allrecipes.com/recipe/26442/minnesota-golf-course-chili","viewed":0}
-{"_id":{"$oid":"5ca511cdf07ba52dd725ebe5"},"id":236257,"name":"Taco Bell® Seasoning Copycat","href":"https://www.allrecipes.com/recipe/236257/taco-bell-seasoning-copycat","viewed":0}
-{"_id":{"$oid":"5ca511cdf07ba52dd725ebe6"},"id":155328,"name":"Sweet Pork Slow Cooker Chili","href":"https://www.allrecipes.com/recipe/155328/sweet-pork-slow-cooker-chili","viewed":0}
-{"_id":{"$oid":"5ca511d8f07ba52dd725ebe7"},"id":85452,"name":"Homemade Black Bean Veggie Burgers","href":"https://www.allrecipes.com/recipe/85452/homemade-black-bean-veggie-burgers","viewed":0}
-{"_id":{"$oid":"5ca511d8f07ba52dd725ebe8"},"id":80958,"name":"Mike's BBQ Chili and Honey Lamb Marinade","href":"https://www.allrecipes.com/recipe/80958/mikes-bbq-chili-and-honey-lamb-marinade","viewed":0}
-{"_id":{"$oid":"5ca511d8f07ba52dd725ebe9"},"id":229019,"name":"White Bean, Turkey, and Sausage Chili","href":"https://www.allrecipes.com/recipe/229019/white-bean-turkey-and-sausage-chili","viewed":0}
-{"_id":{"$oid":"5ca511d8f07ba52dd725ebea"},"id":228412,"name":"Cucumber Salad With Thai Sweet Chili Vinaigrette","href":"https://www.allrecipes.com/recipe/228412/cucumber-salad-with-thai-sweet-chili-vinaigrette","viewed":0}
-{"_id":{"$oid":"5ca511d8f07ba52dd725ebeb"},"id":68757,"name":"Bry's Chocolate Lamb Chili","href":"https://www.allrecipes.com/recipe/68757/brys-chocolate-lamb-chili","viewed":0}
-{"_id":{"$oid":"5ca511d8f07ba52dd725ebec"},"id":217018,"name":"Chili Relleno Casserole","href":"https://www.allrecipes.com/recipe/217018/chili-relleno-casserole","viewed":0}
-{"_id":{"$oid":"5ca511d8f07ba52dd725ebed"},"id":229055,"name":"Seasoned Baked Potato Wedges","href":"https://www.allrecipes.com/recipe/229055/seasoned-baked-potato-wedges","viewed":0}
-{"_id":{"$oid":"5ca511d8f07ba52dd725ebee"},"id":17089,"name":"Nacho Dip II","href":"https://www.allrecipes.com/recipe/17089/nacho-dip-ii","viewed":0}
-{"_id":{"$oid":"5ca511d8f07ba52dd725ebef"},"id":233048,"name":"Busy Day Slow Cooker Chili","href":"https://www.allrecipes.com/recipe/233048/busy-day-slow-cooker-chili","viewed":0}
-{"_id":{"$oid":"5ca511d8f07ba52dd725ebf0"},"id":95736,"name":"Vegetarian Refried Beans","href":"https://www.allrecipes.com/recipe/95736/vegetarian-refried-beans","viewed":0}
-{"_id":{"$oid":"5ca511d8f07ba52dd725ebf1"},"id":45582,"name":"Green Chili Casserole","href":"https://www.allrecipes.com/recipe/45582/green-chili-casserole","viewed":0}
-{"_id":{"$oid":"5ca511d8f07ba52dd725ebf2"},"id":240087,"name":"Slow Cooker Chicken Chili","href":"https://www.allrecipes.com/recipe/240087/slow-cooker-chicken-chili","viewed":0}
-{"_id":{"$oid":"5ca511d8f07ba52dd725ebf3"},"id":16948,"name":"Mexi-Cheesy Chip Dip","href":"https://www.allrecipes.com/recipe/16948/mexi-cheesy-chip-dip","viewed":0}
-{"_id":{"$oid":"5ca511d8f07ba52dd725ebf4"},"id":79935,"name":"Josh's Four-Way Chili","href":"https://www.allrecipes.com/recipe/79935/joshs-four-way-chili","viewed":0}
-{"_id":{"$oid":"5ca511e3f07ba52dd725ebf5"},"id":89993,"name":"Award Winning Chili Con Carne","href":"https://www.allrecipes.com/recipe/89993/award-winning-chili-con-carne","viewed":0}
-{"_id":{"$oid":"5ca511e3f07ba52dd725ebf6"},"id":231858,"name":"Warm Chili Cheese Dip","href":"https://www.allrecipes.com/recipe/231858/warm-chili-cheese-dip","viewed":0}
-{"_id":{"$oid":"5ca511e3f07ba52dd725ebf7"},"id":244684,"name":"PAM's Spicy Slow Cooker Chicken Tortilla Soup","href":"https://www.allrecipes.com/recipe/244684/pams-spicy-slow-cooker-chicken-tortilla-soup","viewed":0}
-{"_id":{"$oid":"5ca511e3f07ba52dd725ebf8"},"id":15425,"name":"Cincinnati-Style Chili","href":"https://www.allrecipes.com/recipe/15425/cincinnati-style-chili","viewed":0}
-{"_id":{"$oid":"5ca511e3f07ba52dd725ebf9"},"id":13296,"name":"Chili Chicken Stew","href":"https://www.allrecipes.com/recipe/13296/chili-chicken-stew","viewed":0}
-{"_id":{"$oid":"5ca511e3f07ba52dd725ebfa"},"id":217121,"name":"Speedy Chili Pot Pie","href":"https://www.allrecipes.com/recipe/217121/speedy-chili-pot-pie","viewed":0}
-{"_id":{"$oid":"5ca511e3f07ba52dd725ebfb"},"id":234895,"name":"The Ultimate Slow Cooked Chili","href":"https://www.allrecipes.com/recipe/234895/the-ultimate-slow-cooked-chili","viewed":0}
-{"_id":{"$oid":"5ca511e3f07ba52dd725ebfc"},"id":215228,"name":"Simply Sensational Chili","href":"https://www.allrecipes.com/recipe/215228/simply-sensational-chili","viewed":0}
-{"_id":{"$oid":"5ca511e3f07ba52dd725ebfd"},"id":232265,"name":"Very Veggie and Beef Chili","href":"https://www.allrecipes.com/recipe/232265/very-veggie-and-beef-chili","viewed":0}
-{"_id":{"$oid":"5ca511e3f07ba52dd725ebfe"},"id":229950,"name":"Popa's Simple White Chili","href":"https://www.allrecipes.com/recipe/229950/popas-simple-white-chili","viewed":0}
-{"_id":{"$oid":"5ca511e3f07ba52dd725ebff"},"id":240365,"name":"Sausage \u0026 Sweet Potato Chili","href":"https://www.allrecipes.com/recipe/240365/sausage-sweet-potato-chili","viewed":0}
-{"_id":{"$oid":"5ca511e3f07ba52dd725ec00"},"id":23883,"name":"Chuck's Come On Ice Cream (or Night of the Red Death) Chili","href":"https://www.allrecipes.com/recipe/23883/chucks-come-on-ice-cream-or-night-of-the-red-death-chili","viewed":0}
-{"_id":{"$oid":"5ca511e3f07ba52dd725ec01"},"id":22938,"name":"Jamaican Me Crazy Chili","href":"https://www.allrecipes.com/recipe/22938/jamaican-me-crazy-chili","viewed":0}
-{"_id":{"$oid":"5ca511e3f07ba52dd725ec02"},"id":219932,"name":"Slow Cooker Chicken Chili with Greens and Beans","href":"https://www.allrecipes.com/recipe/219932/slow-cooker-chicken-chili-with-greens-and-beans","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec03"},"id":256625,"name":"Grilled Lime Cilantro Chicken with Sweet Chili Sauce","href":"https://www.allrecipes.com/recipe/256625/grilled-lime-cilantro-chicken-with-sweet-chili-sauce","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec04"},"id":41263,"name":"Ken's Texas Chili","href":"https://www.allrecipes.com/recipe/41263/kens-texas-chili","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec05"},"id":138163,"name":"Venison Tequila Chili","href":"https://www.allrecipes.com/recipe/138163/venison-tequila-chili","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec06"},"id":232083,"name":"Tori's Beanless Chili","href":"https://www.allrecipes.com/recipe/232083/toris-beanless-chili","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec07"},"id":245098,"name":"Southwestern Chicken and Corn Soup","href":"https://www.allrecipes.com/recipe/245098/southwestern-chicken-and-corn-soup","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec08"},"id":13336,"name":"Taco Soup IV","href":"https://www.allrecipes.com/recipe/13336/taco-soup-iv","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec09"},"id":154468,"name":"Slow Cooker Chicken and Sausage Chili","href":"https://www.allrecipes.com/recipe/154468/slow-cooker-chicken-and-sausage-chili","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec0a"},"id":13021,"name":"Taco Soup I","href":"https://www.allrecipes.com/recipe/13021/taco-soup-i","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec0b"},"id":223464,"name":"Slow-Cooked White Chili","href":"https://www.allrecipes.com/recipe/223464/slow-cooked-white-chili","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec0c"},"id":15055,"name":"Chili Cheese Dip I","href":"https://www.allrecipes.com/recipe/15055/chili-cheese-dip-i","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec0d"},"id":218299,"name":"Chili Macaroni Casserole","href":"https://www.allrecipes.com/recipe/218299/chili-macaroni-casserole","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec0e"},"id":256911,"name":"Texas Chili Dog","href":"https://www.allrecipes.com/recipe/256911/texas-chili-dog","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec0f"},"id":90162,"name":"Bangin' Steak Rub","href":"https://www.allrecipes.com/recipe/90162/bangin-steak-rub","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec10"},"id":256906,"name":"Guacamole Turkey Burger","href":"https://www.allrecipes.com/recipe/256906/guacamole-turkey-burger","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec11"},"id":229458,"name":"Presidential Debate Chili","href":"https://www.allrecipes.com/recipe/229458/presidential-debate-chili","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec12"},"id":15488,"name":"Diann's Chili Vegetable Soup","href":"https://www.allrecipes.com/recipe/15488/dianns-chili-vegetable-soup","viewed":0}
-{"_id":{"$oid":"5ca511eef07ba52dd725ec13"},"id":84085,"name":"Chicken and Black Bean Chili","href":"https://www.allrecipes.com/recipe/84085/chicken-and-black-bean-chili","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec14"},"id":89830,"name":"Deep Fried Pork Steak","href":"https://www.allrecipes.com/recipe/89830/deep-fried-pork-steak","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec15"},"id":241969,"name":"Family Favorite Chili Mac","href":"https://www.allrecipes.com/recipe/241969/family-favorite-chili-mac","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec16"},"id":233254,"name":"Grilled Sea Bass with Chili-Lime Dressing","href":"https://www.allrecipes.com/recipe/233254/grilled-sea-bass-with-chili-lime-dressing","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec17"},"id":238942,"name":"Slow Cooker White Chicken Chili","href":"https://www.allrecipes.com/recipe/238942/slow-cooker-white-chicken-chili","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec18"},"id":133734,"name":"Super Easy Chicken Chili","href":"https://www.allrecipes.com/recipe/133734/super-easy-chicken-chili","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec19"},"id":162975,"name":"Leftover Dog Pile","href":"https://www.allrecipes.com/recipe/162975/leftover-dog-pile","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec1a"},"id":244486,"name":"Smoky Pork, Bacon and White Bean Chili from Smithfield®","href":"https://www.allrecipes.com/recipe/244486/smoky-pork-bacon-and-white-bean-chili-from-smithfield","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec1b"},"id":256053,"name":"Spicy Creole Chili","href":"https://www.allrecipes.com/recipe/256053/spicy-creole-chili","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec1c"},"id":218219,"name":"Chili Cream Cheese Frosting","href":"https://www.allrecipes.com/recipe/218219/chili-cream-cheese-frosting","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec1d"},"id":31773,"name":"West Texas-Style Buffalo Chili","href":"https://www.allrecipes.com/recipe/31773/west-texas-style-buffalo-chili","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec1e"},"id":44831,"name":"Cowboy Mexican Dip","href":"https://www.allrecipes.com/recipe/44831/cowboy-mexican-dip","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec1f"},"id":260386,"name":"Caveman Chili","href":"https://www.allrecipes.com/recipe/260386/caveman-chili","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec20"},"id":237958,"name":"Papa Funk's Campfire Chili","href":"https://www.allrecipes.com/recipe/237958/papa-funks-campfire-chili","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec21"},"id":239253,"name":"Mojito Shrimp Lettuce Wraps","href":"https://www.allrecipes.com/recipe/239253/mojito-shrimp-lettuce-wraps","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec22"},"id":219879,"name":"Easy White Chili II","href":"https://www.allrecipes.com/recipe/219879/easy-white-chili-ii","viewed":0}
-{"_id":{"$oid":"5ca511f9f07ba52dd725ec23"},"id":233605,"name":"Tray's Spicy Texas Chili","href":"https://www.allrecipes.com/recipe/233605/trays-spicy-texas-chili","viewed":0}
-{"_id":{"$oid":"5ca51203f07ba52dd725ec24"},"id":13354,"name":"Taco Soup V","href":"https://www.allrecipes.com/recipe/13354/taco-soup-v","viewed":0}
-{"_id":{"$oid":"5ca51203f07ba52dd725ec25"},"id":169573,"name":"Spicy Lentil Nachos","href":"https://www.allrecipes.com/recipe/169573/spicy-lentil-nachos","viewed":0}
-{"_id":{"$oid":"5ca51203f07ba52dd725ec26"},"id":169777,"name":"Chili-Roasted Kale","href":"https://www.allrecipes.com/recipe/169777/chili-roasted-kale","viewed":0}
-{"_id":{"$oid":"5ca51203f07ba52dd725ec27"},"id":22945,"name":"White Chili III","href":"https://www.allrecipes.com/recipe/22945/white-chili-iii","viewed":0}
-{"_id":{"$oid":"5ca51203f07ba52dd725ec28"},"id":247366,"name":"Chef John's Indoor BBQ Shrimp","href":"https://www.allrecipes.com/recipe/247366/chef-johns-indoor-bbq-shrimp","viewed":0}
-{"_id":{"$oid":"5ca51203f07ba52dd725ec29"},"id":25526,"name":"Chili Con Queso Dip II","href":"https://www.allrecipes.com/recipe/25526/chili-con-queso-dip-ii","viewed":0}
-{"_id":{"$oid":"5ca51203f07ba52dd725ec2a"},"id":15692,"name":"Chili Cheese Dip II","href":"https://www.allrecipes.com/recipe/15692/chili-cheese-dip-ii","viewed":0}
-{"_id":{"$oid":"5ca51203f07ba52dd725ec2b"},"id":13430,"name":"Santa Fe Soup","href":"https://www.allrecipes.com/recipe/13430/santa-fe-soup","viewed":0}
-{"_id":{"$oid":"5ca51203f07ba52dd725ec2c"},"id":151628,"name":"2-Bean Chili","href":"https://www.allrecipes.com/recipe/151628/2-bean-chili","viewed":0}
-{"_id":{"$oid":"5ca51203f07ba52dd725ec2d"},"id":16753,"name":"Rae's Vegetarian Chili","href":"https://www.allrecipes.com/recipe/16753/raes-vegetarian-chili","viewed":0}
-{"_id":{"$oid":"5ca51203f07ba52dd725ec2e"},"id":237906,"name":"Homemade Chili Sauce","href":"https://www.allrecipes.com/recipe/237906/homemade-chili-sauce","viewed":0}
-{"_id":{"$oid":"5ca51203f07ba52dd725ec2f"},"id":244658,"name":"Spicy Roasted Butternut Squash, Pear, and Bacon Soup","href":"https://www.allrecipes.com/recipe/244658/spicy-roasted-butternut-squash-pear-and-bacon-soup","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4a3"},"id":13149,"name":"Cream of Asparagus Soup I","href":"https://www.allrecipes.com/recipe/13149/cream-of-asparagus-soup-i","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4a4"},"id":218791,"name":"Jersey Fresh Tomato Soup","href":"https://www.allrecipes.com/recipe/218791/jersey-fresh-tomato-soup","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4a5"},"id":13082,"name":"Tortellini Soup I","href":"https://www.allrecipes.com/recipe/13082/tortellini-soup-i","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4a6"},"id":77981,"name":"Butternut Squash Soup II","href":"https://www.allrecipes.com/recipe/77981/butternut-squash-soup-ii","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4a7"},"id":22927,"name":"Creamy Potato Leek Soup II","href":"https://www.allrecipes.com/recipe/22927/creamy-potato-leek-soup-ii","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4a8"},"id":13045,"name":"Broccoli Cheese Soup","href":"https://www.allrecipes.com/recipe/13045/broccoli-cheese-soup","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4a9"},"id":220126,"name":"Chef John's Sausage \u0026 Shrimp Jambalaya","href":"https://www.allrecipes.com/recipe/220126/chef-johns-sausage-shrimp-jambalaya","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4aa"},"id":213734,"name":"Butternut Squash Soup with a Kick","href":"https://www.allrecipes.com/recipe/213734/butternut-squash-soup-with-a-kick","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4ab"},"id":21392,"name":"Boudreaux's Zydeco Stomp Gumbo","href":"https://www.allrecipes.com/recipe/21392/boudreauxs-zydeco-stomp-gumbo","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4ac"},"id":218057,"name":"Chicken Enchilada Slow Cooker Soup","href":"https://www.allrecipes.com/recipe/218057/chicken-enchilada-slow-cooker-soup","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4ad"},"id":219936,"name":"Spicy Chicken Thai Soup","href":"https://www.allrecipes.com/recipe/219936/spicy-chicken-thai-soup","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4ae"},"id":53887,"name":"Cindy's Awesome Clam Chowder","href":"https://www.allrecipes.com/recipe/53887/cindys-awesome-clam-chowder","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4af"},"id":23236,"name":"Toscana Soup","href":"https://www.allrecipes.com/recipe/23236/toscana-soup","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4b0"},"id":237996,"name":"Cream of Chicken and Gnocchi Soup","href":"https://www.allrecipes.com/recipe/237996/cream-of-chicken-and-gnocchi-soup","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4b1"},"id":25665,"name":"Baked Potato Soup V","href":"https://www.allrecipes.com/recipe/25665/baked-potato-soup-v","viewed":0}
-{"_id":{"$oid":"5ca54b04c6d0b009c57ef4b2"},"id":13434,"name":"Mama's Italian Wedding Soup","href":"https://www.allrecipes.com/recipe/13434/mamas-italian-wedding-soup","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4b3"},"id":23865,"name":"Ultimate Potato Soup","href":"https://www.allrecipes.com/recipe/23865/ultimate-potato-soup","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4b4"},"id":78023,"name":"Bean Soup With Kale","href":"https://www.allrecipes.com/recipe/78023/bean-soup-with-kale","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4b5"},"id":26358,"name":"Awesome Chicken Noodle Soup","href":"https://www.allrecipes.com/recipe/26358/awesome-chicken-noodle-soup","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4b6"},"id":25333,"name":"Vegan Black Bean Soup","href":"https://www.allrecipes.com/recipe/25333/vegan-black-bean-soup","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4b7"},"id":132785,"name":"Vegetarian Kale Soup","href":"https://www.allrecipes.com/recipe/132785/vegetarian-kale-soup","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4b8"},"id":16678,"name":"Slow Cooker Taco Soup","href":"https://www.allrecipes.com/recipe/16678/slow-cooker-taco-soup","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4b9"},"id":13028,"name":"Italian Vegetable Soup","href":"https://www.allrecipes.com/recipe/13028/italian-vegetable-soup","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4ba"},"id":231291,"name":"Hearty Chicken and Rice Soup","href":"https://www.allrecipes.com/recipe/231291/hearty-chicken-and-rice-soup","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4bb"},"id":26463,"name":"Salmon Chowder","href":"https://www.allrecipes.com/recipe/26463/salmon-chowder","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4bc"},"id":12992,"name":"Cheese and Broccoli Chicken Soup","href":"https://www.allrecipes.com/recipe/12992/cheese-and-broccoli-chicken-soup","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4bd"},"id":214167,"name":"Ken's Kickin' Posole","href":"https://www.allrecipes.com/recipe/214167/kens-kickin-posole","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4be"},"id":15113,"name":"Broccoli Cheese Soup V","href":"https://www.allrecipes.com/recipe/15113/broccoli-cheese-soup-v","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4bf"},"id":13024,"name":"Italian Wedding Soup I","href":"https://www.allrecipes.com/recipe/13024/italian-wedding-soup-i","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4c0"},"id":188390,"name":"Easy Chicken Fajita Soup","href":"https://www.allrecipes.com/recipe/188390/easy-chicken-fajita-soup","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4c1"},"id":13043,"name":"Old-Fashioned Potato Soup","href":"https://www.allrecipes.com/recipe/13043/old-fashioned-potato-soup","viewed":0}
-{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4c2"},"id":13187,"name":"Minestrone Soup I","href":"https://www.allrecipes.com/recipe/13187/minestrone-soup-i","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59883"},"id":68679,"name":"Hearty Hamburger Soup","href":"https://www.allrecipes.com/recipe/68679/hearty-hamburger-soup","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59884"},"id":13041,"name":"My Best Clam Chowder","href":"https://www.allrecipes.com/recipe/13041/my-best-clam-chowder","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59885"},"id":146035,"name":"The Best Thai Coconut Soup","href":"https://www.allrecipes.com/recipe/146035/the-best-thai-coconut-soup","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59886"},"id":231287,"name":"Sausage, Potato and Kale Soup","href":"https://www.allrecipes.com/recipe/231287/sausage-potato-and-kale-soup","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59887"},"id":105518,"name":"The Best Bean and Ham Soup","href":"https://www.allrecipes.com/recipe/105518/the-best-bean-and-ham-soup","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59888"},"id":16690,"name":"Rich Italian Sausage and Potato Soup","href":"https://www.allrecipes.com/recipe/16690/rich-italian-sausage-and-potato-soup","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59889"},"id":231009,"name":"Chef John's Beef Goulash","href":"https://www.allrecipes.com/recipe/231009/chef-johns-beef-goulash","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba5988a"},"id":12974,"name":"Butternut Squash Soup","href":"https://www.allrecipes.com/recipe/12974/butternut-squash-soup","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba5988b"},"id":229241,"name":"Vegan Broccoli Soup","href":"https://www.allrecipes.com/recipe/229241/vegan-broccoli-soup","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba5988c"},"id":228087,"name":"Low Carb Jambalaya","href":"https://www.allrecipes.com/recipe/228087/low-carb-jambalaya","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba5988d"},"id":13113,"name":"Rich and Creamy Tomato Basil Soup","href":"https://www.allrecipes.com/recipe/13113/rich-and-creamy-tomato-basil-soup","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba5988e"},"id":141114,"name":"Cajun Chicken and Sausage Gumbo","href":"https://www.allrecipes.com/recipe/141114/cajun-chicken-and-sausage-gumbo","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba5988f"},"id":13367,"name":"Chicken Tortilla Soup II","href":"https://www.allrecipes.com/recipe/13367/chicken-tortilla-soup-ii","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59890"},"id":80819,"name":"Fast and Delicious Black Bean Soup","href":"https://www.allrecipes.com/recipe/80819/fast-and-delicious-black-bean-soup","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59891"},"id":13309,"name":"Rich and Simple French Onion Soup","href":"https://www.allrecipes.com/recipe/13309/rich-and-simple-french-onion-soup","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59892"},"id":13404,"name":"World's Best Potato Soup","href":"https://www.allrecipes.com/recipe/13404/worlds-best-potato-soup","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59893"},"id":94031,"name":"Sweet Russian Cabbage Soup","href":"https://www.allrecipes.com/recipe/94031/sweet-russian-cabbage-soup","viewed":0}
-{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59894"},"id":19492,"name":"Newport Clam Chowder","href":"https://www.allrecipes.com/recipe/19492/newport-clam-chowder","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba59895"},"id":45426,"name":"Lentil and Sausage Soup","href":"https://www.allrecipes.com/recipe/45426/lentil-and-sausage-soup","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba59896"},"id":220091,"name":"Cream of Asparagus and Mushroom Soup","href":"https://www.allrecipes.com/recipe/220091/cream-of-asparagus-and-mushroom-soup","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba59897"},"id":78526,"name":"Eggplant Supper Soup","href":"https://www.allrecipes.com/recipe/78526/eggplant-supper-soup","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba59898"},"id":13022,"name":"Tortilla Soup II","href":"https://www.allrecipes.com/recipe/13022/tortilla-soup-ii","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba59899"},"id":76902,"name":"Italian Sausage Soup II","href":"https://www.allrecipes.com/recipe/76902/italian-sausage-soup-ii","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba5989a"},"id":220179,"name":"Quick and Easy Black Bean Soup","href":"https://www.allrecipes.com/recipe/220179/quick-and-easy-black-bean-soup","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba5989b"},"id":78052,"name":"Beaker's Vegetable Barley Soup","href":"https://www.allrecipes.com/recipe/78052/beakers-vegetable-barley-soup","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba5989c"},"id":29575,"name":"Big Ed's Cajun Shrimp Soup","href":"https://www.allrecipes.com/recipe/29575/big-eds-cajun-shrimp-soup","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba5989d"},"id":80743,"name":"Vegetarian Tortilla Soup","href":"https://www.allrecipes.com/recipe/80743/vegetarian-tortilla-soup","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba5989e"},"id":13126,"name":"Zuppa Toscana","href":"https://www.allrecipes.com/recipe/13126/zuppa-toscana","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba5989f"},"id":215693,"name":"Onion Soup Mix","href":"https://www.allrecipes.com/recipe/215693/onion-soup-mix","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba598a0"},"id":13338,"name":"Quick and Easy Vegetable Soup","href":"https://www.allrecipes.com/recipe/13338/quick-and-easy-vegetable-soup","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba598a1"},"id":22890,"name":"Creamy Mushroom Soup","href":"https://www.allrecipes.com/recipe/22890/creamy-mushroom-soup","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba598a2"},"id":13206,"name":"Grandma's Chicken Noodle Soup","href":"https://www.allrecipes.com/recipe/13206/grandmas-chicken-noodle-soup","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba598a3"},"id":26472,"name":"The Best Chicken Soup Ever","href":"https://www.allrecipes.com/recipe/26472/the-best-chicken-soup-ever","viewed":0}
-{"_id":{"$oid":"5ca54bb0c6d0b00a7ba598a4"},"id":228859,"name":"Slow Cooker French Onion Soup","href":"https://www.allrecipes.com/recipe/228859/slow-cooker-french-onion-soup","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598a5"},"id":214556,"name":"Steak Soup","href":"https://www.allrecipes.com/recipe/214556/steak-soup","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598a6"},"id":89199,"name":"Split Pea Soup with Rosemary","href":"https://www.allrecipes.com/recipe/89199/split-pea-soup-with-rosemary","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598a7"},"id":23245,"name":"Mexican Chicken Soup","href":"https://www.allrecipes.com/recipe/23245/mexican-chicken-soup","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598a8"},"id":90239,"name":"Quick Hoppin' John Soup","href":"https://www.allrecipes.com/recipe/90239/quick-hoppin-john-soup","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598a9"},"id":13308,"name":"Lance's French Onion Soup","href":"https://www.allrecipes.com/recipe/13308/lances-french-onion-soup","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598aa"},"id":220271,"name":"Erin's Cheesy Broccoli Soup","href":"https://www.allrecipes.com/recipe/220271/erins-cheesy-broccoli-soup","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598ab"},"id":39544,"name":"Garden Fresh Tomato Soup","href":"https://www.allrecipes.com/recipe/39544/garden-fresh-tomato-soup","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598ac"},"id":55451,"name":"Butternut Squash Bisque","href":"https://www.allrecipes.com/recipe/55451/butternut-squash-bisque","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598ad"},"id":12921,"name":"Hamburger Soup I","href":"https://www.allrecipes.com/recipe/12921/hamburger-soup-i","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598ae"},"id":218804,"name":"Turkey Carcass Soup","href":"https://www.allrecipes.com/recipe/218804/turkey-carcass-soup","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598af"},"id":86096,"name":"Grandma's Corn Chowder","href":"https://www.allrecipes.com/recipe/86096/grandmas-corn-chowder","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598b0"},"id":215602,"name":"Roasted Butternut Squash Soup","href":"https://www.allrecipes.com/recipe/215602/roasted-butternut-squash-soup","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598b1"},"id":25688,"name":"Pasta e Fagioli a la Chez Ivano","href":"https://www.allrecipes.com/recipe/25688/pasta-e-fagioli-a-la-chez-ivano","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598b2"},"id":13288,"name":"Split Pea and Ham Soup I","href":"https://www.allrecipes.com/recipe/13288/split-pea-and-ham-soup-i","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598b3"},"id":13019,"name":"Mexican Chicken Corn Chowder","href":"https://www.allrecipes.com/recipe/13019/mexican-chicken-corn-chowder","viewed":0}
-{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598b4"},"id":15553,"name":"Chicken Tortilla Soup III","href":"https://www.allrecipes.com/recipe/15553/chicken-tortilla-soup-iii","viewed":0}
-{"_id":{"$oid":"5ca54bc6c6d0b00a7ba598b5"},"id":69635,"name":"Low Carb Cauliflower Leek Soup","href":"https://www.allrecipes.com/recipe/69635/low-carb-cauliflower-leek-soup","viewed":0}
-{"_id":{"$oid":"5ca54bc6c6d0b00a7ba598b6"},"id":88690,"name":"Jackie's Sausage Soup","href":"https://www.allrecipes.com/recipe/88690/jackies-sausage-soup","viewed":0}
-{"_id":{"$oid":"5ca54bc6c6d0b00a7ba598b7"},"id":141115,"name":"Cajun Corn and Crab Bisque","href":"https://www.allrecipes.com/recipe/141115/cajun-corn-and-crab-bisque","viewed":0}
-{"_id":{"$oid":"5ca54bc6c6d0b00a7ba598b8"},"id":164555,"name":"Slow Cooker Taco Soup","href":"https://www.allrecipes.com/recipe/164555/slow-cooker-taco-soup","viewed":0}
-{"_id":{"$oid":"5ca54bc6c6d0b00a7ba598b9"},"id":234864,"name":"Ham and Sweet Potato Soup","href":"https://www.allrecipes.com/recipe/234864/ham-and-sweet-potato-soup","viewed":0}
-{"_id":{"$oid":"5ca54bc6c6d0b00a7ba598ba"},"id":220910,"name":"Slow Cooker, Easy Baked Potato Soup","href":"https://www.allrecipes.com/recipe/220910/slow-cooker-easy-baked-potato-soup","viewed":0}
-{"_id":{"$oid":"5ca54bc6c6d0b00a7ba598bb"},"id":25667,"name":"Cajun Crab Soup","href":"https://www.allrecipes.com/recipe/25667/cajun-crab-soup","viewed":0}
-{"_id":{"$oid":"5ca54bc6c6d0b00a7ba598bc"},"id":15021,"name":"Cream of Chicken with Wild Rice Soup","href":"https://www.allrecipes.com/recipe/15021/cream-of-chicken-with-wild-rice-soup","viewed":0}
-{"_id":{"$oid":"5ca54bc6c6d0b00a7ba598bd"},"id":174755,"name":"Sheryl's Corn and Crab Chowder","href":"https://www.allrecipes.com/recipe/174755/sheryls-corn-and-crab-chowder","viewed":0}
-{"_id":{"$oid":"5ca54bc6c6d0b00a7ba598be"},"id":17960,"name":"Fresh Asparagus Soup","href":"https://www.allrecipes.com/recipe/17960/fresh-asparagus-soup","viewed":0}
-{"_id":{"$oid":"5ca54bc6c6d0b00a7ba598bf"},"id":240587,"name":"Easy Slow Cooker Chicken and Dumplings","href":"https://www.allrecipes.com/recipe/240587/easy-slow-cooker-chicken-and-dumplings","viewed":0}
-{"_id":{"$oid":"5ca54bc6c6d0b00a7ba598c0"},"id":13389,"name":"Quick and Easy Clam Chowder","href":"https://www.allrecipes.com/recipe/13389/quick-and-easy-clam-chowder","viewed":0}
-{"_id":{"$oid":"5ca54bc6c6d0b00a7ba598c1"},"id":70330,"name":"Vegan Red Lentil Soup","href":"https://www.allrecipes.com/recipe/70330/vegan-red-lentil-soup","viewed":0}
-{"_id":{"$oid":"5ca54bc6c6d0b00a7ba598c2"},"id":13035,"name":"Cream of Spinach Soup","href":"https://www.allrecipes.com/recipe/13035/cream-of-spinach-soup","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e601682"},"id":86810,"name":"Curried Shrimp Bisque","href":"https://www.allrecipes.com/recipe/86810/curried-shrimp-bisque","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e601683"},"id":76283,"name":"Vegetarian Bean Curry","href":"https://www.allrecipes.com/recipe/76283/vegetarian-bean-curry","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e601684"},"id":215032,"name":"Curried Potato Salad","href":"https://www.allrecipes.com/recipe/215032/curried-potato-salad","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e601685"},"id":99630,"name":"Burmese Chicken Curry","href":"https://www.allrecipes.com/recipe/99630/burmese-chicken-curry","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e601686"},"id":245612,"name":"Malaysian Red Curry Thighs","href":"https://www.allrecipes.com/recipe/245612/malaysian-red-curry-thighs","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e601687"},"id":46156,"name":"Mussels in Curry Cream Sauce","href":"https://www.allrecipes.com/recipe/46156/mussels-in-curry-cream-sauce","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e601688"},"id":8622,"name":"Curried Microwaved Chicken","href":"https://www.allrecipes.com/recipe/8622/curried-microwaved-chicken","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e601689"},"id":235132,"name":"Shrimp Curry (My Dear Mudder's Version)","href":"https://www.allrecipes.com/recipe/235132/shrimp-curry-my-dear-mudders-version","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e60168a"},"id":229146,"name":"Curry Kale and Potato Galette","href":"https://www.allrecipes.com/recipe/229146/curry-kale-and-potato-galette","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e60168b"},"id":221270,"name":"Green Coconut Chicken","href":"https://www.allrecipes.com/recipe/221270/green-coconut-chicken","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e60168c"},"id":235559,"name":"Red Curry Butternut Squash","href":"https://www.allrecipes.com/recipe/235559/red-curry-butternut-squash","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e60168d"},"id":77518,"name":"Spinach-And-Berries Salad With Non-Fat Curry Dressing","href":"https://www.allrecipes.com/recipe/77518/spinach-and-berries-salad-with-non-fat-curry-dressing","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e60168e"},"id":201086,"name":"Curry-Strawberry Chicken","href":"https://www.allrecipes.com/recipe/201086/curry-strawberry-chicken","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e60168f"},"id":215266,"name":"Chicken Curry Salad in a Hurry","href":"https://www.allrecipes.com/recipe/215266/chicken-curry-salad-in-a-hurry","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e601690"},"id":176909,"name":"Curried Mango Chicken","href":"https://www.allrecipes.com/recipe/176909/curried-mango-chicken","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e601691"},"id":37651,"name":"West Indian Curried Chicken","href":"https://www.allrecipes.com/recipe/37651/west-indian-curried-chicken","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e601692"},"id":246717,"name":"Indian Butter Chicken (Chicken Makhani)","href":"https://www.allrecipes.com/recipe/246717/indian-butter-chicken-chicken-makhani","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e601693"},"id":228265,"name":"Curried Brown Rice","href":"https://www.allrecipes.com/recipe/228265/curried-brown-rice","viewed":0}
-{"_id":{"$oid":"5ca55c73c6d0b00c9e601694"},"id":213687,"name":"Sri Lankan Chicken Curry","href":"https://www.allrecipes.com/recipe/213687/sri-lankan-chicken-curry","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e601695"},"id":67241,"name":"Kai Kang Dang (Chicken Curry with Coconut Milk)","href":"https://www.allrecipes.com/recipe/67241/kai-kang-dang-chicken-curry-with-coconut-milk","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e601696"},"id":132364,"name":"Green Bean Curry","href":"https://www.allrecipes.com/recipe/132364/green-bean-curry","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e601697"},"id":105689,"name":"Mixed Seafood Curry","href":"https://www.allrecipes.com/recipe/105689/mixed-seafood-curry","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e601698"},"id":241253,"name":"Simple Chicken Curry","href":"https://www.allrecipes.com/recipe/241253/simple-chicken-curry","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e601699"},"id":189305,"name":"Indian Curried Barley Pilaf","href":"https://www.allrecipes.com/recipe/189305/indian-curried-barley-pilaf","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e60169a"},"id":9042,"name":"Curry Chicken Salad","href":"https://www.allrecipes.com/recipe/9042/curry-chicken-salad","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e60169b"},"id":230268,"name":"Curried Sweet Potato Latkes","href":"https://www.allrecipes.com/recipe/230268/curried-sweet-potato-latkes","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e60169c"},"id":47564,"name":"Baingan Bharta (Eggplant Curry)","href":"https://www.allrecipes.com/recipe/47564/baingan-bharta-eggplant-curry","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e60169d"},"id":17712,"name":"Tomato Curry Chicken","href":"https://www.allrecipes.com/recipe/17712/tomato-curry-chicken","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e60169e"},"id":217173,"name":"Curry Split Pea Soup","href":"https://www.allrecipes.com/recipe/217173/curry-split-pea-soup","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e60169f"},"id":99873,"name":"Apple Curry Turkey Pita","href":"https://www.allrecipes.com/recipe/99873/apple-curry-turkey-pita","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a0"},"id":166485,"name":"Coconut-Curry Lentil Stew Served over Quinoa","href":"https://www.allrecipes.com/recipe/166485/coconut-curry-lentil-stew-served-over-quinoa","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a1"},"id":68473,"name":"Chicken Korma II","href":"https://www.allrecipes.com/recipe/68473/chicken-korma-ii","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a2"},"id":12965,"name":"Curried Carrot Soup","href":"https://www.allrecipes.com/recipe/12965/curried-carrot-soup","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a3"},"id":217913,"name":"Vegan Carrot Curry Soup","href":"https://www.allrecipes.com/recipe/217913/vegan-carrot-curry-soup","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a4"},"id":16487,"name":"Curried Chicken and Rice Salad","href":"https://www.allrecipes.com/recipe/16487/curried-chicken-and-rice-salad","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a5"},"id":216948,"name":"Deb's Spicy Beef Curry","href":"https://www.allrecipes.com/recipe/216948/debs-spicy-beef-curry","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a6"},"id":234659,"name":"Spicy Pork Curry","href":"https://www.allrecipes.com/recipe/234659/spicy-pork-curry","viewed":0}
-{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a7"},"id":46767,"name":"Mild Curry Powder","href":"https://www.allrecipes.com/recipe/46767/mild-curry-powder","viewed":0}
-{"_id":{"$oid":"5ca55c88c6d0b00c9e6016a8"},"id":155031,"name":"Masala Beef with Ginger and Curry Leaf","href":"https://www.allrecipes.com/recipe/155031/masala-beef-with-ginger-and-curry-leaf","viewed":0}
-{"_id":{"$oid":"5ca55c88c6d0b00c9e6016a9"},"id":33407,"name":"Quorn™ and Chickpea Curry","href":"https://www.allrecipes.com/recipe/33407/quorn-and-chickpea-curry","viewed":0}
-{"_id":{"$oid":"5ca55c88c6d0b00c9e6016aa"},"id":76289,"name":"Hot Curried Tuna Sandwiches","href":"https://www.allrecipes.com/recipe/76289/hot-curried-tuna-sandwiches","viewed":0}
-{"_id":{"$oid":"5ca55c88c6d0b00c9e6016ab"},"id":14610,"name":"Curried Meatloaf","href":"https://www.allrecipes.com/recipe/14610/curried-meatloaf","viewed":0}
-{"_id":{"$oid":"5ca55c88c6d0b00c9e6016ac"},"id":217053,"name":"Curried Citrus Quinoa with Raisins and Toasted Almonds","href":"https://www.allrecipes.com/recipe/217053/curried-citrus-quinoa-with-raisins-and-toasted-almonds","viewed":0}
-{"_id":{"$oid":"5ca55c88c6d0b00c9e6016ad"},"id":237031,"name":"Roasted Curry-Spiced Sweet Potatoes and Cauliflower","href":"https://www.allrecipes.com/recipe/237031/roasted-curry-spiced-sweet-potatoes-and-cauliflower","viewed":0}
-{"_id":{"$oid":"5ca55c88c6d0b00c9e6016ae"},"id":245104,"name":"Asian Kabocha Soup","href":"https://www.allrecipes.com/recipe/245104/asian-kabocha-soup","viewed":0}
+{"_id":{"$oid":"5ca511cdf07ba52dd725ebe0"},"id":26468,"name":"Spicy Turkey Chili","href":"https://www.allrecipes.com/recipe/26468/spicy-turkey-chili","viewed":1}
+{"_id":{"$oid":"5ca511cdf07ba52dd725ebe1"},"id":228545,"name":"Chilly Day Chili","href":"https://www.allrecipes.com/recipe/228545/chilly-day-chili","viewed":1}
+{"_id":{"$oid":"5ca511cdf07ba52dd725ebe2"},"id":212818,"name":"Five Meat Habanero Chili","href":"https://www.allrecipes.com/recipe/212818/five-meat-habanero-chili","viewed":1}
+{"_id":{"$oid":"5ca511cdf07ba52dd725ebe3"},"id":154321,"name":"Chicken and Two Bean Chili","href":"https://www.allrecipes.com/recipe/154321/chicken-and-two-bean-chili","viewed":1}
+{"_id":{"$oid":"5ca511cdf07ba52dd725ebe4"},"id":26442,"name":"Minnesota Golf Course Chili","href":"https://www.allrecipes.com/recipe/26442/minnesota-golf-course-chili","viewed":1}
+{"_id":{"$oid":"5ca511cdf07ba52dd725ebe5"},"id":236257,"name":"Taco Bell® Seasoning Copycat","href":"https://www.allrecipes.com/recipe/236257/taco-bell-seasoning-copycat","viewed":1}
+{"_id":{"$oid":"5ca511cdf07ba52dd725ebe6"},"id":155328,"name":"Sweet Pork Slow Cooker Chili","href":"https://www.allrecipes.com/recipe/155328/sweet-pork-slow-cooker-chili","viewed":1}
+{"_id":{"$oid":"5ca511d8f07ba52dd725ebe7"},"id":85452,"name":"Homemade Black Bean Veggie Burgers","href":"https://www.allrecipes.com/recipe/85452/homemade-black-bean-veggie-burgers","viewed":1}
+{"_id":{"$oid":"5ca511d8f07ba52dd725ebe8"},"id":80958,"name":"Mike's BBQ Chili and Honey Lamb Marinade","href":"https://www.allrecipes.com/recipe/80958/mikes-bbq-chili-and-honey-lamb-marinade","viewed":1}
+{"_id":{"$oid":"5ca511d8f07ba52dd725ebe9"},"id":229019,"name":"White Bean, Turkey, and Sausage Chili","href":"https://www.allrecipes.com/recipe/229019/white-bean-turkey-and-sausage-chili","viewed":1}
+{"_id":{"$oid":"5ca511d8f07ba52dd725ebea"},"id":228412,"name":"Cucumber Salad With Thai Sweet Chili Vinaigrette","href":"https://www.allrecipes.com/recipe/228412/cucumber-salad-with-thai-sweet-chili-vinaigrette","viewed":1}
+{"_id":{"$oid":"5ca511d8f07ba52dd725ebeb"},"id":68757,"name":"Bry's Chocolate Lamb Chili","href":"https://www.allrecipes.com/recipe/68757/brys-chocolate-lamb-chili","viewed":1}
+{"_id":{"$oid":"5ca511d8f07ba52dd725ebec"},"id":217018,"name":"Chili Relleno Casserole","href":"https://www.allrecipes.com/recipe/217018/chili-relleno-casserole","viewed":1}
+{"_id":{"$oid":"5ca511d8f07ba52dd725ebed"},"id":229055,"name":"Seasoned Baked Potato Wedges","href":"https://www.allrecipes.com/recipe/229055/seasoned-baked-potato-wedges","viewed":1}
+{"_id":{"$oid":"5ca511d8f07ba52dd725ebee"},"id":17089,"name":"Nacho Dip II","href":"https://www.allrecipes.com/recipe/17089/nacho-dip-ii","viewed":1}
+{"_id":{"$oid":"5ca511d8f07ba52dd725ebef"},"id":233048,"name":"Busy Day Slow Cooker Chili","href":"https://www.allrecipes.com/recipe/233048/busy-day-slow-cooker-chili","viewed":1}
+{"_id":{"$oid":"5ca511d8f07ba52dd725ebf0"},"id":95736,"name":"Vegetarian Refried Beans","href":"https://www.allrecipes.com/recipe/95736/vegetarian-refried-beans","viewed":1}
+{"_id":{"$oid":"5ca511d8f07ba52dd725ebf1"},"id":45582,"name":"Green Chili Casserole","href":"https://www.allrecipes.com/recipe/45582/green-chili-casserole","viewed":1}
+{"_id":{"$oid":"5ca511d8f07ba52dd725ebf2"},"id":240087,"name":"Slow Cooker Chicken Chili","href":"https://www.allrecipes.com/recipe/240087/slow-cooker-chicken-chili","viewed":1}
+{"_id":{"$oid":"5ca511d8f07ba52dd725ebf3"},"id":16948,"name":"Mexi-Cheesy Chip Dip","href":"https://www.allrecipes.com/recipe/16948/mexi-cheesy-chip-dip","viewed":1}
+{"_id":{"$oid":"5ca511d8f07ba52dd725ebf4"},"id":79935,"name":"Josh's Four-Way Chili","href":"https://www.allrecipes.com/recipe/79935/joshs-four-way-chili","viewed":1}
+{"_id":{"$oid":"5ca511e3f07ba52dd725ebf5"},"id":89993,"name":"Award Winning Chili Con Carne","href":"https://www.allrecipes.com/recipe/89993/award-winning-chili-con-carne","viewed":1}
+{"_id":{"$oid":"5ca511e3f07ba52dd725ebf6"},"id":231858,"name":"Warm Chili Cheese Dip","href":"https://www.allrecipes.com/recipe/231858/warm-chili-cheese-dip","viewed":1}
+{"_id":{"$oid":"5ca511e3f07ba52dd725ebf7"},"id":244684,"name":"PAM's Spicy Slow Cooker Chicken Tortilla Soup","href":"https://www.allrecipes.com/recipe/244684/pams-spicy-slow-cooker-chicken-tortilla-soup","viewed":1}
+{"_id":{"$oid":"5ca511e3f07ba52dd725ebf8"},"id":15425,"name":"Cincinnati-Style Chili","href":"https://www.allrecipes.com/recipe/15425/cincinnati-style-chili","viewed":1}
+{"_id":{"$oid":"5ca511e3f07ba52dd725ebf9"},"id":13296,"name":"Chili Chicken Stew","href":"https://www.allrecipes.com/recipe/13296/chili-chicken-stew","viewed":1}
+{"_id":{"$oid":"5ca511e3f07ba52dd725ebfa"},"id":217121,"name":"Speedy Chili Pot Pie","href":"https://www.allrecipes.com/recipe/217121/speedy-chili-pot-pie","viewed":1}
+{"_id":{"$oid":"5ca511e3f07ba52dd725ebfb"},"id":234895,"name":"The Ultimate Slow Cooked Chili","href":"https://www.allrecipes.com/recipe/234895/the-ultimate-slow-cooked-chili","viewed":1}
+{"_id":{"$oid":"5ca511e3f07ba52dd725ebfc"},"id":215228,"name":"Simply Sensational Chili","href":"https://www.allrecipes.com/recipe/215228/simply-sensational-chili","viewed":1}
+{"_id":{"$oid":"5ca511e3f07ba52dd725ebfd"},"id":232265,"name":"Very Veggie and Beef Chili","href":"https://www.allrecipes.com/recipe/232265/very-veggie-and-beef-chili","viewed":1}
+{"_id":{"$oid":"5ca511e3f07ba52dd725ebfe"},"id":229950,"name":"Popa's Simple White Chili","href":"https://www.allrecipes.com/recipe/229950/popas-simple-white-chili","viewed":1}
+{"_id":{"$oid":"5ca511e3f07ba52dd725ebff"},"id":240365,"name":"Sausage \u0026 Sweet Potato Chili","href":"https://www.allrecipes.com/recipe/240365/sausage-sweet-potato-chili","viewed":1}
+{"_id":{"$oid":"5ca511e3f07ba52dd725ec00"},"id":23883,"name":"Chuck's Come On Ice Cream (or Night of the Red Death) Chili","href":"https://www.allrecipes.com/recipe/23883/chucks-come-on-ice-cream-or-night-of-the-red-death-chili","viewed":1}
+{"_id":{"$oid":"5ca511e3f07ba52dd725ec01"},"id":22938,"name":"Jamaican Me Crazy Chili","href":"https://www.allrecipes.com/recipe/22938/jamaican-me-crazy-chili","viewed":1}
+{"_id":{"$oid":"5ca511e3f07ba52dd725ec02"},"id":219932,"name":"Slow Cooker Chicken Chili with Greens and Beans","href":"https://www.allrecipes.com/recipe/219932/slow-cooker-chicken-chili-with-greens-and-beans","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec03"},"id":256625,"name":"Grilled Lime Cilantro Chicken with Sweet Chili Sauce","href":"https://www.allrecipes.com/recipe/256625/grilled-lime-cilantro-chicken-with-sweet-chili-sauce","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec04"},"id":41263,"name":"Ken's Texas Chili","href":"https://www.allrecipes.com/recipe/41263/kens-texas-chili","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec05"},"id":138163,"name":"Venison Tequila Chili","href":"https://www.allrecipes.com/recipe/138163/venison-tequila-chili","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec06"},"id":232083,"name":"Tori's Beanless Chili","href":"https://www.allrecipes.com/recipe/232083/toris-beanless-chili","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec07"},"id":245098,"name":"Southwestern Chicken and Corn Soup","href":"https://www.allrecipes.com/recipe/245098/southwestern-chicken-and-corn-soup","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec08"},"id":13336,"name":"Taco Soup IV","href":"https://www.allrecipes.com/recipe/13336/taco-soup-iv","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec09"},"id":154468,"name":"Slow Cooker Chicken and Sausage Chili","href":"https://www.allrecipes.com/recipe/154468/slow-cooker-chicken-and-sausage-chili","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec0a"},"id":13021,"name":"Taco Soup I","href":"https://www.allrecipes.com/recipe/13021/taco-soup-i","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec0b"},"id":223464,"name":"Slow-Cooked White Chili","href":"https://www.allrecipes.com/recipe/223464/slow-cooked-white-chili","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec0c"},"id":15055,"name":"Chili Cheese Dip I","href":"https://www.allrecipes.com/recipe/15055/chili-cheese-dip-i","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec0d"},"id":218299,"name":"Chili Macaroni Casserole","href":"https://www.allrecipes.com/recipe/218299/chili-macaroni-casserole","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec0e"},"id":256911,"name":"Texas Chili Dog","href":"https://www.allrecipes.com/recipe/256911/texas-chili-dog","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec0f"},"id":90162,"name":"Bangin' Steak Rub","href":"https://www.allrecipes.com/recipe/90162/bangin-steak-rub","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec10"},"id":256906,"name":"Guacamole Turkey Burger","href":"https://www.allrecipes.com/recipe/256906/guacamole-turkey-burger","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec11"},"id":229458,"name":"Presidential Debate Chili","href":"https://www.allrecipes.com/recipe/229458/presidential-debate-chili","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec12"},"id":15488,"name":"Diann's Chili Vegetable Soup","href":"https://www.allrecipes.com/recipe/15488/dianns-chili-vegetable-soup","viewed":1}
+{"_id":{"$oid":"5ca511eef07ba52dd725ec13"},"id":84085,"name":"Chicken and Black Bean Chili","href":"https://www.allrecipes.com/recipe/84085/chicken-and-black-bean-chili","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec14"},"id":89830,"name":"Deep Fried Pork Steak","href":"https://www.allrecipes.com/recipe/89830/deep-fried-pork-steak","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec15"},"id":241969,"name":"Family Favorite Chili Mac","href":"https://www.allrecipes.com/recipe/241969/family-favorite-chili-mac","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec16"},"id":233254,"name":"Grilled Sea Bass with Chili-Lime Dressing","href":"https://www.allrecipes.com/recipe/233254/grilled-sea-bass-with-chili-lime-dressing","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec17"},"id":238942,"name":"Slow Cooker White Chicken Chili","href":"https://www.allrecipes.com/recipe/238942/slow-cooker-white-chicken-chili","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec18"},"id":133734,"name":"Super Easy Chicken Chili","href":"https://www.allrecipes.com/recipe/133734/super-easy-chicken-chili","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec19"},"id":162975,"name":"Leftover Dog Pile","href":"https://www.allrecipes.com/recipe/162975/leftover-dog-pile","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec1a"},"id":244486,"name":"Smoky Pork, Bacon and White Bean Chili from Smithfield®","href":"https://www.allrecipes.com/recipe/244486/smoky-pork-bacon-and-white-bean-chili-from-smithfield","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec1b"},"id":256053,"name":"Spicy Creole Chili","href":"https://www.allrecipes.com/recipe/256053/spicy-creole-chili","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec1c"},"id":218219,"name":"Chili Cream Cheese Frosting","href":"https://www.allrecipes.com/recipe/218219/chili-cream-cheese-frosting","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec1d"},"id":31773,"name":"West Texas-Style Buffalo Chili","href":"https://www.allrecipes.com/recipe/31773/west-texas-style-buffalo-chili","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec1e"},"id":44831,"name":"Cowboy Mexican Dip","href":"https://www.allrecipes.com/recipe/44831/cowboy-mexican-dip","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec1f"},"id":260386,"name":"Caveman Chili","href":"https://www.allrecipes.com/recipe/260386/caveman-chili","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec20"},"id":237958,"name":"Papa Funk's Campfire Chili","href":"https://www.allrecipes.com/recipe/237958/papa-funks-campfire-chili","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec21"},"id":239253,"name":"Mojito Shrimp Lettuce Wraps","href":"https://www.allrecipes.com/recipe/239253/mojito-shrimp-lettuce-wraps","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec22"},"id":219879,"name":"Easy White Chili II","href":"https://www.allrecipes.com/recipe/219879/easy-white-chili-ii","viewed":1}
+{"_id":{"$oid":"5ca511f9f07ba52dd725ec23"},"id":233605,"name":"Tray's Spicy Texas Chili","href":"https://www.allrecipes.com/recipe/233605/trays-spicy-texas-chili","viewed":1}
+{"_id":{"$oid":"5ca51203f07ba52dd725ec24"},"id":13354,"name":"Taco Soup V","href":"https://www.allrecipes.com/recipe/13354/taco-soup-v","viewed":1}
+{"_id":{"$oid":"5ca51203f07ba52dd725ec25"},"id":169573,"name":"Spicy Lentil Nachos","href":"https://www.allrecipes.com/recipe/169573/spicy-lentil-nachos","viewed":1}
+{"_id":{"$oid":"5ca51203f07ba52dd725ec26"},"id":169777,"name":"Chili-Roasted Kale","href":"https://www.allrecipes.com/recipe/169777/chili-roasted-kale","viewed":1}
+{"_id":{"$oid":"5ca51203f07ba52dd725ec27"},"id":22945,"name":"White Chili III","href":"https://www.allrecipes.com/recipe/22945/white-chili-iii","viewed":-1}
+{"_id":{"$oid":"5ca51203f07ba52dd725ec28"},"id":247366,"name":"Chef John's Indoor BBQ Shrimp","href":"https://www.allrecipes.com/recipe/247366/chef-johns-indoor-bbq-shrimp","viewed":1}
+{"_id":{"$oid":"5ca51203f07ba52dd725ec29"},"id":25526,"name":"Chili Con Queso Dip II","href":"https://www.allrecipes.com/recipe/25526/chili-con-queso-dip-ii","viewed":1}
+{"_id":{"$oid":"5ca51203f07ba52dd725ec2a"},"id":15692,"name":"Chili Cheese Dip II","href":"https://www.allrecipes.com/recipe/15692/chili-cheese-dip-ii","viewed":1}
+{"_id":{"$oid":"5ca51203f07ba52dd725ec2b"},"id":13430,"name":"Santa Fe Soup","href":"https://www.allrecipes.com/recipe/13430/santa-fe-soup","viewed":1}
+{"_id":{"$oid":"5ca51203f07ba52dd725ec2c"},"id":151628,"name":"2-Bean Chili","href":"https://www.allrecipes.com/recipe/151628/2-bean-chili","viewed":1}
+{"_id":{"$oid":"5ca51203f07ba52dd725ec2d"},"id":16753,"name":"Rae's Vegetarian Chili","href":"https://www.allrecipes.com/recipe/16753/raes-vegetarian-chili","viewed":1}
+{"_id":{"$oid":"5ca51203f07ba52dd725ec2e"},"id":237906,"name":"Homemade Chili Sauce","href":"https://www.allrecipes.com/recipe/237906/homemade-chili-sauce","viewed":1}
+{"_id":{"$oid":"5ca51203f07ba52dd725ec2f"},"id":244658,"name":"Spicy Roasted Butternut Squash, Pear, and Bacon Soup","href":"https://www.allrecipes.com/recipe/244658/spicy-roasted-butternut-squash-pear-and-bacon-soup","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4a3"},"id":13149,"name":"Cream of Asparagus Soup I","href":"https://www.allrecipes.com/recipe/13149/cream-of-asparagus-soup-i","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4a4"},"id":218791,"name":"Jersey Fresh Tomato Soup","href":"https://www.allrecipes.com/recipe/218791/jersey-fresh-tomato-soup","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4a5"},"id":13082,"name":"Tortellini Soup I","href":"https://www.allrecipes.com/recipe/13082/tortellini-soup-i","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4a6"},"id":77981,"name":"Butternut Squash Soup II","href":"https://www.allrecipes.com/recipe/77981/butternut-squash-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4a7"},"id":22927,"name":"Creamy Potato Leek Soup II","href":"https://www.allrecipes.com/recipe/22927/creamy-potato-leek-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4a8"},"id":13045,"name":"Broccoli Cheese Soup","href":"https://www.allrecipes.com/recipe/13045/broccoli-cheese-soup","viewed":-1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4a9"},"id":220126,"name":"Chef John's Sausage \u0026 Shrimp Jambalaya","href":"https://www.allrecipes.com/recipe/220126/chef-johns-sausage-shrimp-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4aa"},"id":213734,"name":"Butternut Squash Soup with a Kick","href":"https://www.allrecipes.com/recipe/213734/butternut-squash-soup-with-a-kick","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4ab"},"id":21392,"name":"Boudreaux's Zydeco Stomp Gumbo","href":"https://www.allrecipes.com/recipe/21392/boudreauxs-zydeco-stomp-gumbo","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4ac"},"id":218057,"name":"Chicken Enchilada Slow Cooker Soup","href":"https://www.allrecipes.com/recipe/218057/chicken-enchilada-slow-cooker-soup","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4ad"},"id":219936,"name":"Spicy Chicken Thai Soup","href":"https://www.allrecipes.com/recipe/219936/spicy-chicken-thai-soup","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4ae"},"id":53887,"name":"Cindy's Awesome Clam Chowder","href":"https://www.allrecipes.com/recipe/53887/cindys-awesome-clam-chowder","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4af"},"id":23236,"name":"Toscana Soup","href":"https://www.allrecipes.com/recipe/23236/toscana-soup","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4b0"},"id":237996,"name":"Cream of Chicken and Gnocchi Soup","href":"https://www.allrecipes.com/recipe/237996/cream-of-chicken-and-gnocchi-soup","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4b1"},"id":25665,"name":"Baked Potato Soup V","href":"https://www.allrecipes.com/recipe/25665/baked-potato-soup-v","viewed":1}
+{"_id":{"$oid":"5ca54b04c6d0b009c57ef4b2"},"id":13434,"name":"Mama's Italian Wedding Soup","href":"https://www.allrecipes.com/recipe/13434/mamas-italian-wedding-soup","viewed":1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4b3"},"id":23865,"name":"Ultimate Potato Soup","href":"https://www.allrecipes.com/recipe/23865/ultimate-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4b4"},"id":78023,"name":"Bean Soup With Kale","href":"https://www.allrecipes.com/recipe/78023/bean-soup-with-kale","viewed":1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4b5"},"id":26358,"name":"Awesome Chicken Noodle Soup","href":"https://www.allrecipes.com/recipe/26358/awesome-chicken-noodle-soup","viewed":1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4b6"},"id":25333,"name":"Vegan Black Bean Soup","href":"https://www.allrecipes.com/recipe/25333/vegan-black-bean-soup","viewed":1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4b7"},"id":132785,"name":"Vegetarian Kale Soup","href":"https://www.allrecipes.com/recipe/132785/vegetarian-kale-soup","viewed":1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4b8"},"id":16678,"name":"Slow Cooker Taco Soup","href":"https://www.allrecipes.com/recipe/16678/slow-cooker-taco-soup","viewed":1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4b9"},"id":13028,"name":"Italian Vegetable Soup","href":"https://www.allrecipes.com/recipe/13028/italian-vegetable-soup","viewed":1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4ba"},"id":231291,"name":"Hearty Chicken and Rice Soup","href":"https://www.allrecipes.com/recipe/231291/hearty-chicken-and-rice-soup","viewed":1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4bb"},"id":26463,"name":"Salmon Chowder","href":"https://www.allrecipes.com/recipe/26463/salmon-chowder","viewed":1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4bc"},"id":12992,"name":"Cheese and Broccoli Chicken Soup","href":"https://www.allrecipes.com/recipe/12992/cheese-and-broccoli-chicken-soup","viewed":-1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4bd"},"id":214167,"name":"Ken's Kickin' Posole","href":"https://www.allrecipes.com/recipe/214167/kens-kickin-posole","viewed":1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4be"},"id":15113,"name":"Broccoli Cheese Soup V","href":"https://www.allrecipes.com/recipe/15113/broccoli-cheese-soup-v","viewed":-1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4bf"},"id":13024,"name":"Italian Wedding Soup I","href":"https://www.allrecipes.com/recipe/13024/italian-wedding-soup-i","viewed":1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4c0"},"id":188390,"name":"Easy Chicken Fajita Soup","href":"https://www.allrecipes.com/recipe/188390/easy-chicken-fajita-soup","viewed":1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4c1"},"id":13043,"name":"Old-Fashioned Potato Soup","href":"https://www.allrecipes.com/recipe/13043/old-fashioned-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca54b0fc6d0b009c57ef4c2"},"id":13187,"name":"Minestrone Soup I","href":"https://www.allrecipes.com/recipe/13187/minestrone-soup-i","viewed":1}
+{"_id":{"$oid":"5ca54b35f07ba509b63e933b"},"id":69635,"name":"Low Carb Cauliflower Leek Soup","href":"https://www.allrecipes.com/recipe/69635/low-carb-cauliflower-leek-soup","viewed":1}
+{"_id":{"$oid":"5ca54b35f07ba509b63e933c"},"id":88690,"name":"Jackie's Sausage Soup","href":"https://www.allrecipes.com/recipe/88690/jackies-sausage-soup","viewed":1}
+{"_id":{"$oid":"5ca54b35f07ba509b63e933d"},"id":141115,"name":"Cajun Corn and Crab Bisque","href":"https://www.allrecipes.com/recipe/141115/cajun-corn-and-crab-bisque","viewed":1}
+{"_id":{"$oid":"5ca54b35f07ba509b63e933e"},"id":164555,"name":"Slow Cooker Taco Soup","href":"https://www.allrecipes.com/recipe/164555/slow-cooker-taco-soup","viewed":1}
+{"_id":{"$oid":"5ca54b35f07ba509b63e933f"},"id":234864,"name":"Ham and Sweet Potato Soup","href":"https://www.allrecipes.com/recipe/234864/ham-and-sweet-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca54b35f07ba509b63e9340"},"id":220910,"name":"Slow Cooker, Easy Baked Potato Soup","href":"https://www.allrecipes.com/recipe/220910/slow-cooker-easy-baked-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca54b35f07ba509b63e9341"},"id":25667,"name":"Cajun Crab Soup","href":"https://www.allrecipes.com/recipe/25667/cajun-crab-soup","viewed":1}
+{"_id":{"$oid":"5ca54b35f07ba509b63e9342"},"id":15021,"name":"Cream of Chicken with Wild Rice Soup","href":"https://www.allrecipes.com/recipe/15021/cream-of-chicken-with-wild-rice-soup","viewed":1}
+{"_id":{"$oid":"5ca54b35f07ba509b63e9343"},"id":174755,"name":"Sheryl's Corn and Crab Chowder","href":"https://www.allrecipes.com/recipe/174755/sheryls-corn-and-crab-chowder","viewed":1}
+{"_id":{"$oid":"5ca54b35f07ba509b63e9344"},"id":17960,"name":"Fresh Asparagus Soup","href":"https://www.allrecipes.com/recipe/17960/fresh-asparagus-soup","viewed":1}
+{"_id":{"$oid":"5ca54b35f07ba509b63e9345"},"id":240587,"name":"Easy Slow Cooker Chicken and Dumplings","href":"https://www.allrecipes.com/recipe/240587/easy-slow-cooker-chicken-and-dumplings","viewed":1}
+{"_id":{"$oid":"5ca54b35f07ba509b63e9346"},"id":13389,"name":"Quick and Easy Clam Chowder","href":"https://www.allrecipes.com/recipe/13389/quick-and-easy-clam-chowder","viewed":1}
+{"_id":{"$oid":"5ca54b35f07ba509b63e9347"},"id":70330,"name":"Vegan Red Lentil Soup","href":"https://www.allrecipes.com/recipe/70330/vegan-red-lentil-soup","viewed":1}
+{"_id":{"$oid":"5ca54b35f07ba509b63e9348"},"id":13035,"name":"Cream of Spinach Soup","href":"https://www.allrecipes.com/recipe/13035/cream-of-spinach-soup","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e9349"},"id":12899,"name":"Vegetable Chowder","href":"https://www.allrecipes.com/recipe/12899/vegetable-chowder","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e934a"},"id":235584,"name":"Chicken Taco Casserole","href":"https://www.allrecipes.com/recipe/235584/chicken-taco-casserole","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e934b"},"id":15346,"name":"Jean's Homemade Chicken Noodle Soup","href":"https://www.allrecipes.com/recipe/15346/jeans-homemade-chicken-noodle-soup","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e934c"},"id":202716,"name":"Buffalo Chicken Soup","href":"https://www.allrecipes.com/recipe/202716/buffalo-chicken-soup","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e934d"},"id":16016,"name":"Lentil Soup","href":"https://www.allrecipes.com/recipe/16016/lentil-soup","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e934e"},"id":13071,"name":"Ham, Potato, and Cheese Soup","href":"https://www.allrecipes.com/recipe/13071/ham-potato-and-cheese-soup","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e934f"},"id":16790,"name":"Seafood Cioppino","href":"https://www.allrecipes.com/recipe/16790/seafood-cioppino","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e9350"},"id":155184,"name":"Easy Chicken Posole","href":"https://www.allrecipes.com/recipe/155184/easy-chicken-posole","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e9351"},"id":35781,"name":"California Italian Wedding Soup","href":"https://www.allrecipes.com/recipe/35781/california-italian-wedding-soup","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e9352"},"id":13214,"name":"Sausage Soup","href":"https://www.allrecipes.com/recipe/13214/sausage-soup","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e9353"},"id":12732,"name":"Fish Chowder","href":"https://www.allrecipes.com/recipe/12732/fish-chowder","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e9354"},"id":104786,"name":"Creamy Spinach Soup","href":"https://www.allrecipes.com/recipe/104786/creamy-spinach-soup","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e9355"},"id":24392,"name":"Southwestern Turkey Soup","href":"https://www.allrecipes.com/recipe/24392/southwestern-turkey-soup","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e9356"},"id":12999,"name":"Spicy Black Bean Vegetable Soup","href":"https://www.allrecipes.com/recipe/12999/spicy-black-bean-vegetable-soup","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e9357"},"id":228857,"name":"Restaurant-Style French Onion Soup","href":"https://www.allrecipes.com/recipe/228857/restaurant-style-french-onion-soup","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e9358"},"id":228638,"name":"Caramelized Butternut Squash Soup","href":"https://www.allrecipes.com/recipe/228638/caramelized-butternut-squash-soup","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e9359"},"id":26382,"name":"Chicken Enchilada Soup III","href":"https://www.allrecipes.com/recipe/26382/chicken-enchilada-soup-iii","viewed":1}
+{"_id":{"$oid":"5ca54b40f07ba509b63e935a"},"id":14986,"name":"Slow Cooker Beef Vegetable Soup","href":"https://www.allrecipes.com/recipe/14986/slow-cooker-beef-vegetable-soup","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59883"},"id":68679,"name":"Hearty Hamburger Soup","href":"https://www.allrecipes.com/recipe/68679/hearty-hamburger-soup","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59884"},"id":13041,"name":"My Best Clam Chowder","href":"https://www.allrecipes.com/recipe/13041/my-best-clam-chowder","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59885"},"id":146035,"name":"The Best Thai Coconut Soup","href":"https://www.allrecipes.com/recipe/146035/the-best-thai-coconut-soup","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59886"},"id":231287,"name":"Sausage, Potato and Kale Soup","href":"https://www.allrecipes.com/recipe/231287/sausage-potato-and-kale-soup","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59887"},"id":105518,"name":"The Best Bean and Ham Soup","href":"https://www.allrecipes.com/recipe/105518/the-best-bean-and-ham-soup","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59888"},"id":16690,"name":"Rich Italian Sausage and Potato Soup","href":"https://www.allrecipes.com/recipe/16690/rich-italian-sausage-and-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59889"},"id":231009,"name":"Chef John's Beef Goulash","href":"https://www.allrecipes.com/recipe/231009/chef-johns-beef-goulash","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba5988a"},"id":12974,"name":"Butternut Squash Soup","href":"https://www.allrecipes.com/recipe/12974/butternut-squash-soup","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba5988b"},"id":229241,"name":"Vegan Broccoli Soup","href":"https://www.allrecipes.com/recipe/229241/vegan-broccoli-soup","viewed":-1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba5988c"},"id":228087,"name":"Low Carb Jambalaya","href":"https://www.allrecipes.com/recipe/228087/low-carb-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba5988d"},"id":13113,"name":"Rich and Creamy Tomato Basil Soup","href":"https://www.allrecipes.com/recipe/13113/rich-and-creamy-tomato-basil-soup","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba5988e"},"id":141114,"name":"Cajun Chicken and Sausage Gumbo","href":"https://www.allrecipes.com/recipe/141114/cajun-chicken-and-sausage-gumbo","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba5988f"},"id":13367,"name":"Chicken Tortilla Soup II","href":"https://www.allrecipes.com/recipe/13367/chicken-tortilla-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59890"},"id":80819,"name":"Fast and Delicious Black Bean Soup","href":"https://www.allrecipes.com/recipe/80819/fast-and-delicious-black-bean-soup","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59891"},"id":13309,"name":"Rich and Simple French Onion Soup","href":"https://www.allrecipes.com/recipe/13309/rich-and-simple-french-onion-soup","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59892"},"id":13404,"name":"World's Best Potato Soup","href":"https://www.allrecipes.com/recipe/13404/worlds-best-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59893"},"id":94031,"name":"Sweet Russian Cabbage Soup","href":"https://www.allrecipes.com/recipe/94031/sweet-russian-cabbage-soup","viewed":1}
+{"_id":{"$oid":"5ca54ba5c6d0b00a7ba59894"},"id":19492,"name":"Newport Clam Chowder","href":"https://www.allrecipes.com/recipe/19492/newport-clam-chowder","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba59895"},"id":45426,"name":"Lentil and Sausage Soup","href":"https://www.allrecipes.com/recipe/45426/lentil-and-sausage-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba59896"},"id":220091,"name":"Cream of Asparagus and Mushroom Soup","href":"https://www.allrecipes.com/recipe/220091/cream-of-asparagus-and-mushroom-soup","viewed":-1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba59897"},"id":78526,"name":"Eggplant Supper Soup","href":"https://www.allrecipes.com/recipe/78526/eggplant-supper-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba59898"},"id":13022,"name":"Tortilla Soup II","href":"https://www.allrecipes.com/recipe/13022/tortilla-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba59899"},"id":76902,"name":"Italian Sausage Soup II","href":"https://www.allrecipes.com/recipe/76902/italian-sausage-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba5989a"},"id":220179,"name":"Quick and Easy Black Bean Soup","href":"https://www.allrecipes.com/recipe/220179/quick-and-easy-black-bean-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba5989b"},"id":78052,"name":"Beaker's Vegetable Barley Soup","href":"https://www.allrecipes.com/recipe/78052/beakers-vegetable-barley-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba5989c"},"id":29575,"name":"Big Ed's Cajun Shrimp Soup","href":"https://www.allrecipes.com/recipe/29575/big-eds-cajun-shrimp-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba5989d"},"id":80743,"name":"Vegetarian Tortilla Soup","href":"https://www.allrecipes.com/recipe/80743/vegetarian-tortilla-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba5989e"},"id":13126,"name":"Zuppa Toscana","href":"https://www.allrecipes.com/recipe/13126/zuppa-toscana","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba5989f"},"id":215693,"name":"Onion Soup Mix","href":"https://www.allrecipes.com/recipe/215693/onion-soup-mix","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba598a0"},"id":13338,"name":"Quick and Easy Vegetable Soup","href":"https://www.allrecipes.com/recipe/13338/quick-and-easy-vegetable-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba598a1"},"id":22890,"name":"Creamy Mushroom Soup","href":"https://www.allrecipes.com/recipe/22890/creamy-mushroom-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba598a2"},"id":13206,"name":"Grandma's Chicken Noodle Soup","href":"https://www.allrecipes.com/recipe/13206/grandmas-chicken-noodle-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba598a3"},"id":26472,"name":"The Best Chicken Soup Ever","href":"https://www.allrecipes.com/recipe/26472/the-best-chicken-soup-ever","viewed":1}
+{"_id":{"$oid":"5ca54bb0c6d0b00a7ba598a4"},"id":228859,"name":"Slow Cooker French Onion Soup","href":"https://www.allrecipes.com/recipe/228859/slow-cooker-french-onion-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff1f"},"id":140516,"name":"Pressure Cooker Italian Chicken Soup","href":"https://www.allrecipes.com/recipe/140516/pressure-cooker-italian-chicken-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff20"},"id":17695,"name":"Baked Potato Soup III","href":"https://www.allrecipes.com/recipe/17695/baked-potato-soup-iii","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff21"},"id":12982,"name":"Basic Vegetable Stock","href":"https://www.allrecipes.com/recipe/12982/basic-vegetable-stock","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff22"},"id":17628,"name":"Basic Ham and Bean Soup","href":"https://www.allrecipes.com/recipe/17628/basic-ham-and-bean-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff23"},"id":13182,"name":"Stuffed Pepper Soup I","href":"https://www.allrecipes.com/recipe/13182/stuffed-pepper-soup-i","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff24"},"id":13238,"name":"Pasta e Fagioli I","href":"https://www.allrecipes.com/recipe/13238/pasta-e-fagioli-i","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff25"},"id":137650,"name":"Greek Lentil Soup (Fakes)","href":"https://www.allrecipes.com/recipe/137650/greek-lentil-soup-fakes","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff26"},"id":19766,"name":"Six Can Chicken Tortilla Soup","href":"https://www.allrecipes.com/recipe/19766/six-can-chicken-tortilla-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff27"},"id":12971,"name":"Navy Bean Soup I","href":"https://www.allrecipes.com/recipe/12971/navy-bean-soup-i","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff28"},"id":68949,"name":"Spicy Sweet Potato Soup","href":"https://www.allrecipes.com/recipe/68949/spicy-sweet-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff29"},"id":25733,"name":"Mandi's Cheesy Potato Soup","href":"https://www.allrecipes.com/recipe/25733/mandis-cheesy-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff2a"},"id":216902,"name":"Poppy Seed Chicken Casserole","href":"https://www.allrecipes.com/recipe/216902/poppy-seed-chicken-casserole","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff2b"},"id":255823,"name":"Pasta Fazool (Pasta e Fagioli)","href":"https://www.allrecipes.com/recipe/255823/pasta-fazool-pasta-e-fagioli","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff2c"},"id":57544,"name":"Mexican Zucchini Cheese Soup","href":"https://www.allrecipes.com/recipe/57544/mexican-zucchini-cheese-soup","viewed":1}
+{"_id":{"$oid":"5ca54bb7f07ba50a0f5eff2d"},"id":219753,"name":"Turkey Taco Soup","href":"https://www.allrecipes.com/recipe/219753/turkey-taco-soup","viewed":1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598a5"},"id":214556,"name":"Steak Soup","href":"https://www.allrecipes.com/recipe/214556/steak-soup","viewed":1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598a6"},"id":89199,"name":"Split Pea Soup with Rosemary","href":"https://www.allrecipes.com/recipe/89199/split-pea-soup-with-rosemary","viewed":1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598a7"},"id":23245,"name":"Mexican Chicken Soup","href":"https://www.allrecipes.com/recipe/23245/mexican-chicken-soup","viewed":1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598a8"},"id":90239,"name":"Quick Hoppin' John Soup","href":"https://www.allrecipes.com/recipe/90239/quick-hoppin-john-soup","viewed":1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598a9"},"id":13308,"name":"Lance's French Onion Soup","href":"https://www.allrecipes.com/recipe/13308/lances-french-onion-soup","viewed":-1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598aa"},"id":220271,"name":"Erin's Cheesy Broccoli Soup","href":"https://www.allrecipes.com/recipe/220271/erins-cheesy-broccoli-soup","viewed":-1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598ab"},"id":39544,"name":"Garden Fresh Tomato Soup","href":"https://www.allrecipes.com/recipe/39544/garden-fresh-tomato-soup","viewed":1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598ac"},"id":55451,"name":"Butternut Squash Bisque","href":"https://www.allrecipes.com/recipe/55451/butternut-squash-bisque","viewed":1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598ad"},"id":12921,"name":"Hamburger Soup I","href":"https://www.allrecipes.com/recipe/12921/hamburger-soup-i","viewed":1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598ae"},"id":218804,"name":"Turkey Carcass Soup","href":"https://www.allrecipes.com/recipe/218804/turkey-carcass-soup","viewed":1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598af"},"id":86096,"name":"Grandma's Corn Chowder","href":"https://www.allrecipes.com/recipe/86096/grandmas-corn-chowder","viewed":1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598b0"},"id":215602,"name":"Roasted Butternut Squash Soup","href":"https://www.allrecipes.com/recipe/215602/roasted-butternut-squash-soup","viewed":1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598b1"},"id":25688,"name":"Pasta e Fagioli a la Chez Ivano","href":"https://www.allrecipes.com/recipe/25688/pasta-e-fagioli-a-la-chez-ivano","viewed":1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598b2"},"id":13288,"name":"Split Pea and Ham Soup I","href":"https://www.allrecipes.com/recipe/13288/split-pea-and-ham-soup-i","viewed":1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598b3"},"id":13019,"name":"Mexican Chicken Corn Chowder","href":"https://www.allrecipes.com/recipe/13019/mexican-chicken-corn-chowder","viewed":1}
+{"_id":{"$oid":"5ca54bbbc6d0b00a7ba598b4"},"id":15553,"name":"Chicken Tortilla Soup III","href":"https://www.allrecipes.com/recipe/15553/chicken-tortilla-soup-iii","viewed":1}
+{"_id":{"$oid":"5ca54bc2f07ba50a0f5eff2e"},"id":231408,"name":"Leslie's Ham Lentil Soup","href":"https://www.allrecipes.com/recipe/231408/leslies-ham-lentil-soup","viewed":1}
+{"_id":{"$oid":"5ca54bc2f07ba50a0f5eff2f"},"id":236616,"name":"Tuscan Bean, Chicken, and Italian Sausage Soup","href":"https://www.allrecipes.com/recipe/236616/tuscan-bean-chicken-and-italian-sausage-soup","viewed":1}
+{"_id":{"$oid":"5ca54bc2f07ba50a0f5eff30"},"id":13993,"name":"Potato Cheese Soup","href":"https://www.allrecipes.com/recipe/13993/potato-cheese-soup","viewed":1}
+{"_id":{"$oid":"5ca54bc2f07ba50a0f5eff31"},"id":184193,"name":"Italian Meatball and Cheese Tortellini Soup","href":"https://www.allrecipes.com/recipe/184193/italian-meatball-and-cheese-tortellini-soup","viewed":1}
+{"_id":{"$oid":"5ca54bc2f07ba50a0f5eff32"},"id":212664,"name":"Turkey Wild Rice Soup II","href":"https://www.allrecipes.com/recipe/212664/turkey-wild-rice-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca54bc2f07ba50a0f5eff33"},"id":182112,"name":"Carrot, Potato, and Cabbage Soup","href":"https://www.allrecipes.com/recipe/182112/carrot-potato-and-cabbage-soup","viewed":1}
+{"_id":{"$oid":"5ca54bc2f07ba50a0f5eff34"},"id":232546,"name":"Easy Chicken and Corn Chowder","href":"https://www.allrecipes.com/recipe/232546/easy-chicken-and-corn-chowder","viewed":1}
+{"_id":{"$oid":"5ca54bc2f07ba50a0f5eff35"},"id":26385,"name":"Chicken Soup III","href":"https://www.allrecipes.com/recipe/26385/chicken-soup-iii","viewed":1}
+{"_id":{"$oid":"5ca54bc2f07ba50a0f5eff36"},"id":203762,"name":"Sopa De Lima (Mexican Lime Soup)","href":"https://www.allrecipes.com/recipe/203762/sopa-de-lima-mexican-lime-soup","viewed":1}
+{"_id":{"$oid":"5ca54bc2f07ba50a0f5eff37"},"id":29798,"name":"Ham Bone Soup","href":"https://www.allrecipes.com/recipe/29798/ham-bone-soup","viewed":1}
+{"_id":{"$oid":"5ca54bc2f07ba50a0f5eff38"},"id":151940,"name":"Spicy Sweet Potato and Coconut Soup","href":"https://www.allrecipes.com/recipe/151940/spicy-sweet-potato-and-coconut-soup","viewed":1}
+{"_id":{"$oid":"5ca54bc2f07ba50a0f5eff39"},"id":245272,"name":"Chef John's Roasted Butternut Squash Soup","href":"https://www.allrecipes.com/recipe/245272/chef-johns-roasted-butternut-squash-soup","viewed":-1}
+{"_id":{"$oid":"5ca54bc2f07ba50a0f5eff3a"},"id":234942,"name":"Almost Tuscan Sausage and Kale Soup","href":"https://www.allrecipes.com/recipe/234942/almost-tuscan-sausage-and-kale-soup","viewed":1}
+{"_id":{"$oid":"5ca54bc2f07ba50a0f5eff3b"},"id":70451,"name":"Sausage Barley Soup","href":"https://www.allrecipes.com/recipe/70451/sausage-barley-soup","viewed":1}
+{"_id":{"$oid":"5ca54bcdf07ba50a0f5eff3c"},"id":45515,"name":"Restaurant Style Egg Drop Soup","href":"https://www.allrecipes.com/recipe/45515/restaurant-style-egg-drop-soup","viewed":1}
+{"_id":{"$oid":"5ca54bcdf07ba50a0f5eff3d"},"id":25745,"name":"Tomato Bisque II","href":"https://www.allrecipes.com/recipe/25745/tomato-bisque-ii","viewed":-1}
+{"_id":{"$oid":"5ca54bcdf07ba50a0f5eff3e"},"id":217125,"name":"Black-Eyed Pea Soup","href":"https://www.allrecipes.com/recipe/217125/black-eyed-pea-soup","viewed":1}
+{"_id":{"$oid":"5ca54bcdf07ba50a0f5eff3f"},"id":17999,"name":"Shrimp Etouffee II","href":"https://www.allrecipes.com/recipe/17999/shrimp-etouffee-ii","viewed":1}
+{"_id":{"$oid":"5ca54bcdf07ba50a0f5eff40"},"id":13076,"name":"Bacon and Potato Soup","href":"https://www.allrecipes.com/recipe/13076/bacon-and-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca54bcdf07ba50a0f5eff41"},"id":13388,"name":"Potato Soup V","href":"https://www.allrecipes.com/recipe/13388/potato-soup-v","viewed":1}
+{"_id":{"$oid":"5ca54bcdf07ba50a0f5eff42"},"id":256108,"name":"Potato Leek Soup (Vichyssoise)","href":"https://www.allrecipes.com/recipe/256108/potato-leek-soup-vichyssoise","viewed":1}
+{"_id":{"$oid":"5ca54bcdf07ba50a0f5eff43"},"id":239635,"name":"Quick Super-Delicious Zuppa Toscana","href":"https://www.allrecipes.com/recipe/239635/quick-super-delicious-zuppa-toscana","viewed":1}
+{"_id":{"$oid":"5ca54bcdf07ba50a0f5eff44"},"id":13400,"name":"Zucchini Soup II","href":"https://www.allrecipes.com/recipe/13400/zucchini-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca54bcdf07ba50a0f5eff45"},"id":234991,"name":"Cauliflower Potato Soup","href":"https://www.allrecipes.com/recipe/234991/cauliflower-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca54bcdf07ba50a0f5eff46"},"id":23860,"name":"Best Ever Split Pea","href":"https://www.allrecipes.com/recipe/23860/best-ever-split-pea","viewed":1}
+{"_id":{"$oid":"5ca54bcdf07ba50a0f5eff47"},"id":13307,"name":"Restaurant-Quality Baked Potato Soup","href":"https://www.allrecipes.com/recipe/13307/restaurant-quality-baked-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca54bcdf07ba50a0f5eff48"},"id":12950,"name":"Chicken Andouille Gumbo","href":"https://www.allrecipes.com/recipe/12950/chicken-andouille-gumbo","viewed":1}
+{"_id":{"$oid":"5ca54bcdf07ba50a0f5eff49"},"id":20422,"name":"Zeke's Tortilla Soup","href":"https://www.allrecipes.com/recipe/20422/zekes-tortilla-soup","viewed":1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff4a"},"id":85517,"name":"Russian Cabbage Borscht","href":"https://www.allrecipes.com/recipe/85517/russian-cabbage-borscht","viewed":1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff4b"},"id":11843,"name":"Irish Chicken and Dumplings","href":"https://www.allrecipes.com/recipe/11843/irish-chicken-and-dumplings","viewed":1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff4c"},"id":235874,"name":"Copycat Panera® Broccoli Cheddar Soup","href":"https://www.allrecipes.com/recipe/235874/copycat-panera-broccoli-cheddar-soup","viewed":-1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff4d"},"id":13378,"name":"Stuffed Pepper Soup IV","href":"https://www.allrecipes.com/recipe/13378/stuffed-pepper-soup-iv","viewed":1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff4e"},"id":204343,"name":"New Orleans Corn Bisque with Smoked Sausage","href":"https://www.allrecipes.com/recipe/204343/new-orleans-corn-bisque-with-smoked-sausage","viewed":1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff4f"},"id":234932,"name":"Chef John's Pork al Latte","href":"https://www.allrecipes.com/recipe/234932/chef-johns-pork-al-latte","viewed":1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff50"},"id":220779,"name":"Winter Leek and Potato Soup","href":"https://www.allrecipes.com/recipe/220779/winter-leek-and-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff51"},"id":15118,"name":"Cheese Soup with Broccoli","href":"https://www.allrecipes.com/recipe/15118/cheese-soup-with-broccoli","viewed":-1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff52"},"id":229451,"name":"Beef and Beet Borscht","href":"https://www.allrecipes.com/recipe/229451/beef-and-beet-borscht","viewed":1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff53"},"id":15867,"name":"Chicken and Dumplings III","href":"https://www.allrecipes.com/recipe/15867/chicken-and-dumplings-iii","viewed":1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff54"},"id":59635,"name":"Butternut and Acorn Squash Soup","href":"https://www.allrecipes.com/recipe/59635/butternut-and-acorn-squash-soup","viewed":1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff55"},"id":236378,"name":"Roasted Tomato Soup","href":"https://www.allrecipes.com/recipe/236378/roasted-tomato-soup","viewed":1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff56"},"id":8940,"name":"Lighter Chicken and Dumplings","href":"https://www.allrecipes.com/recipe/8940/lighter-chicken-and-dumplings","viewed":1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff57"},"id":188661,"name":"Cajun Potato Soup","href":"https://www.allrecipes.com/recipe/188661/cajun-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff58"},"id":13398,"name":"Chicken Cheese Chowder","href":"https://www.allrecipes.com/recipe/13398/chicken-cheese-chowder","viewed":1}
+{"_id":{"$oid":"5ca54bd8f07ba50a0f5eff59"},"id":234510,"name":"Easy Baked Turkey Wings","href":"https://www.allrecipes.com/recipe/234510/easy-baked-turkey-wings","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff5a"},"id":220477,"name":"Chunky Vegetarian Vegetable Soup (Fast and Easy)","href":"https://www.allrecipes.com/recipe/220477/chunky-vegetarian-vegetable-soup-fast-and-easy","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff5b"},"id":12979,"name":"Apricot Lentil Soup","href":"https://www.allrecipes.com/recipe/12979/apricot-lentil-soup","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff5c"},"id":13353,"name":"Potato, Broccoli and Cheese Soup","href":"https://www.allrecipes.com/recipe/13353/potato-broccoli-and-cheese-soup","viewed":-1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff5d"},"id":23145,"name":"Chicken Enchilada Soup II","href":"https://www.allrecipes.com/recipe/23145/chicken-enchilada-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff5e"},"id":13081,"name":"Tom Yum Koong Soup","href":"https://www.allrecipes.com/recipe/13081/tom-yum-koong-soup","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff5f"},"id":140897,"name":"Mimi's Smoked Salmon Chowder","href":"https://www.allrecipes.com/recipe/140897/mimis-smoked-salmon-chowder","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff60"},"id":232277,"name":"Creamy Chicken Gnocchi Soup","href":"https://www.allrecipes.com/recipe/232277/creamy-chicken-gnocchi-soup","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff61"},"id":236979,"name":"Chicken Zoodle Soup","href":"https://www.allrecipes.com/recipe/236979/chicken-zoodle-soup","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff62"},"id":15106,"name":"Broccoli Crawfish Cheese Soup","href":"https://www.allrecipes.com/recipe/15106/broccoli-crawfish-cheese-soup","viewed":-1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff63"},"id":12989,"name":"Quick Creamy Potato Soup","href":"https://www.allrecipes.com/recipe/12989/quick-creamy-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff64"},"id":228220,"name":"Cheesy Hash Browns","href":"https://www.allrecipes.com/recipe/228220/cheesy-hash-browns","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff65"},"id":76960,"name":"Chicken Tortellini Soup With Zucchini and Tomatoes","href":"https://www.allrecipes.com/recipe/76960/chicken-tortellini-soup-with-zucchini-and-tomatoes","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff66"},"id":15367,"name":"Martha's Vegetable Beef Soup","href":"https://www.allrecipes.com/recipe/15367/marthas-vegetable-beef-soup","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff67"},"id":229372,"name":"Roasted Cauliflower and Leek Soup","href":"https://www.allrecipes.com/recipe/229372/roasted-cauliflower-and-leek-soup","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff68"},"id":139262,"name":"Lebanese-Style Red Lentil Soup","href":"https://www.allrecipes.com/recipe/139262/lebanese-style-red-lentil-soup","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff69"},"id":13116,"name":"Cabbage Fat-Burning Soup","href":"https://www.allrecipes.com/recipe/13116/cabbage-fat-burning-soup","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff6a"},"id":62642,"name":"Albondigas","href":"https://www.allrecipes.com/recipe/62642/albondigas","viewed":1}
+{"_id":{"$oid":"5ca54be2f07ba50a0f5eff6b"},"id":164554,"name":"Hearty Halibut Chowder","href":"https://www.allrecipes.com/recipe/164554/hearty-halibut-chowder","viewed":1}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fc3"},"id":216109,"name":"Old Man's Turkey Noodle Soup","href":"https://www.allrecipes.com/recipe/216109/old-mans-turkey-noodle-soup","viewed":1}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fc4"},"id":73118,"name":"Rachel's Tomato Basil Soup","href":"https://www.allrecipes.com/recipe/73118/rachels-tomato-basil-soup","viewed":1}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fc5"},"id":13062,"name":"Cheeseburger Soup I","href":"https://www.allrecipes.com/recipe/13062/cheeseburger-soup-i","viewed":1}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fc6"},"id":13346,"name":"Bean Soup","href":"https://www.allrecipes.com/recipe/13346/bean-soup","viewed":0}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fc7"},"id":236449,"name":"Easy Beef Stew for the Slow Cooker","href":"https://www.allrecipes.com/recipe/236449/easy-beef-stew-for-the-slow-cooker","viewed":0}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fc8"},"id":13029,"name":"Gramma Brown's Corn Chowder","href":"https://www.allrecipes.com/recipe/13029/gramma-browns-corn-chowder","viewed":0}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fc9"},"id":24400,"name":"Turkey Wild Rice Soup","href":"https://www.allrecipes.com/recipe/24400/turkey-wild-rice-soup","viewed":0}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fca"},"id":59571,"name":"Mushroom Soup Without Cream","href":"https://www.allrecipes.com/recipe/59571/mushroom-soup-without-cream","viewed":0}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fcb"},"id":241533,"name":"Smokey Sausage, Kale \u0026 Sweet Potato Soup","href":"https://www.allrecipes.com/recipe/241533/smokey-sausage-kale-sweet-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fcc"},"id":17950,"name":"Cheesy Potato Soup II","href":"https://www.allrecipes.com/recipe/17950/cheesy-potato-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fcd"},"id":13313,"name":"Best Cream Of Broccoli Soup","href":"https://www.allrecipes.com/recipe/13313/best-cream-of-broccoli-soup","viewed":-1}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fce"},"id":142481,"name":"Roasted Cauliflower Soup","href":"https://www.allrecipes.com/recipe/142481/roasted-cauliflower-soup","viewed":1}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fcf"},"id":25713,"name":"Best Italian Sausage Soup","href":"https://www.allrecipes.com/recipe/25713/best-italian-sausage-soup","viewed":1}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fd0"},"id":23996,"name":"Aaahh! Potato Soup","href":"https://www.allrecipes.com/recipe/23996/aaahh-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fd1"},"id":140444,"name":"Tomato Gorgonzola Soup","href":"https://www.allrecipes.com/recipe/140444/tomato-gorgonzola-soup","viewed":1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fd2"},"id":230904,"name":"Hearty Barley Turkey Soup","href":"https://www.allrecipes.com/recipe/230904/hearty-barley-turkey-soup","viewed":1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fd3"},"id":57661,"name":"Tomato Bisque III","href":"https://www.allrecipes.com/recipe/57661/tomato-bisque-iii","viewed":-1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fd4"},"id":25728,"name":"Cheesy Vegetable Chowder","href":"https://www.allrecipes.com/recipe/25728/cheesy-vegetable-chowder","viewed":-1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fd5"},"id":15043,"name":"Chicken Tortilla Soup IV","href":"https://www.allrecipes.com/recipe/15043/chicken-tortilla-soup-iv","viewed":1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fd6"},"id":233288,"name":"Creamy After-Thanksgiving Turkey Soup","href":"https://www.allrecipes.com/recipe/233288/creamy-after-thanksgiving-turkey-soup","viewed":1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fd7"},"id":13370,"name":"Pasta e Fagioli II","href":"https://www.allrecipes.com/recipe/13370/pasta-e-fagioli-ii","viewed":1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fd8"},"id":208092,"name":"Best Butternut Squash Soup Ever","href":"https://www.allrecipes.com/recipe/208092/best-butternut-squash-soup-ever","viewed":1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fd9"},"id":231282,"name":"Hearty Italian Meatball Soup","href":"https://www.allrecipes.com/recipe/231282/hearty-italian-meatball-soup","viewed":1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fda"},"id":215445,"name":"Grandma Carlson's Turkey Pot Pie","href":"https://www.allrecipes.com/recipe/215445/grandma-carlsons-turkey-pot-pie","viewed":1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fdb"},"id":149118,"name":"Very Easy Mushroom Barley Soup","href":"https://www.allrecipes.com/recipe/149118/very-easy-mushroom-barley-soup","viewed":1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fdc"},"id":236799,"name":"Vegetarian Potato-Leek Soup","href":"https://www.allrecipes.com/recipe/236799/vegetarian-potato-leek-soup","viewed":1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fdd"},"id":14033,"name":"World's Greatest Vegetable Broth","href":"https://www.allrecipes.com/recipe/14033/worlds-greatest-vegetable-broth","viewed":1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fde"},"id":13133,"name":"Cream of Mushroom Soup II","href":"https://www.allrecipes.com/recipe/13133/cream-of-mushroom-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fdf"},"id":216355,"name":"Easy Pleasy Mac N Cheesy - US Navy Style","href":"https://www.allrecipes.com/recipe/216355/easy-pleasy-mac-n-cheesy-us-navy-style","viewed":1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fe0"},"id":74906,"name":"Cream of Celery Soup","href":"https://www.allrecipes.com/recipe/74906/cream-of-celery-soup","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609fe1"},"id":13009,"name":"Pasta Fagioli","href":"https://www.allrecipes.com/recipe/13009/pasta-fagioli","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609fe2"},"id":152227,"name":"Greek Avgolemono Chicken Soup","href":"https://www.allrecipes.com/recipe/152227/greek-avgolemono-chicken-soup","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609fe3"},"id":24411,"name":"Shrimp Bisque II","href":"https://www.allrecipes.com/recipe/24411/shrimp-bisque-ii","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609fe4"},"id":87507,"name":"Corn and Crab Bisque","href":"https://www.allrecipes.com/recipe/87507/corn-and-crab-bisque","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609fe5"},"id":13072,"name":"Chicken Broth in a Slow Cooker","href":"https://www.allrecipes.com/recipe/13072/chicken-broth-in-a-slow-cooker","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609fe6"},"id":222726,"name":"Roasted Vegetable and Kale Soup","href":"https://www.allrecipes.com/recipe/222726/roasted-vegetable-and-kale-soup","viewed":-1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609fe7"},"id":9048,"name":"Lloyd's Healthy Chicken Zoopa","href":"https://www.allrecipes.com/recipe/9048/lloyds-healthy-chicken-zoopa","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609fe8"},"id":76042,"name":"Cabbage Beef Soup","href":"https://www.allrecipes.com/recipe/76042/cabbage-beef-soup","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609fe9"},"id":40203,"name":"Southern Ham and Brown Beans","href":"https://www.allrecipes.com/recipe/40203/southern-ham-and-brown-beans","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609fea"},"id":13121,"name":"Albondigas Soup I","href":"https://www.allrecipes.com/recipe/13121/albondigas-soup-i","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609feb"},"id":16745,"name":"Party Italian Wedding Soup","href":"https://www.allrecipes.com/recipe/16745/party-italian-wedding-soup","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609fec"},"id":12983,"name":"Basic Chicken Stock","href":"https://www.allrecipes.com/recipe/12983/basic-chicken-stock","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609fed"},"id":187924,"name":"Savory Kale, Cannellini Bean, and Potato Soup","href":"https://www.allrecipes.com/recipe/187924/savory-kale-cannellini-bean-and-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609fee"},"id":13003,"name":"Charlotte's Tortellini Soup","href":"https://www.allrecipes.com/recipe/13003/charlottes-tortellini-soup","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609fef"},"id":23890,"name":"Angel's Old Fashioned Beef Stew","href":"https://www.allrecipes.com/recipe/23890/angels-old-fashioned-beef-stew","viewed":1}
+{"_id":{"$oid":"5ca55c4cf07ba50c41609ff0"},"id":235445,"name":"Very Easy Potato Bacon Soup","href":"https://www.allrecipes.com/recipe/235445/very-easy-potato-bacon-soup","viewed":1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609ff1"},"id":229071,"name":"Ground Beef Vegetable Soup","href":"https://www.allrecipes.com/recipe/229071/ground-beef-vegetable-soup","viewed":1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609ff2"},"id":13347,"name":"Pat's Cream of Potato Soup","href":"https://www.allrecipes.com/recipe/13347/pats-cream-of-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609ff3"},"id":16927,"name":"Friendship Soup Mix in a Jar","href":"https://www.allrecipes.com/recipe/16927/friendship-soup-mix-in-a-jar","viewed":1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609ff4"},"id":220417,"name":"Roasted Chicken Broth","href":"https://www.allrecipes.com/recipe/220417/roasted-chicken-broth","viewed":-1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609ff5"},"id":48121,"name":"Spicy African Yam Soup","href":"https://www.allrecipes.com/recipe/48121/spicy-african-yam-soup","viewed":1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609ff6"},"id":13376,"name":"Tortilla and Bean Soup","href":"https://www.allrecipes.com/recipe/13376/tortilla-and-bean-soup","viewed":1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609ff7"},"id":234914,"name":"How to Make Tomato Bisque","href":"https://www.allrecipes.com/recipe/234914/how-to-make-tomato-bisque","viewed":1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609ff8"},"id":13978,"name":"Lentil Soup","href":"https://www.allrecipes.com/recipe/13978/lentil-soup","viewed":1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609ff9"},"id":76963,"name":"Sausage \u0026 White Bean Soup","href":"https://www.allrecipes.com/recipe/76963/sausage-white-bean-soup","viewed":1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609ffa"},"id":98129,"name":"Hot and Sour Cabbage Soup","href":"https://www.allrecipes.com/recipe/98129/hot-and-sour-cabbage-soup","viewed":1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609ffb"},"id":220219,"name":"Shrimp, Sausage, and Fish Jambalaya","href":"https://www.allrecipes.com/recipe/220219/shrimp-sausage-and-fish-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609ffc"},"id":232102,"name":"Easy Chicken and Dumplings","href":"https://www.allrecipes.com/recipe/232102/easy-chicken-and-dumplings","viewed":1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609ffd"},"id":38060,"name":"Oven Baked Jambalaya","href":"https://www.allrecipes.com/recipe/38060/oven-baked-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609ffe"},"id":73090,"name":"African Peanut Soup","href":"https://www.allrecipes.com/recipe/73090/african-peanut-soup","viewed":1}
+{"_id":{"$oid":"5ca55c57f07ba50c41609fff"},"id":13184,"name":"Cream of Cauliflower Soup I","href":"https://www.allrecipes.com/recipe/13184/cream-of-cauliflower-soup-i","viewed":-1}
+{"_id":{"$oid":"5ca55c57f07ba50c4160a000"},"id":234839,"name":"Butternut Squash Sweet Potato Soup","href":"https://www.allrecipes.com/recipe/234839/butternut-squash-sweet-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a001"},"id":95110,"name":"Fresh Pea Soup","href":"https://www.allrecipes.com/recipe/95110/fresh-pea-soup","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a002"},"id":222109,"name":"Healthier Slow Cooker Chicken Taco Soup","href":"https://www.allrecipes.com/recipe/222109/healthier-slow-cooker-chicken-taco-soup","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a003"},"id":240220,"name":"Rotisserie Chicken and Stuffing Casserole","href":"https://www.allrecipes.com/recipe/240220/rotisserie-chicken-and-stuffing-casserole","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a004"},"id":222096,"name":"Healthier Slow-Cooker Chicken Tortilla Soup","href":"https://www.allrecipes.com/recipe/222096/healthier-slow-cooker-chicken-tortilla-soup","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a005"},"id":236700,"name":"Beef Bourguignon Without the Burgundy","href":"https://www.allrecipes.com/recipe/236700/beef-bourguignon-without-the-burgundy","viewed":-1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a006"},"id":24403,"name":"Sicilian Sausage Soup","href":"https://www.allrecipes.com/recipe/24403/sicilian-sausage-soup","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a007"},"id":9145,"name":"Hearty Turkey Soup with Parsley Dumplings","href":"https://www.allrecipes.com/recipe/9145/hearty-turkey-soup-with-parsley-dumplings","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a008"},"id":13075,"name":"Chicken Stock","href":"https://www.allrecipes.com/recipe/13075/chicken-stock","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a009"},"id":13381,"name":"Tomato Soup I","href":"https://www.allrecipes.com/recipe/13381/tomato-soup-i","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a00a"},"id":13104,"name":"Strawberry Soup I","href":"https://www.allrecipes.com/recipe/13104/strawberry-soup-i","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a00b"},"id":235163,"name":"Chicken with Barley Soup","href":"https://www.allrecipes.com/recipe/235163/chicken-with-barley-soup","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a00c"},"id":234017,"name":"Canadian Yellow Split Pea Soup with Ham","href":"https://www.allrecipes.com/recipe/234017/canadian-yellow-split-pea-soup-with-ham","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a00d"},"id":230301,"name":"So Simple Beef Stroganoff","href":"https://www.allrecipes.com/recipe/230301/so-simple-beef-stroganoff","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a00e"},"id":50901,"name":"Best Darn Minestrone Soup Around","href":"https://www.allrecipes.com/recipe/50901/best-darn-minestrone-soup-around","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a00f"},"id":77836,"name":"Cabbage and Smoked Sausage Soup","href":"https://www.allrecipes.com/recipe/77836/cabbage-and-smoked-sausage-soup","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a010"},"id":220341,"name":"Beef Mushroom Barley Soup","href":"https://www.allrecipes.com/recipe/220341/beef-mushroom-barley-soup","viewed":1}
+{"_id":{"$oid":"5ca55c62f07ba50c4160a011"},"id":213144,"name":"Pork Chop Soup","href":"https://www.allrecipes.com/recipe/213144/pork-chop-soup","viewed":1}
+{"_id":{"$oid":"5ca55c6cf07ba50c4160a012"},"id":100378,"name":"Irish Bacon And Cabbage Soup","href":"https://www.allrecipes.com/recipe/100378/irish-bacon-and-cabbage-soup","viewed":1}
+{"_id":{"$oid":"5ca55c6cf07ba50c4160a013"},"id":177777,"name":"Jill's Hash Brown Casserole","href":"https://www.allrecipes.com/recipe/177777/jills-hash-brown-casserole","viewed":1}
+{"_id":{"$oid":"5ca55c6cf07ba50c4160a014"},"id":21301,"name":"Elegant Oyster Soup","href":"https://www.allrecipes.com/recipe/21301/elegant-oyster-soup","viewed":1}
+{"_id":{"$oid":"5ca55c6cf07ba50c4160a015"},"id":13145,"name":"Mulligatawny Soup II","href":"https://www.allrecipes.com/recipe/13145/mulligatawny-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca55c6cf07ba50c4160a016"},"id":175000,"name":"Potato and Ham Soup","href":"https://www.allrecipes.com/recipe/175000/potato-and-ham-soup","viewed":1}
+{"_id":{"$oid":"5ca55c6cf07ba50c4160a017"},"id":227994,"name":"Mormon Scalloped Potatoes","href":"https://www.allrecipes.com/recipe/227994/mormon-scalloped-potatoes","viewed":1}
+{"_id":{"$oid":"5ca55c6cf07ba50c4160a018"},"id":202728,"name":"Creamy Chorizo and Chicken Soup","href":"https://www.allrecipes.com/recipe/202728/creamy-chorizo-and-chicken-soup","viewed":-1}
+{"_id":{"$oid":"5ca55c6cf07ba50c4160a019"},"id":166139,"name":"Spicy Albondigas","href":"https://www.allrecipes.com/recipe/166139/spicy-albondigas","viewed":1}
+{"_id":{"$oid":"5ca55c6cf07ba50c4160a01a"},"id":13004,"name":"Roasted Red Pepper and Tomato Soup","href":"https://www.allrecipes.com/recipe/13004/roasted-red-pepper-and-tomato-soup","viewed":1}
+{"_id":{"$oid":"5ca55c6cf07ba50c4160a01b"},"id":25861,"name":"Ann's Shrimp Etouffee","href":"https://www.allrecipes.com/recipe/25861/anns-shrimp-etouffee","viewed":1}
+{"_id":{"$oid":"5ca55c6cf07ba50c4160a01c"},"id":12931,"name":"Tortilla Soup I","href":"https://www.allrecipes.com/recipe/12931/tortilla-soup-i","viewed":1}
+{"_id":{"$oid":"5ca55c6cf07ba50c4160a01d"},"id":13275,"name":"Big Charlie's Gumbo","href":"https://www.allrecipes.com/recipe/13275/big-charlies-gumbo","viewed":1}
+{"_id":{"$oid":"5ca55c6cf07ba50c4160a01e"},"id":17893,"name":"New England Clam Chowder II","href":"https://www.allrecipes.com/recipe/17893/new-england-clam-chowder-ii","viewed":1}
+{"_id":{"$oid":"5ca55c6cf07ba50c4160a01f"},"id":16217,"name":"Vegan Split Pea Soup I","href":"https://www.allrecipes.com/recipe/16217/vegan-split-pea-soup-i","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e601682"},"id":86810,"name":"Curried Shrimp Bisque","href":"https://www.allrecipes.com/recipe/86810/curried-shrimp-bisque","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e601683"},"id":76283,"name":"Vegetarian Bean Curry","href":"https://www.allrecipes.com/recipe/76283/vegetarian-bean-curry","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e601684"},"id":215032,"name":"Curried Potato Salad","href":"https://www.allrecipes.com/recipe/215032/curried-potato-salad","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e601685"},"id":99630,"name":"Burmese Chicken Curry","href":"https://www.allrecipes.com/recipe/99630/burmese-chicken-curry","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e601686"},"id":245612,"name":"Malaysian Red Curry Thighs","href":"https://www.allrecipes.com/recipe/245612/malaysian-red-curry-thighs","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e601687"},"id":46156,"name":"Mussels in Curry Cream Sauce","href":"https://www.allrecipes.com/recipe/46156/mussels-in-curry-cream-sauce","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e601688"},"id":8622,"name":"Curried Microwaved Chicken","href":"https://www.allrecipes.com/recipe/8622/curried-microwaved-chicken","viewed":-1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e601689"},"id":235132,"name":"Shrimp Curry (My Dear Mudder's Version)","href":"https://www.allrecipes.com/recipe/235132/shrimp-curry-my-dear-mudders-version","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e60168a"},"id":229146,"name":"Curry Kale and Potato Galette","href":"https://www.allrecipes.com/recipe/229146/curry-kale-and-potato-galette","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e60168b"},"id":221270,"name":"Green Coconut Chicken","href":"https://www.allrecipes.com/recipe/221270/green-coconut-chicken","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e60168c"},"id":235559,"name":"Red Curry Butternut Squash","href":"https://www.allrecipes.com/recipe/235559/red-curry-butternut-squash","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e60168d"},"id":77518,"name":"Spinach-And-Berries Salad With Non-Fat Curry Dressing","href":"https://www.allrecipes.com/recipe/77518/spinach-and-berries-salad-with-non-fat-curry-dressing","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e60168e"},"id":201086,"name":"Curry-Strawberry Chicken","href":"https://www.allrecipes.com/recipe/201086/curry-strawberry-chicken","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e60168f"},"id":215266,"name":"Chicken Curry Salad in a Hurry","href":"https://www.allrecipes.com/recipe/215266/chicken-curry-salad-in-a-hurry","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e601690"},"id":176909,"name":"Curried Mango Chicken","href":"https://www.allrecipes.com/recipe/176909/curried-mango-chicken","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e601691"},"id":37651,"name":"West Indian Curried Chicken","href":"https://www.allrecipes.com/recipe/37651/west-indian-curried-chicken","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e601692"},"id":246717,"name":"Indian Butter Chicken (Chicken Makhani)","href":"https://www.allrecipes.com/recipe/246717/indian-butter-chicken-chicken-makhani","viewed":-1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e601693"},"id":228265,"name":"Curried Brown Rice","href":"https://www.allrecipes.com/recipe/228265/curried-brown-rice","viewed":1}
+{"_id":{"$oid":"5ca55c73c6d0b00c9e601694"},"id":213687,"name":"Sri Lankan Chicken Curry","href":"https://www.allrecipes.com/recipe/213687/sri-lankan-chicken-curry","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a020"},"id":217109,"name":"Make-Ahead Vegetarian Moroccan Stew","href":"https://www.allrecipes.com/recipe/217109/make-ahead-vegetarian-moroccan-stew","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a021"},"id":18108,"name":"Split Pea and Ham Soup II","href":"https://www.allrecipes.com/recipe/18108/split-pea-and-ham-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a022"},"id":177849,"name":"Campbell's® Slow Cooker Savory Pot Roast","href":"https://www.allrecipes.com/recipe/177849/campbells-slow-cooker-savory-pot-roast","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a023"},"id":20809,"name":"Avocado Soup with Chicken and Lime","href":"https://www.allrecipes.com/recipe/20809/avocado-soup-with-chicken-and-lime","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a024"},"id":13160,"name":"Pumpkin and Sausage Soup","href":"https://www.allrecipes.com/recipe/13160/pumpkin-and-sausage-soup","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a025"},"id":135367,"name":"Chinese Lion's Head Soup","href":"https://www.allrecipes.com/recipe/135367/chinese-lions-head-soup","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a026"},"id":165843,"name":"Beef and Lentil Soup","href":"https://www.allrecipes.com/recipe/165843/beef-and-lentil-soup","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a027"},"id":13373,"name":"Chicken Noodle Soup II","href":"https://www.allrecipes.com/recipe/13373/chicken-noodle-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a028"},"id":13334,"name":"Pasta Fagioli Soup II","href":"https://www.allrecipes.com/recipe/13334/pasta-fagioli-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a029"},"id":228664,"name":"Slow Cooker Ham and Bean Soup","href":"https://www.allrecipes.com/recipe/228664/slow-cooker-ham-and-bean-soup","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a02a"},"id":223049,"name":"American French Onion Soup","href":"https://www.allrecipes.com/recipe/223049/american-french-onion-soup","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a02b"},"id":13323,"name":"Hamburger Vegetable Soup","href":"https://www.allrecipes.com/recipe/13323/hamburger-vegetable-soup","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a02c"},"id":12996,"name":"Cauliflower-Cheese Soup","href":"https://www.allrecipes.com/recipe/12996/cauliflower-cheese-soup","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a02d"},"id":13060,"name":"Zucchini Soup I","href":"https://www.allrecipes.com/recipe/13060/zucchini-soup-i","viewed":1}
+{"_id":{"$oid":"5ca55c77f07ba50c4160a02e"},"id":222664,"name":"Chicken Tortilla Soup","href":"https://www.allrecipes.com/recipe/222664/chicken-tortilla-soup","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e601695"},"id":67241,"name":"Kai Kang Dang (Chicken Curry with Coconut Milk)","href":"https://www.allrecipes.com/recipe/67241/kai-kang-dang-chicken-curry-with-coconut-milk","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e601696"},"id":132364,"name":"Green Bean Curry","href":"https://www.allrecipes.com/recipe/132364/green-bean-curry","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e601697"},"id":105689,"name":"Mixed Seafood Curry","href":"https://www.allrecipes.com/recipe/105689/mixed-seafood-curry","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e601698"},"id":241253,"name":"Simple Chicken Curry","href":"https://www.allrecipes.com/recipe/241253/simple-chicken-curry","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e601699"},"id":189305,"name":"Indian Curried Barley Pilaf","href":"https://www.allrecipes.com/recipe/189305/indian-curried-barley-pilaf","viewed":-1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e60169a"},"id":9042,"name":"Curry Chicken Salad","href":"https://www.allrecipes.com/recipe/9042/curry-chicken-salad","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e60169b"},"id":230268,"name":"Curried Sweet Potato Latkes","href":"https://www.allrecipes.com/recipe/230268/curried-sweet-potato-latkes","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e60169c"},"id":47564,"name":"Baingan Bharta (Eggplant Curry)","href":"https://www.allrecipes.com/recipe/47564/baingan-bharta-eggplant-curry","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e60169d"},"id":17712,"name":"Tomato Curry Chicken","href":"https://www.allrecipes.com/recipe/17712/tomato-curry-chicken","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e60169e"},"id":217173,"name":"Curry Split Pea Soup","href":"https://www.allrecipes.com/recipe/217173/curry-split-pea-soup","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e60169f"},"id":99873,"name":"Apple Curry Turkey Pita","href":"https://www.allrecipes.com/recipe/99873/apple-curry-turkey-pita","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a0"},"id":166485,"name":"Coconut-Curry Lentil Stew Served over Quinoa","href":"https://www.allrecipes.com/recipe/166485/coconut-curry-lentil-stew-served-over-quinoa","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a1"},"id":68473,"name":"Chicken Korma II","href":"https://www.allrecipes.com/recipe/68473/chicken-korma-ii","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a2"},"id":12965,"name":"Curried Carrot Soup","href":"https://www.allrecipes.com/recipe/12965/curried-carrot-soup","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a3"},"id":217913,"name":"Vegan Carrot Curry Soup","href":"https://www.allrecipes.com/recipe/217913/vegan-carrot-curry-soup","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a4"},"id":16487,"name":"Curried Chicken and Rice Salad","href":"https://www.allrecipes.com/recipe/16487/curried-chicken-and-rice-salad","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a5"},"id":216948,"name":"Deb's Spicy Beef Curry","href":"https://www.allrecipes.com/recipe/216948/debs-spicy-beef-curry","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a6"},"id":234659,"name":"Spicy Pork Curry","href":"https://www.allrecipes.com/recipe/234659/spicy-pork-curry","viewed":1}
+{"_id":{"$oid":"5ca55c7ec6d0b00c9e6016a7"},"id":46767,"name":"Mild Curry Powder","href":"https://www.allrecipes.com/recipe/46767/mild-curry-powder","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a02f"},"id":232554,"name":"Slow Cooker Chicken Tinga","href":"https://www.allrecipes.com/recipe/232554/slow-cooker-chicken-tinga","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a030"},"id":15094,"name":"Beef and Barley Soup III","href":"https://www.allrecipes.com/recipe/15094/beef-and-barley-soup-iii","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a031"},"id":92899,"name":"My Canadian Friend's Bean Soup","href":"https://www.allrecipes.com/recipe/92899/my-canadian-friends-bean-soup","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a032"},"id":80694,"name":"Hot and Sour Chicken Soup","href":"https://www.allrecipes.com/recipe/80694/hot-and-sour-chicken-soup","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a033"},"id":241797,"name":"Cheesy Potato Casserole from Ore-Ida®","href":"https://www.allrecipes.com/recipe/241797/cheesy-potato-casserole-from-ore-ida","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a034"},"id":45574,"name":"Beef, Burgundy Style","href":"https://www.allrecipes.com/recipe/45574/beef-burgundy-style","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a035"},"id":228716,"name":"Fat Granny's Minestrone Soup","href":"https://www.allrecipes.com/recipe/228716/fat-grannys-minestrone-soup","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a036"},"id":12923,"name":"Corn Chowder with Sausage","href":"https://www.allrecipes.com/recipe/12923/corn-chowder-with-sausage","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a037"},"id":84450,"name":"Ukrainian Red Borscht Soup","href":"https://www.allrecipes.com/recipe/84450/ukrainian-red-borscht-soup","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a038"},"id":217129,"name":"Tuscan Chard and Cannellini Bean Soup","href":"https://www.allrecipes.com/recipe/217129/tuscan-chard-and-cannellini-bean-soup","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a039"},"id":18890,"name":"Broccoli and Cauliflower Casserole","href":"https://www.allrecipes.com/recipe/18890/broccoli-and-cauliflower-casserole","viewed":-1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a03a"},"id":56358,"name":"Thai Hot and Sour Soup","href":"https://www.allrecipes.com/recipe/56358/thai-hot-and-sour-soup","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a03b"},"id":233548,"name":"Joe's Homemade Mushroom Soup","href":"https://www.allrecipes.com/recipe/233548/joes-homemade-mushroom-soup","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a03c"},"id":15108,"name":"Cajun Style Red Bean and Rice Soup","href":"https://www.allrecipes.com/recipe/15108/cajun-style-red-bean-and-rice-soup","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a03d"},"id":13437,"name":"Maryland Crab Soup","href":"https://www.allrecipes.com/recipe/13437/maryland-crab-soup","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a03e"},"id":12994,"name":"Crabmeat and Corn Soup","href":"https://www.allrecipes.com/recipe/12994/crabmeat-and-corn-soup","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a03f"},"id":232405,"name":"Easy Portuguese Kale Soup","href":"https://www.allrecipes.com/recipe/232405/easy-portuguese-kale-soup","viewed":1}
+{"_id":{"$oid":"5ca55c82f07ba50c4160a040"},"id":17550,"name":"Red Pepper Soup","href":"https://www.allrecipes.com/recipe/17550/red-pepper-soup","viewed":1}
+{"_id":{"$oid":"5ca55c88c6d0b00c9e6016a8"},"id":155031,"name":"Masala Beef with Ginger and Curry Leaf","href":"https://www.allrecipes.com/recipe/155031/masala-beef-with-ginger-and-curry-leaf","viewed":1}
+{"_id":{"$oid":"5ca55c88c6d0b00c9e6016a9"},"id":33407,"name":"Quorn™ and Chickpea Curry","href":"https://www.allrecipes.com/recipe/33407/quorn-and-chickpea-curry","viewed":1}
+{"_id":{"$oid":"5ca55c88c6d0b00c9e6016aa"},"id":76289,"name":"Hot Curried Tuna Sandwiches","href":"https://www.allrecipes.com/recipe/76289/hot-curried-tuna-sandwiches","viewed":1}
+{"_id":{"$oid":"5ca55c88c6d0b00c9e6016ab"},"id":14610,"name":"Curried Meatloaf","href":"https://www.allrecipes.com/recipe/14610/curried-meatloaf","viewed":1}
+{"_id":{"$oid":"5ca55c88c6d0b00c9e6016ac"},"id":217053,"name":"Curried Citrus Quinoa with Raisins and Toasted Almonds","href":"https://www.allrecipes.com/recipe/217053/curried-citrus-quinoa-with-raisins-and-toasted-almonds","viewed":1}
+{"_id":{"$oid":"5ca55c88c6d0b00c9e6016ad"},"id":237031,"name":"Roasted Curry-Spiced Sweet Potatoes and Cauliflower","href":"https://www.allrecipes.com/recipe/237031/roasted-curry-spiced-sweet-potatoes-and-cauliflower","viewed":1}
+{"_id":{"$oid":"5ca55c88c6d0b00c9e6016ae"},"id":245104,"name":"Asian Kabocha Soup","href":"https://www.allrecipes.com/recipe/245104/asian-kabocha-soup","viewed":1}
 {"_id":{"$oid":"5ca55c88c6d0b00c9e6016af"},"id":245439,"name":"Claire's Curried Butternut Squash Soup","href":"https://www.allrecipes.com/recipe/245439/claires-curried-butternut-squash-soup","viewed":1}
 {"_id":{"$oid":"5ca55c88c6d0b00c9e6016b0"},"id":29945,"name":"Vietnamese Style Vegetarian Curry Soup","href":"https://www.allrecipes.com/recipe/29945/vietnamese-style-vegetarian-curry-soup","viewed":1}
 {"_id":{"$oid":"5ca55c88c6d0b00c9e6016b1"},"id":239392,"name":"Easy Curried Cauliflower Soup","href":"https://www.allrecipes.com/recipe/239392/easy-curried-cauliflower-soup","viewed":1}
@@ -807,6 +1028,22 @@
 {"_id":{"$oid":"5ca55c88c6d0b00c9e6016b8"},"id":222179,"name":"Chicken Curry and Potatoes","href":"https://www.allrecipes.com/recipe/222179/chicken-curry-and-potatoes","viewed":1}
 {"_id":{"$oid":"5ca55c88c6d0b00c9e6016b9"},"id":218368,"name":"Quick Sardine Curry","href":"https://www.allrecipes.com/recipe/218368/quick-sardine-curry","viewed":1}
 {"_id":{"$oid":"5ca55c88c6d0b00c9e6016ba"},"id":201746,"name":"Peach Pear Salsa","href":"https://www.allrecipes.com/recipe/201746/peach-pear-salsa","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a041"},"id":179044,"name":"Creamy Pesto Chicken and Bow Ties","href":"https://www.allrecipes.com/recipe/179044/creamy-pesto-chicken-and-bow-ties","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a042"},"id":31833,"name":"Easy Cajun Jambalaya","href":"https://www.allrecipes.com/recipe/31833/easy-cajun-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a043"},"id":13163,"name":"Classic Minestrone","href":"https://www.allrecipes.com/recipe/13163/classic-minestrone","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a044"},"id":216719,"name":"Cabbage, Potato, and Tomato Soup","href":"https://www.allrecipes.com/recipe/216719/cabbage-potato-and-tomato-soup","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a045"},"id":13078,"name":"New England Clam Chowder I","href":"https://www.allrecipes.com/recipe/13078/new-england-clam-chowder-i","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a046"},"id":15155,"name":"Becca's Taco Soup","href":"https://www.allrecipes.com/recipe/15155/beccas-taco-soup","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a047"},"id":214736,"name":"Chicken Breasts Supreme","href":"https://www.allrecipes.com/recipe/214736/chicken-breasts-supreme","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a048"},"id":245922,"name":"Smoked Sausage and Tortellini Soup","href":"https://www.allrecipes.com/recipe/245922/smoked-sausage-and-tortellini-soup","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a049"},"id":230144,"name":"Quinoa Broccoli Casserole","href":"https://www.allrecipes.com/recipe/230144/quinoa-broccoli-casserole","viewed":-1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a04a"},"id":13162,"name":"Albondigas Soup II","href":"https://www.allrecipes.com/recipe/13162/albondigas-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a04b"},"id":237318,"name":"Chef John's Black Lentil Soup","href":"https://www.allrecipes.com/recipe/237318/chef-johns-black-lentil-soup","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a04c"},"id":235057,"name":"Great Northern Bean Soup","href":"https://www.allrecipes.com/recipe/235057/great-northern-bean-soup","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a04d"},"id":213268,"name":"Classic Goulash","href":"https://www.allrecipes.com/recipe/213268/classic-goulash","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a04e"},"id":12968,"name":"Brown Jug Soup","href":"https://www.allrecipes.com/recipe/12968/brown-jug-soup","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a04f"},"id":234757,"name":"Bratwurst Soup","href":"https://www.allrecipes.com/recipe/234757/bratwurst-soup","viewed":1}
+{"_id":{"$oid":"5ca55c8df07ba50c4160a050"},"id":47894,"name":"Special Lobster Bisque","href":"https://www.allrecipes.com/recipe/47894/special-lobster-bisque","viewed":1}
 {"_id":{"$oid":"5ca55c93c6d0b00c9e6016bb"},"id":213255,"name":"Curried Pork Chops and Cauliflower with Basmati Rice","href":"https://www.allrecipes.com/recipe/213255/curried-pork-chops-and-cauliflower-with-basmati-rice","viewed":1}
 {"_id":{"$oid":"5ca55c93c6d0b00c9e6016bc"},"id":222808,"name":"Indian Curry Potato Fries","href":"https://www.allrecipes.com/recipe/222808/indian-curry-potato-fries","viewed":1}
 {"_id":{"$oid":"5ca55c93c6d0b00c9e6016bd"},"id":229737,"name":"Curried Stuffed Acorn Squash","href":"https://www.allrecipes.com/recipe/229737/curried-stuffed-acorn-squash","viewed":1}
@@ -906,3 +1143,245 @@
 {"_id":{"$oid":"5ca55cd4c6d0b00cfaa69586"},"id":245864,"name":"Avocado Curry","href":"https://www.allrecipes.com/recipe/245864/avocado-curry","viewed":1}
 {"_id":{"$oid":"5ca55cd4c6d0b00cfaa69587"},"id":255024,"name":"Zucchini Fenchel Suppe (Zucchini and Fennel Soup)","href":"https://www.allrecipes.com/recipe/255024/zucchini-fenchel-suppe-zucchini-and-fennel-soup","viewed":1}
 {"_id":{"$oid":"5ca55cd4c6d0b00cfaa69588"},"id":245123,"name":"Khao Soi Soup","href":"https://www.allrecipes.com/recipe/245123/khao-soi-soup","viewed":1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362d9"},"id":213572,"name":"Husband's Grandmother's Shrimp Gumbo","href":"https://www.allrecipes.com/recipe/213572/husbands-grandmothers-shrimp-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362da"},"id":83370,"name":"Uncle Dank's Gumbo","href":"https://www.allrecipes.com/recipe/83370/uncle-danks-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362db"},"id":24789,"name":"Gumbo Style Chicken Creole","href":"https://www.allrecipes.com/recipe/24789/gumbo-style-chicken-creole","viewed":1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362dc"},"id":12717,"name":"Merwin's Shrimp Gumbo","href":"https://www.allrecipes.com/recipe/12717/merwins-shrimp-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362dd"},"id":235245,"name":"Shrimp and Sausage and Chicken Gumbo","href":"https://www.allrecipes.com/recipe/235245/shrimp-and-sausage-and-chicken-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362de"},"id":78454,"name":"Black-Eyed Pea Gumbo","href":"https://www.allrecipes.com/recipe/78454/black-eyed-pea-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362df"},"id":12966,"name":"Seafood Gumbo Stock","href":"https://www.allrecipes.com/recipe/12966/seafood-gumbo-stock","viewed":1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362e0"},"id":238411,"name":"Slow Cooker Chicken Gumbo with Shrimp","href":"https://www.allrecipes.com/recipe/238411/slow-cooker-chicken-gumbo-with-shrimp","viewed":1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362e1"},"id":44822,"name":"Black-Eyed Peas and Gumbo","href":"https://www.allrecipes.com/recipe/44822/black-eyed-peas-and-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362e2"},"id":12774,"name":"Ultimate Gulf Coast Gumbo","href":"https://www.allrecipes.com/recipe/12774/ultimate-gulf-coast-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362e3"},"id":12940,"name":"Seafood Gumbo","href":"https://www.allrecipes.com/recipe/12940/seafood-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362e4"},"id":239100,"name":"Sausage and Shrimp Gumbo","href":"https://www.allrecipes.com/recipe/239100/sausage-and-shrimp-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362e5"},"id":21118,"name":"Chicken Stock Gumbo","href":"https://www.allrecipes.com/recipe/21118/chicken-stock-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362e6"},"id":222738,"name":"Rouxless Gumbo","href":"https://www.allrecipes.com/recipe/222738/rouxless-gumbo","viewed":-1}
+{"_id":{"$oid":"5ca645bfc6d0b01566a362e7"},"id":200618,"name":"'Momma Made Em' Chicken and Sausage Gumbo","href":"https://www.allrecipes.com/recipe/200618/momma-made-em-chicken-and-sausage-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362e8"},"id":21232,"name":"Catfish Gumbo","href":"https://www.allrecipes.com/recipe/21232/catfish-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362e9"},"id":235356,"name":"Chef John's Duck, Sausage, and Shrimp Gumbo","href":"https://www.allrecipes.com/recipe/235356/chef-johns-duck-sausage-and-shrimp-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362ea"},"id":87067,"name":"Shrimp and Catfish Gumbo","href":"https://www.allrecipes.com/recipe/87067/shrimp-and-catfish-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362eb"},"id":217290,"name":"Ashley's African Peanut Soup","href":"https://www.allrecipes.com/recipe/217290/ashleys-african-peanut-soup","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362ec"},"id":256344,"name":"Easy Sausage and Shrimp Gumbo","href":"https://www.allrecipes.com/recipe/256344/easy-sausage-and-shrimp-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362ed"},"id":214569,"name":"Dupre Family Chicken and Sausage Gumbo","href":"https://www.allrecipes.com/recipe/214569/dupre-family-chicken-and-sausage-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362ee"},"id":12902,"name":"Louisiana Shrimp and Eggs Gumbo","href":"https://www.allrecipes.com/recipe/12902/louisiana-shrimp-and-eggs-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362ef"},"id":255248,"name":"Slow-Cooked Chicken and Sausage Gumbo","href":"https://www.allrecipes.com/recipe/255248/slow-cooked-chicken-and-sausage-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362f0"},"id":237676,"name":"Leftover Ham and Shrimp Slow Cooker Gumbo","href":"https://www.allrecipes.com/recipe/237676/leftover-ham-and-shrimp-slow-cooker-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362f1"},"id":220019,"name":"Slow Cooker Chicken and Sausage Gumbo","href":"https://www.allrecipes.com/recipe/220019/slow-cooker-chicken-and-sausage-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362f2"},"id":246421,"name":"Skinny Slow Cooker Gumbo","href":"https://www.allrecipes.com/recipe/246421/skinny-slow-cooker-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362f3"},"id":240893,"name":"Black-Eyed Pea, Pork, and Mustard Green Gumbo","href":"https://www.allrecipes.com/recipe/240893/black-eyed-pea-pork-and-mustard-green-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362f4"},"id":239884,"name":"Wild Turkey Gumbo","href":"https://www.allrecipes.com/recipe/239884/wild-turkey-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362f5"},"id":216110,"name":"Spicy Turkey Sweet Potato Gumbo","href":"https://www.allrecipes.com/recipe/216110/spicy-turkey-sweet-potato-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362f6"},"id":16987,"name":"Seafood File Gumbo","href":"https://www.allrecipes.com/recipe/16987/seafood-file-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362f7"},"id":133040,"name":"Teddy's Duck Gumbo","href":"https://www.allrecipes.com/recipe/133040/teddys-duck-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362f8"},"id":256343,"name":"Spicy Shrimp Gumbo","href":"https://www.allrecipes.com/recipe/256343/spicy-shrimp-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362f9"},"id":269146,"name":"Instant Pot® Chicken and Sausage Gumbo","href":"https://www.allrecipes.com/recipe/269146/instant-pot-chicken-and-sausage-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362fa"},"id":233464,"name":"Roux-Based Authentic Seafood Gumbo with Okra","href":"https://www.allrecipes.com/recipe/233464/roux-based-authentic-seafood-gumbo-with-okra","viewed":1}
+{"_id":{"$oid":"5ca645cac6d0b01566a362fb"},"id":239612,"name":"Gluten-Free Chicken and Sausage Gumbo","href":"https://www.allrecipes.com/recipe/239612/gluten-free-chicken-and-sausage-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a362fc"},"id":269326,"name":"Diet-Friendly Chicken And Sausage Gumbo","href":"https://www.allrecipes.com/recipe/269326/diet-friendly-chicken-and-sausage-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a362fd"},"id":228607,"name":"Gumpacho (A Gumbo-Gazpacho Fusion)","href":"https://www.allrecipes.com/recipe/228607/gumpacho-a-gumbo-gazpacho-fusion","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a362fe"},"id":237913,"name":"Texiana Gumbo (For the Masses!)","href":"https://www.allrecipes.com/recipe/237913/texiana-gumbo-for-the-masses","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a362ff"},"id":220020,"name":"Vegan (Say What?!) Gumbo","href":"https://www.allrecipes.com/recipe/220020/vegan-say-what-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a36300"},"id":15866,"name":"Shrimp and Okra Gumbo","href":"https://www.allrecipes.com/recipe/15866/shrimp-and-okra-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a36301"},"id":12719,"name":"New Orleans Shrimp","href":"https://www.allrecipes.com/recipe/12719/new-orleans-shrimp","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a36302"},"id":214948,"name":"Mobile Bay Seafood Gumbo","href":"https://www.allrecipes.com/recipe/214948/mobile-bay-seafood-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a36303"},"id":135545,"name":"Fire Roasted Vegetarian Gumbo","href":"https://www.allrecipes.com/recipe/135545/fire-roasted-vegetarian-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a36304"},"id":46136,"name":"Okra Gumbo","href":"https://www.allrecipes.com/recipe/46136/okra-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a36305"},"id":68216,"name":"Turkey Gumbo","href":"https://www.allrecipes.com/recipe/68216/turkey-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a36306"},"id":12934,"name":"Chicken Gumbo Soup","href":"https://www.allrecipes.com/recipe/12934/chicken-gumbo-soup","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a36307"},"id":57490,"name":"Texas Okra Gumbo","href":"https://www.allrecipes.com/recipe/57490/texas-okra-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a36308"},"id":17179,"name":"Creole Gumbo","href":"https://www.allrecipes.com/recipe/17179/creole-gumbo","viewed":-1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a36309"},"id":13191,"name":"Shrimp Gumbo","href":"https://www.allrecipes.com/recipe/13191/shrimp-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a3630a"},"id":216887,"name":"Soup o' the South","href":"https://www.allrecipes.com/recipe/216887/soup-o-the-south","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a3630b"},"id":244858,"name":"Peanutty Chicken Gumbo","href":"https://www.allrecipes.com/recipe/244858/peanutty-chicken-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a3630c"},"id":255250,"name":"Chicken Gumbo Over Rice","href":"https://www.allrecipes.com/recipe/255250/chicken-gumbo-over-rice","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a3630d"},"id":256326,"name":"Cheater Gumbo","href":"https://www.allrecipes.com/recipe/256326/cheater-gumbo","viewed":1}
+{"_id":{"$oid":"5ca645d4c6d0b01566a3630e"},"id":257892,"name":"Easy Gumbo (Okra Soup)","href":"https://www.allrecipes.com/recipe/257892/easy-gumbo-okra-soup","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfdec2"},"id":21170,"name":"Hot Sauce","href":"https://www.allrecipes.com/recipe/21170/hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfdec3"},"id":152262,"name":"Scotch Bonnet Hot Sauce","href":"https://www.allrecipes.com/recipe/152262/scotch-bonnet-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfdec4"},"id":57326,"name":"Bob's Habanero Hot Sauce - Liquid Fire","href":"https://www.allrecipes.com/recipe/57326/bobs-habanero-hot-sauce-liquid-fire","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfdec5"},"id":20896,"name":"Jalapeno Hot Sauce","href":"https://www.allrecipes.com/recipe/20896/jalapeno-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfdec6"},"id":222780,"name":"Kathy's Meat Hot Sauce","href":"https://www.allrecipes.com/recipe/222780/kathys-meat-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfdec7"},"id":242153,"name":"Best Hot Sauce","href":"https://www.allrecipes.com/recipe/242153/best-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfdec8"},"id":256617,"name":"Serrano Hot Sauce","href":"https://www.allrecipes.com/recipe/256617/serrano-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfdec9"},"id":87186,"name":"Easy Jalapeno Hot Sauce","href":"https://www.allrecipes.com/recipe/87186/easy-jalapeno-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfdeca"},"id":25898,"name":"Saundra's Hot Sauce","href":"https://www.allrecipes.com/recipe/25898/saundras-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfdecb"},"id":158383,"name":"Category Five Hot Sauce","href":"https://www.allrecipes.com/recipe/158383/category-five-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfdecc"},"id":181056,"name":"Cliff's Hot Sauce","href":"https://www.allrecipes.com/recipe/181056/cliffs-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfdecd"},"id":266002,"name":"Jalapeno Homemade Hot Sauce","href":"https://www.allrecipes.com/recipe/266002/jalapeno-homemade-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfdece"},"id":266003,"name":"Homemade Hot Sauce with Jalapenos","href":"https://www.allrecipes.com/recipe/266003/homemade-hot-sauce-with-jalapenos","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfdecf"},"id":170093,"name":"Jim's 'Painkiller' Hot Sauce","href":"https://www.allrecipes.com/recipe/170093/jims-painkiller-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfded0"},"id":239986,"name":"Habanero Hot Sauce","href":"https://www.allrecipes.com/recipe/239986/habanero-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfded1"},"id":18250,"name":"Barbara's Hot Sauce","href":"https://www.allrecipes.com/recipe/18250/barbaras-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfded2"},"id":170029,"name":"Habanero Hot Sauce","href":"https://www.allrecipes.com/recipe/170029/habanero-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfded3"},"id":109916,"name":"Jesse's Hot Sauce","href":"https://www.allrecipes.com/recipe/109916/jesses-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfded4"},"id":143447,"name":"Authentic Mexican Hot Sauce","href":"https://www.allrecipes.com/recipe/143447/authentic-mexican-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca6477dc6d0b015c4bfded5"},"id":18291,"name":"Green Beans and Hot Sauce","href":"https://www.allrecipes.com/recipe/18291/green-beans-and-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfded6"},"id":14488,"name":"Texas Hot Sauce","href":"https://www.allrecipes.com/recipe/14488/texas-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfded7"},"id":27187,"name":"Hot Fudge Sauce II","href":"https://www.allrecipes.com/recipe/27187/hot-fudge-sauce-ii","viewed":-1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfded8"},"id":197065,"name":"Green Hot Sauce (Salsa Verde)","href":"https://www.allrecipes.com/recipe/197065/green-hot-sauce-salsa-verde","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfded9"},"id":22810,"name":"Sue's Hot Fudge Sauce","href":"https://www.allrecipes.com/recipe/22810/sues-hot-fudge-sauce","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdeda"},"id":130821,"name":"Pique (Puerto Rican Hot Sauce)","href":"https://www.allrecipes.com/recipe/130821/pique-puerto-rican-hot-sauce","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdedb"},"id":73640,"name":"Pasta with Hot Sausage Sauce","href":"https://www.allrecipes.com/recipe/73640/pasta-with-hot-sausage-sauce","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdedc"},"id":19793,"name":"Hot Fudge Sauce I","href":"https://www.allrecipes.com/recipe/19793/hot-fudge-sauce-i","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdedd"},"id":230607,"name":"Marshmallow Hot Fudge Sauce","href":"https://www.allrecipes.com/recipe/230607/marshmallow-hot-fudge-sauce","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdede"},"id":228287,"name":"BonBon's Hot Fudge Sauce","href":"https://www.allrecipes.com/recipe/228287/bonbons-hot-fudge-sauce","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdedf"},"id":9480,"name":"Hot Fudge Sauce II","href":"https://www.allrecipes.com/recipe/9480/hot-fudge-sauce-ii","viewed":-1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdee0"},"id":230606,"name":"Rich Hot Fudge Sauce","href":"https://www.allrecipes.com/recipe/230606/rich-hot-fudge-sauce","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdee1"},"id":21437,"name":"Hot Peanut Sauce","href":"https://www.allrecipes.com/recipe/21437/hot-peanut-sauce","viewed":-1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdee2"},"id":215073,"name":"Hot Pepper Sauce - A Trinidadian Staple","href":"https://www.allrecipes.com/recipe/215073/hot-pepper-sauce-a-trinidadian-staple","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdee3"},"id":161505,"name":"Raspberry Hot Barbecue Sauce","href":"https://www.allrecipes.com/recipe/161505/raspberry-hot-barbecue-sauce","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdee4"},"id":234441,"name":"Kahlua® Hot Fudge Sauce","href":"https://www.allrecipes.com/recipe/234441/kahlua-hot-fudge-sauce","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdee5"},"id":23939,"name":"Hot Dog Sauce","href":"https://www.allrecipes.com/recipe/23939/hot-dog-sauce","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdee6"},"id":239380,"name":"Texas Hot Wiener Sauce","href":"https://www.allrecipes.com/recipe/239380/texas-hot-wiener-sauce","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdee7"},"id":16989,"name":"Red Hot Cocktail Sauce","href":"https://www.allrecipes.com/recipe/16989/red-hot-cocktail-sauce","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdee8"},"id":231799,"name":"Mild Hot Tamarind Sauce","href":"https://www.allrecipes.com/recipe/231799/mild-hot-tamarind-sauce","viewed":1}
+{"_id":{"$oid":"5ca64788c6d0b015c4bfdee9"},"id":71986,"name":"Hot Dog Sauce","href":"https://www.allrecipes.com/recipe/71986/hot-dog-sauce","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e93d"},"id":9428,"name":"Hot Fudge Sauce I","href":"https://www.allrecipes.com/recipe/9428/hot-fudge-sauce-i","viewed":-1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e93e"},"id":80782,"name":"Heavenly Hot Dog Sauce","href":"https://www.allrecipes.com/recipe/80782/heavenly-hot-dog-sauce","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e93f"},"id":215447,"name":"Dad's Leftover Turkey Pot Pie","href":"https://www.allrecipes.com/recipe/215447/dads-leftover-turkey-pot-pie","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e940"},"id":19377,"name":"Hot Tomato Sauce","href":"https://www.allrecipes.com/recipe/19377/hot-tomato-sauce","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e941"},"id":162760,"name":"Fluffy Pancakes","href":"https://www.allrecipes.com/recipe/162760/fluffy-pancakes","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e942"},"id":44491,"name":"Big Al's K.C. Bar-B-Q Sauce","href":"https://www.allrecipes.com/recipe/44491/big-als-kc-bar-b-q-sauce","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e943"},"id":143069,"name":"Super-Delicious Zuppa Toscana","href":"https://www.allrecipes.com/recipe/143069/super-delicious-zuppa-toscana","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e944"},"id":24168,"name":"New York System Hot Wiener Sauce I","href":"https://www.allrecipes.com/recipe/24168/new-york-system-hot-wiener-sauce-i","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e945"},"id":25502,"name":"Southwestern Egg Rolls","href":"https://www.allrecipes.com/recipe/25502/southwestern-egg-rolls","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e946"},"id":151266,"name":"Boneless Buffalo Wings","href":"https://www.allrecipes.com/recipe/151266/boneless-buffalo-wings","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e947"},"id":9111,"name":"Cranberry Sauce","href":"https://www.allrecipes.com/recipe/9111/cranberry-sauce","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e948"},"id":51301,"name":"Sarah's Applesauce","href":"https://www.allrecipes.com/recipe/51301/sarahs-applesauce","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e949"},"id":173697,"name":"Yummy Honey Mustard Dipping Sauce","href":"https://www.allrecipes.com/recipe/173697/yummy-honey-mustard-dipping-sauce","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e94a"},"id":21318,"name":"Super Al's Cocktail Sauce","href":"https://www.allrecipes.com/recipe/21318/super-als-cocktail-sauce","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e94b"},"id":109297,"name":"Cedar Planked Salmon","href":"https://www.allrecipes.com/recipe/109297/cedar-planked-salmon","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e94c"},"id":166160,"name":"Juicy Thanksgiving Turkey","href":"https://www.allrecipes.com/recipe/166160/juicy-thanksgiving-turkey","viewed":1}
+{"_id":{"$oid":"5ca6479ec6d0b0161e81e94d"},"id":236849,"name":"Hot Buttered Rum Sauce","href":"https://www.allrecipes.com/recipe/236849/hot-buttered-rum-sauce","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e94e"},"id":69919,"name":"Bacon Wrapped Smokies","href":"https://www.allrecipes.com/recipe/69919/bacon-wrapped-smokies","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e94f"},"id":214931,"name":"Oven-Roasted Asparagus","href":"https://www.allrecipes.com/recipe/214931/oven-roasted-asparagus","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e950"},"id":43914,"name":"Supreme Strawberry Topping","href":"https://www.allrecipes.com/recipe/43914/supreme-strawberry-topping","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e951"},"id":133128,"name":"Peppered Shrimp Alfredo","href":"https://www.allrecipes.com/recipe/133128/peppered-shrimp-alfredo","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e952"},"id":218093,"name":"Heather's Grilled Salmon","href":"https://www.allrecipes.com/recipe/218093/heathers-grilled-salmon","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e953"},"id":16115,"name":"Bourbon Whiskey BBQ Sauce","href":"https://www.allrecipes.com/recipe/16115/bourbon-whiskey-bbq-sauce","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e954"},"id":14939,"name":"Brown Sugar Smokies","href":"https://www.allrecipes.com/recipe/14939/brown-sugar-smokies","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e955"},"id":100606,"name":"Beef Bulgogi","href":"https://www.allrecipes.com/recipe/100606/beef-bulgogi","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e956"},"id":97621,"name":"Foolproof Rib Roast","href":"https://www.allrecipes.com/recipe/97621/foolproof-rib-roast","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e957"},"id":13643,"name":"Cranberry Sauce Extraordinaire","href":"https://www.allrecipes.com/recipe/13643/cranberry-sauce-extraordinaire","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e958"},"id":139012,"name":"Jalapeno Popper Spread","href":"https://www.allrecipes.com/recipe/139012/jalapeno-popper-spread","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e959"},"id":58112,"name":"Mushrooms with a Soy Sauce Glaze","href":"https://www.allrecipes.com/recipe/58112/mushrooms-with-a-soy-sauce-glaze","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e95a"},"id":239186,"name":"Hot Mango Peppa Sauce","href":"https://www.allrecipes.com/recipe/239186/hot-mango-peppa-sauce","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e95b"},"id":200283,"name":"Spinach Basil Pesto","href":"https://www.allrecipes.com/recipe/200283/spinach-basil-pesto","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e95c"},"id":21171,"name":"White Sauce","href":"https://www.allrecipes.com/recipe/21171/white-sauce","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e95d"},"id":146572,"name":"Sweet Cornbread Cake","href":"https://www.allrecipes.com/recipe/146572/sweet-cornbread-cake","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e95e"},"id":46777,"name":"Chai Tea Mix","href":"https://www.allrecipes.com/recipe/46777/chai-tea-mix","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e95f"},"id":91499,"name":"General Tsao's Chicken II","href":"https://www.allrecipes.com/recipe/91499/general-tsaos-chicken-ii","viewed":1}
+{"_id":{"$oid":"5ca647a9c6d0b0161e81e960"},"id":228498,"name":"Slow Cooker Baby Back Ribs","href":"https://www.allrecipes.com/recipe/228498/slow-cooker-baby-back-ribs","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e961"},"id":257938,"name":"Spicy Thai Basil Chicken (Pad Krapow Gai)","href":"https://www.allrecipes.com/recipe/257938/spicy-thai-basil-chicken-pad-krapow-gai","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e962"},"id":26819,"name":"Hot Artichoke and Spinach Dip II","href":"https://www.allrecipes.com/recipe/26819/hot-artichoke-and-spinach-dip-ii","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e963"},"id":160051,"name":"Lentil Soup with Lemon","href":"https://www.allrecipes.com/recipe/160051/lentil-soup-with-lemon","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e964"},"id":216391,"name":"Easy Sausage Gravy and Biscuits","href":"https://www.allrecipes.com/recipe/216391/easy-sausage-gravy-and-biscuits","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e965"},"id":217181,"name":"Best Bread Pudding with Vanilla Sauce","href":"https://www.allrecipes.com/recipe/217181/best-bread-pudding-with-vanilla-sauce","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e966"},"id":60357,"name":"Veronica's Hot Spinach, Artichoke and Chile Dip","href":"https://www.allrecipes.com/recipe/60357/veronicas-hot-spinach-artichoke-and-chile-dip","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e967"},"id":83549,"name":"Angela's Awesome Enchiladas","href":"https://www.allrecipes.com/recipe/83549/angelas-awesome-enchiladas","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e968"},"id":130358,"name":"World's Best Pasta Sauce!","href":"https://www.allrecipes.com/recipe/130358/worlds-best-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e969"},"id":64513,"name":"Rosemary Ranch Chicken Kabobs","href":"https://www.allrecipes.com/recipe/64513/rosemary-ranch-chicken-kabobs","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e96a"},"id":133948,"name":"Four Cheese Margherita Pizza","href":"https://www.allrecipes.com/recipe/133948/four-cheese-margherita-pizza","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e96b"},"id":13459,"name":"Cranberry Sauce I","href":"https://www.allrecipes.com/recipe/13459/cranberry-sauce-i","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e96c"},"id":26490,"name":"Holiday Cranberry Sauce","href":"https://www.allrecipes.com/recipe/26490/holiday-cranberry-sauce","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e96d"},"id":127500,"name":"Japanese-Style Deep-Fried Shrimp","href":"https://www.allrecipes.com/recipe/127500/japanese-style-deep-fried-shrimp","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e96e"},"id":166771,"name":"Grilled Tilapia with Mango Salsa","href":"https://www.allrecipes.com/recipe/166771/grilled-tilapia-with-mango-salsa","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e96f"},"id":16699,"name":"Firecracker Grilled Alaska Salmon","href":"https://www.allrecipes.com/recipe/16699/firecracker-grilled-alaska-salmon","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e970"},"id":214572,"name":"Chicken Chimichangas with Sour Cream Sauce","href":"https://www.allrecipes.com/recipe/214572/chicken-chimichangas-with-sour-cream-sauce","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e971"},"id":87076,"name":"Grilled Bacon Jalapeno Wraps","href":"https://www.allrecipes.com/recipe/87076/grilled-bacon-jalapeno-wraps","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e972"},"id":142972,"name":"Bread Machine Pizza Dough","href":"https://www.allrecipes.com/recipe/142972/bread-machine-pizza-dough","viewed":1}
+{"_id":{"$oid":"5ca647b4c6d0b0161e81e973"},"id":219109,"name":"Buffalo Chicken Wing Sauce","href":"https://www.allrecipes.com/recipe/219109/buffalo-chicken-wing-sauce","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e974"},"id":14930,"name":"Florentine Artichoke Dip","href":"https://www.allrecipes.com/recipe/14930/florentine-artichoke-dip","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e975"},"id":22728,"name":"Hot Fudge Ice Cream Bar Dessert","href":"https://www.allrecipes.com/recipe/22728/hot-fudge-ice-cream-bar-dessert","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e976"},"id":213068,"name":"Grill Master Chicken Wings","href":"https://www.allrecipes.com/recipe/213068/grill-master-chicken-wings","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e977"},"id":222582,"name":"Baked Spaghetti","href":"https://www.allrecipes.com/recipe/222582/baked-spaghetti","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e978"},"id":229088,"name":"Apple Crisp with Oat Topping","href":"https://www.allrecipes.com/recipe/229088/apple-crisp-with-oat-topping","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e979"},"id":214381,"name":"Cindy's Jambalaya","href":"https://www.allrecipes.com/recipe/214381/cindys-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e97a"},"id":219767,"name":"Buttery Alfredo Sauce","href":"https://www.allrecipes.com/recipe/219767/buttery-alfredo-sauce","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e97b"},"id":141169,"name":"Easy Indian Butter Chicken","href":"https://www.allrecipes.com/recipe/141169/easy-indian-butter-chicken","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e97c"},"id":186378,"name":"Sweet Potato, Carrot, Apple, and Red Lentil Soup","href":"https://www.allrecipes.com/recipe/186378/sweet-potato-carrot-apple-and-red-lentil-soup","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e97d"},"id":157940,"name":"Outrageous Warm Chicken Nacho Dip","href":"https://www.allrecipes.com/recipe/157940/outrageous-warm-chicken-nacho-dip","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e97e"},"id":231713,"name":"Chef John's Baked Mushroom Risotto","href":"https://www.allrecipes.com/recipe/231713/chef-johns-baked-mushroom-risotto","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e97f"},"id":11966,"name":"Best Marinara Sauce Yet","href":"https://www.allrecipes.com/recipe/11966/best-marinara-sauce-yet","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e980"},"id":158140,"name":"Spaghetti Sauce with Ground Beef","href":"https://www.allrecipes.com/recipe/158140/spaghetti-sauce-with-ground-beef","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e981"},"id":221131,"name":"Baked Buffalo Chicken Dip","href":"https://www.allrecipes.com/recipe/221131/baked-buffalo-chicken-dip","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e982"},"id":20446,"name":"Amy's Cilantro Cream Sauce","href":"https://www.allrecipes.com/recipe/20446/amys-cilantro-cream-sauce","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e983"},"id":13937,"name":"Pesto","href":"https://www.allrecipes.com/recipe/13937/pesto","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e984"},"id":12788,"name":"Tartar Sauce I","href":"https://www.allrecipes.com/recipe/12788/tartar-sauce-i","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e985"},"id":239059,"name":"Fresh Tomato Marinara Sauce","href":"https://www.allrecipes.com/recipe/239059/fresh-tomato-marinara-sauce","viewed":1}
+{"_id":{"$oid":"5ca647bfc6d0b0161e81e986"},"id":233170,"name":"Sweet Hot Mustard Chicken Thighs","href":"https://www.allrecipes.com/recipe/233170/sweet-hot-mustard-chicken-thighs","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e987"},"id":220661,"name":"Quinoa Black Bean Burgers","href":"https://www.allrecipes.com/recipe/220661/quinoa-black-bean-burgers","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e988"},"id":205113,"name":"Master Pizza Dough","href":"https://www.allrecipes.com/recipe/205113/master-pizza-dough","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e989"},"id":33474,"name":"Artichoke \u0026 Spinach Dip Restaurant Style","href":"https://www.allrecipes.com/recipe/33474/artichoke-spinach-dip-restaurant-style","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e98a"},"id":202463,"name":"Shoyu Chicken","href":"https://www.allrecipes.com/recipe/202463/shoyu-chicken","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e98b"},"id":166558,"name":"Happy Shrimp","href":"https://www.allrecipes.com/recipe/166558/happy-shrimp","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e98c"},"id":70112,"name":"Blueberry Sauce","href":"https://www.allrecipes.com/recipe/70112/blueberry-sauce","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e98d"},"id":233968,"name":"Lemon Chicken Orzo Soup","href":"https://www.allrecipes.com/recipe/233968/lemon-chicken-orzo-soup","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e98e"},"id":7385,"name":"White Chocolate Cheesecake with White Chocolate Brandy Sauce","href":"https://www.allrecipes.com/recipe/7385/white-chocolate-cheesecake-with-white-chocolate-brandy-sauce","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e98f"},"id":230275,"name":"Tomato Basil Soup","href":"https://www.allrecipes.com/recipe/230275/tomato-basil-soup","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e990"},"id":200135,"name":"Mountain Apple Cobbler","href":"https://www.allrecipes.com/recipe/200135/mountain-apple-cobbler","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e991"},"id":204478,"name":"Roasted Okra","href":"https://www.allrecipes.com/recipe/204478/roasted-okra","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e992"},"id":134137,"name":"Delicious Salmon","href":"https://www.allrecipes.com/recipe/134137/delicious-salmon","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e993"},"id":132351,"name":"Fabulous Beef Tenderloin","href":"https://www.allrecipes.com/recipe/132351/fabulous-beef-tenderloin","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e994"},"id":21018,"name":"Gingerbread Waffles with Hot Chocolate Sauce","href":"https://www.allrecipes.com/recipe/21018/gingerbread-waffles-with-hot-chocolate-sauce","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e995"},"id":24916,"name":"New York System Hot Wiener Sauce II","href":"https://www.allrecipes.com/recipe/24916/new-york-system-hot-wiener-sauce-ii","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e996"},"id":186691,"name":"Lisa's Favorite Carne Asada Marinade","href":"https://www.allrecipes.com/recipe/186691/lisas-favorite-carne-asada-marinade","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e997"},"id":57808,"name":"Antipasto Squares","href":"https://www.allrecipes.com/recipe/57808/antipasto-squares","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e998"},"id":96698,"name":"Kalbi (Korean BBQ Short Ribs)","href":"https://www.allrecipes.com/recipe/96698/kalbi-korean-bbq-short-ribs","viewed":1}
+{"_id":{"$oid":"5ca647c9c6d0b0161e81e999"},"id":218031,"name":"Jalapeno Cream Cheese Chicken Enchiladas","href":"https://www.allrecipes.com/recipe/218031/jalapeno-cream-cheese-chicken-enchiladas","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e99a"},"id":223188,"name":"Wow! Sweet and Sour Sauce","href":"https://www.allrecipes.com/recipe/223188/wow-sweet-and-sour-sauce","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e99b"},"id":218597,"name":"Roasted Swiss Chard with Feta","href":"https://www.allrecipes.com/recipe/218597/roasted-swiss-chard-with-feta","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e99c"},"id":189058,"name":"Super Simple Salmon","href":"https://www.allrecipes.com/recipe/189058/super-simple-salmon","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e99d"},"id":214194,"name":"Green Chile Spinach Quiche","href":"https://www.allrecipes.com/recipe/214194/green-chile-spinach-quiche","viewed":-1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e99e"},"id":216028,"name":"Brussels Sprouts in a Sherry Bacon Cream Sauce","href":"https://www.allrecipes.com/recipe/216028/brussels-sprouts-in-a-sherry-bacon-cream-sauce","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e99f"},"id":169512,"name":"Jalapeno Snacks","href":"https://www.allrecipes.com/recipe/169512/jalapeno-snacks","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e9a0"},"id":23040,"name":"Hot Buttered Rum Batter","href":"https://www.allrecipes.com/recipe/23040/hot-buttered-rum-batter","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e9a1"},"id":217962,"name":"Jan's Pretzel Dogs","href":"https://www.allrecipes.com/recipe/217962/jans-pretzel-dogs","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e9a2"},"id":217899,"name":"Mozzarella-Stuffed Pesto Turkey Meatballs","href":"https://www.allrecipes.com/recipe/217899/mozzarella-stuffed-pesto-turkey-meatballs","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e9a3"},"id":12054,"name":"Stephanie's Freezer Spaghetti Sauce","href":"https://www.allrecipes.com/recipe/12054/stephanies-freezer-spaghetti-sauce","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e9a4"},"id":19402,"name":"Quick and Easy Alfredo Sauce","href":"https://www.allrecipes.com/recipe/19402/quick-and-easy-alfredo-sauce","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e9a5"},"id":11815,"name":"Penne with Spicy Vodka Tomato Cream Sauce","href":"https://www.allrecipes.com/recipe/11815/penne-with-spicy-vodka-tomato-cream-sauce","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e9a6"},"id":166583,"name":"Spicy Chipotle Turkey Burgers","href":"https://www.allrecipes.com/recipe/166583/spicy-chipotle-turkey-burgers","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e9a7"},"id":21587,"name":"Caramel Apple Dip","href":"https://www.allrecipes.com/recipe/21587/caramel-apple-dip","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e9a8"},"id":166140,"name":"Thai-Style Peanut Sauce with Honey","href":"https://www.allrecipes.com/recipe/166140/thai-style-peanut-sauce-with-honey","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e9a9"},"id":187850,"name":"Egg in a Hole","href":"https://www.allrecipes.com/recipe/187850/egg-in-a-hole","viewed":1}
+{"_id":{"$oid":"5ca647d4c6d0b0161e81e9aa"},"id":166601,"name":"Whole Wheat, Oatmeal, and Banana Pancakes","href":"https://www.allrecipes.com/recipe/166601/whole-wheat-oatmeal-and-banana-pancakes","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9ab"},"id":9501,"name":"Hot Apple Cider","href":"https://www.allrecipes.com/recipe/9501/hot-apple-cider","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9ac"},"id":215813,"name":"Corn on the Grill","href":"https://www.allrecipes.com/recipe/215813/corn-on-the-grill","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9ad"},"id":25441,"name":"Devil's Steak Sauce","href":"https://www.allrecipes.com/recipe/25441/devils-steak-sauce","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9ae"},"id":213211,"name":"Turkey and Quinoa Meatloaf","href":"https://www.allrecipes.com/recipe/213211/turkey-and-quinoa-meatloaf","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9af"},"id":222387,"name":"Chef John's Creme Fraiche","href":"https://www.allrecipes.com/recipe/222387/chef-johns-creme-fraiche","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9b0"},"id":218794,"name":"Chicken and Gnocchi Soup","href":"https://www.allrecipes.com/recipe/218794/chicken-and-gnocchi-soup","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9b1"},"id":150251,"name":"Shish Tawook Grilled Chicken","href":"https://www.allrecipes.com/recipe/150251/shish-tawook-grilled-chicken","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9b2"},"id":14675,"name":"Brisket with BBQ Sauce","href":"https://www.allrecipes.com/recipe/14675/brisket-with-bbq-sauce","viewed":-1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9b3"},"id":200340,"name":"Grilled Filet Mignon with Gorgonzola Cream Sauce","href":"https://www.allrecipes.com/recipe/200340/grilled-filet-mignon-with-gorgonzola-cream-sauce","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9b4"},"id":231644,"name":"Chicken Souvlaki with Tzatziki Sauce","href":"https://www.allrecipes.com/recipe/231644/chicken-souvlaki-with-tzatziki-sauce","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9b5"},"id":211401,"name":"Brussels Sprouts Gratin","href":"https://www.allrecipes.com/recipe/211401/brussels-sprouts-gratin","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9b6"},"id":221141,"name":"Fresh Strawberry Sauce","href":"https://www.allrecipes.com/recipe/221141/fresh-strawberry-sauce","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9b7"},"id":199983,"name":"Arkansas Green Beans","href":"https://www.allrecipes.com/recipe/199983/arkansas-green-beans","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9b8"},"id":185519,"name":"Homemade Wonton Soup","href":"https://www.allrecipes.com/recipe/185519/homemade-wonton-soup","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9b9"},"id":111933,"name":"Venison Bacon Burgers","href":"https://www.allrecipes.com/recipe/111933/venison-bacon-burgers","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9ba"},"id":142892,"name":"Slow Cooker Spicy Black-Eyed Peas","href":"https://www.allrecipes.com/recipe/142892/slow-cooker-spicy-black-eyed-peas","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9bb"},"id":213742,"name":"Meatball Nirvana","href":"https://www.allrecipes.com/recipe/213742/meatball-nirvana","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9bc"},"id":81581,"name":"Hot Italian Giardiniera","href":"https://www.allrecipes.com/recipe/81581/hot-italian-giardiniera","viewed":1}
+{"_id":{"$oid":"5ca647dfc6d0b0161e81e9bd"},"id":134483,"name":"Chicago-Style Hot Dog","href":"https://www.allrecipes.com/recipe/134483/chicago-style-hot-dog","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9be"},"id":72267,"name":"Blue Cheese Crusted Filet Mignon with Port Wine Sauce","href":"https://www.allrecipes.com/recipe/72267/blue-cheese-crusted-filet-mignon-with-port-wine-sauce","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9bf"},"id":24643,"name":"Chicken Enchilada Dip","href":"https://www.allrecipes.com/recipe/24643/chicken-enchilada-dip","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9c0"},"id":189891,"name":"Pesto Grilled Cheese Sandwich","href":"https://www.allrecipes.com/recipe/189891/pesto-grilled-cheese-sandwich","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9c1"},"id":18352,"name":"Whipped Cream","href":"https://www.allrecipes.com/recipe/18352/whipped-cream","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9c2"},"id":24368,"name":"Pizza Without the Red Sauce","href":"https://www.allrecipes.com/recipe/24368/pizza-without-the-red-sauce","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9c3"},"id":20538,"name":"Gluehwein","href":"https://www.allrecipes.com/recipe/20538/gluehwein","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9c4"},"id":220182,"name":"Homemade Sloppy Joes","href":"https://www.allrecipes.com/recipe/220182/homemade-sloppy-joes","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9c5"},"id":210084,"name":"Chocolate Syrup","href":"https://www.allrecipes.com/recipe/210084/chocolate-syrup","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9c6"},"id":15184,"name":"Mouth-Watering Stuffed Mushrooms","href":"https://www.allrecipes.com/recipe/15184/mouth-watering-stuffed-mushrooms","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9c7"},"id":106030,"name":"Kofta Kebabs","href":"https://www.allrecipes.com/recipe/106030/kofta-kebabs","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9c8"},"id":143809,"name":"Best Steak Marinade in Existence","href":"https://www.allrecipes.com/recipe/143809/best-steak-marinade-in-existence","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9c9"},"id":93168,"name":"Rotisserie Chicken","href":"https://www.allrecipes.com/recipe/93168/rotisserie-chicken","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9ca"},"id":142488,"name":"Amazing Spicy Grilled Shrimp","href":"https://www.allrecipes.com/recipe/142488/amazing-spicy-grilled-shrimp","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9cb"},"id":255936,"name":"Chicken, Sausage, Peppers, and Potatoes","href":"https://www.allrecipes.com/recipe/255936/chicken-sausage-peppers-and-potatoes","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9cc"},"id":15022,"name":"Veggie Pizza","href":"https://www.allrecipes.com/recipe/15022/veggie-pizza","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9cd"},"id":12034,"name":"Meaty Spaghetti Sauce","href":"https://www.allrecipes.com/recipe/12034/meaty-spaghetti-sauce","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9ce"},"id":222435,"name":"Texas Hot Wiener Sauce (Ulster County New York Style)","href":"https://www.allrecipes.com/recipe/222435/texas-hot-wiener-sauce-ulster-county-new-york-style","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9cf"},"id":25539,"name":"Sausage Jalapeno Poppers","href":"https://www.allrecipes.com/recipe/25539/sausage-jalapeno-poppers","viewed":1}
+{"_id":{"$oid":"5ca647eac6d0b0161e81e9d0"},"id":229263,"name":"Bread Pudding with Praline Sauce","href":"https://www.allrecipes.com/recipe/229263/bread-pudding-with-praline-sauce","viewed":1}
