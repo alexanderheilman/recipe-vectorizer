@@ -158,7 +158,7 @@ def get_next_recipe(collection, reverse=False):
     cursor = collection.find({'viewed':0}).sort([('_id',direction)]).limit(1)
     return next(cursor)
 
-def remove_duplicates():
+def remove_duplicates_and_update_serach_results():
     mc = pymongo.MongoClient()
     db = mc['allrecipes']
     recipes_coll = db['recipes']
@@ -168,6 +168,7 @@ def remove_duplicates():
         cursor = recipes_coll.find()
         repeats = set()
         for recipe in cursor:
+            
             if len(list(recipes_coll.find({'id':recipe['id']}))) > 1:
                 repeats.add(recipe['id'])
         print('{} repeats found in "recipes" collection.'.format(len(repeats)))
@@ -201,6 +202,12 @@ def remove_duplicates():
                 results_coll.delete_one({'id':result_id, 'viewed':0})
         
         len_prev = len_current
+
+    cursor = recipes_coll.find()
+    for recipe in cursor:
+        results_coll.update_one({'id':recipe['id']},
+                          {"$set":{'viewed': 1}}, upsert=False)
+
 
 ########################################
 #   Recipe scraping functions
