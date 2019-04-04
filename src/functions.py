@@ -370,7 +370,7 @@ phrases = [' - ',', or ', ' for garnish', 'cut ', 'such as', ' like ', 'e.g.', '
 
 stopwords = ['and', 'into', 'very', 'hot', 'cold', 'warm', 'fresh', 'frozen', 'large', 'medium', 'small', 'halves', 'torn', 'bulk',
              'optional', 'fatfree', 'lowsodium', 'low', 'sodium', 'reducedsodium', 'reducedfat', 'ripe', 'lean',
-             'extra', 'pure', 'goya', 'whole', 'ground']
+             'extra', 'pure', 'goya', 'whole', 'ground', 'organic']
 
 suffixes = ['ed','less','ly']
 
