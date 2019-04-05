@@ -361,7 +361,7 @@ def _get_servings(browser):
 units = ['pound', 'pounds', 'cup', 'cups', 'tablespoon', 'tablespoons', 'teaspoon', 'teaspoons',
          'clove', 'cloves', 'stalk', 'stalks', 'ounce', 'ounces', 'oz.', 'oz', 'cubes', 'pint', 'pints',
          'quart', 'quarts', 'dash', 'dashs', 'dashes', 'rib', 'ribs', 'bunch', 'bunches', 'pinch', 'head',
-         'heads']
+         'heads', 'slices', 'slice']
 
 manual = ['2 to 3 pound', 'finely chopped from 1 can', 'onion soup, prepared from']
 
@@ -416,6 +416,7 @@ conversion_dict['head'] = {'other': 20,
                              'broccoli': 20}
 conversion_dict['rib'] = {'celery': 2, 'other': 2}
 conversion_dict['stalk'] = {'celery': 2, 'other': 2}
+conversion_dict['slice'] = {'bacon': 1, 'bread': 1, 'other': 1}
 conversion_dict['each'] = {'onion': 8,
                              'bell pepper': 6,
                              'potato': 6,
@@ -427,7 +428,6 @@ conversion_dict['each'] = {'onion': 8,
                              'green onion': 0.5,
                              'zucchini': 5,
                              'bay leave': 1,
-                             'slices bacon': 1,
                              'lime': 1.5,
                              'head cabbage': 30,
                              'habanero pepper': 0.1,
@@ -447,7 +447,7 @@ def parse_ingredients(ingredients, units=units, flag_words=flag_words):
     Also takes argument 'units', a list of accepted units (e.g., ['cups', 'tablespoon']).
     If an ingredident does not specify a unit in this list, the label 'each' will be applied.
     '''
-    ing_list = []
+    ing_dict = {}
     for item in ingredients:
         item_dict = {}
         # Check item for flag words/phrases(require special parsing treatment)
@@ -491,11 +491,20 @@ def parse_ingredients(ingredients, units=units, flag_words=flag_words):
         parsed = _remove_descriptors(remainder)
         if not parsed:
             continue
-        item_dict['ingredient'] = _merge_identicals(parsed, identicals)
-        item_dict['normalized_qty'] = _normalize_ingredient_quantity(item_dict, conversion_dict)
-        # Add item dictionary to list
-        ing_list.append(item_dict)
-    return ing_list
+        ing_name = _merge_identicals(parsed, identicals)
+        item_dict['normalized_qty'] = _normalize_ingredient_quantity(ing_name, item_dict, conversion_dict)
+        # Add item dictionary to ingredient dictionary
+        # If duplicate, combine normalized quantities and flag other entries
+        if ing_name in ing_dict.keys():
+            qty = ing_dict[ing_name]['normalized_qty']
+            item_dict['normalized_qty'] += qty
+            item_dict['units'] = 'combined'
+            item_dict['quantity'] = -1
+            ing_dict[ing_name] = item_dict
+        else:
+            ing_dict[ing_name] = item_dict
+        
+    return ing_dict
 
 
 ### HELPER FUNCTIONS ###
@@ -585,14 +594,13 @@ def _remove_descriptors(item,
     else:
         return result if result[-1] != 's' else result[:-1]
     
-def _normalize_ingredient_quantity(ingredient_dict, conversion_dict):
-    ing = ingredient_dict['ingredient']
-    qty = ingredient_dict['quantity']
-    units = ingredient_dict['units']
+def _normalize_ingredient_quantity(ing_name, item_dict, conversion_dict):
+    qty = item_dict['quantity']
+    units = item_dict['units']
     if units in conversion_dict.keys():
         conv_factor_dict = conversion_dict[units]
-        if ing in conv_factor_dict.keys():
-            conv_factor = conv_factor_dict[ing]
+        if ing_name in conv_factor_dict.keys():
+            conv_factor = conv_factor_dict[ing_name]
         else:
             conv_factor = conv_factor_dict['other']
         return qty * conv_factor
