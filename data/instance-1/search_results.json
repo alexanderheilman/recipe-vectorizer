@@ -166,7 +166,7 @@
 {"_id":{"$oid":"5ca3f1e0c6d0b007d9d1a21b"},"id":213238,"name":"Indian Fish Curry","href":"https://www.allrecipes.com/recipe/213238/indian-fish-curry","viewed":1}
 {"_id":{"$oid":"5ca3f1e0c6d0b007d9d1a21c"},"id":165190,"name":"Spicy Vegan Potato Curry","href":"https://www.allrecipes.com/recipe/165190/spicy-vegan-potato-curry","viewed":1}
 {"_id":{"$oid":"5ca3f1e0c6d0b007d9d1a21d"},"id":142603,"name":"Curried Tilapia with Mango Salsa","href":"https://www.allrecipes.com/recipe/142603/curried-tilapia-with-mango-salsa","viewed":1}
-{"_id":{"$oid":"5ca3f1e0c6d0b007d9d1a21e"},"id":190490,"name":"Easy Chickpea Curry","href":"https://www.allrecipes.com/recipe/190490/easy-chickpea-curry","viewed":-1}
+{"_id":{"$oid":"5ca3f1e0c6d0b007d9d1a21e"},"id":190490,"name":"Easy Chickpea Curry","href":"https://www.allrecipes.com/recipe/190490/easy-chickpea-curry","viewed":1}
 {"_id":{"$oid":"5ca3f1e0c6d0b007d9d1a21f"},"id":214774,"name":"Adriel's Chinese Curry Chicken","href":"https://www.allrecipes.com/recipe/214774/adriels-chinese-curry-chicken","viewed":1}
 {"_id":{"$oid":"5ca3f1e0c6d0b007d9d1a220"},"id":90105,"name":"Butter Chickpea Curry","href":"https://www.allrecipes.com/recipe/90105/butter-chickpea-curry","viewed":1}
 {"_id":{"$oid":"5ca3f1e0c6d0b007d9d1a221"},"id":8857,"name":"Curried Honey Mustard Chicken","href":"https://www.allrecipes.com/recipe/8857/curried-honey-mustard-chicken","viewed":1}
@@ -330,7 +330,7 @@
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb326ea"},"id":83950,"name":"Ribley Soup","href":"https://www.allrecipes.com/recipe/83950/ribley-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb326eb"},"id":255439,"name":"Tunisian Soup","href":"https://www.allrecipes.com/recipe/255439/tunisian-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb326ec"},"id":17684,"name":"Watercress Soup","href":"https://www.allrecipes.com/recipe/17684/watercress-soup","viewed":1}
-{"_id":{"$oid":"5ca4dc7fc6d0b0060eb326ed"},"id":216938,"name":"Artichoke Soup","href":"https://www.allrecipes.com/recipe/216938/artichoke-soup","viewed":-1}
+{"_id":{"$oid":"5ca4dc7fc6d0b0060eb326ed"},"id":216938,"name":"Artichoke Soup","href":"https://www.allrecipes.com/recipe/216938/artichoke-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb326ee"},"id":21022,"name":"Wedding Soup","href":"https://www.allrecipes.com/recipe/21022/wedding-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb326ef"},"id":244359,"name":"Papaya Soup","href":"https://www.allrecipes.com/recipe/244359/papaya-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb326f0"},"id":17826,"name":"Posole Soup","href":"https://www.allrecipes.com/recipe/17826/posole-soup","viewed":1}
@@ -348,27 +348,27 @@
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb326fc"},"id":12959,"name":"Camp Soup","href":"https://www.allrecipes.com/recipe/12959/camp-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb326fd"},"id":12916,"name":"Sitta Soup","href":"https://www.allrecipes.com/recipe/12916/sitta-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb326fe"},"id":58485,"name":"Yam Soup","href":"https://www.allrecipes.com/recipe/58485/yam-soup","viewed":1}
-{"_id":{"$oid":"5ca4dc7fc6d0b0060eb326ff"},"id":15281,"name":"Berry Soup","href":"https://www.allrecipes.com/recipe/15281/berry-soup","viewed":-1}
-{"_id":{"$oid":"5ca4dc7fc6d0b0060eb32700"},"id":210051,"name":"Caribou Soup","href":"https://www.allrecipes.com/recipe/210051/caribou-soup","viewed":-1}
+{"_id":{"$oid":"5ca4dc7fc6d0b0060eb326ff"},"id":15281,"name":"Berry Soup","href":"https://www.allrecipes.com/recipe/15281/berry-soup","viewed":1}
+{"_id":{"$oid":"5ca4dc7fc6d0b0060eb32700"},"id":210051,"name":"Caribou Soup","href":"https://www.allrecipes.com/recipe/210051/caribou-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb32701"},"id":13199,"name":"Wonton Soup","href":"https://www.allrecipes.com/recipe/13199/wonton-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb32702"},"id":13139,"name":"Callaloo Soup","href":"https://www.allrecipes.com/recipe/13139/callaloo-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb32703"},"id":137959,"name":"Edamame Soup","href":"https://www.allrecipes.com/recipe/137959/edamame-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb32704"},"id":75737,"name":"Elderberry Soup","href":"https://www.allrecipes.com/recipe/75737/elderberry-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb32705"},"id":23624,"name":"Miracle Soup","href":"https://www.allrecipes.com/recipe/23624/miracle-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb32706"},"id":80564,"name":"Oat Soup","href":"https://www.allrecipes.com/recipe/80564/oat-soup","viewed":1}
-{"_id":{"$oid":"5ca4dc7fc6d0b0060eb32707"},"id":13264,"name":"Vermicelli Soup","href":"https://www.allrecipes.com/recipe/13264/vermicelli-soup","viewed":-1}
+{"_id":{"$oid":"5ca4dc7fc6d0b0060eb32707"},"id":13264,"name":"Vermicelli Soup","href":"https://www.allrecipes.com/recipe/13264/vermicelli-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb32708"},"id":18203,"name":"Weenie Soup","href":"https://www.allrecipes.com/recipe/18203/weenie-soup","viewed":1}
-{"_id":{"$oid":"5ca4dc7fc6d0b0060eb32709"},"id":12998,"name":"Meatball Soup","href":"https://www.allrecipes.com/recipe/12998/meatball-soup","viewed":-1}
+{"_id":{"$oid":"5ca4dc7fc6d0b0060eb32709"},"id":12998,"name":"Meatball Soup","href":"https://www.allrecipes.com/recipe/12998/meatball-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb3270a"},"id":53493,"name":"Alphabet Soup","href":"https://www.allrecipes.com/recipe/53493/alphabet-soup","viewed":1}
-{"_id":{"$oid":"5ca4dc7fc6d0b0060eb3270b"},"id":16844,"name":"Canned Soup","href":"https://www.allrecipes.com/recipe/16844/canned-soup","viewed":-1}
+{"_id":{"$oid":"5ca4dc7fc6d0b0060eb3270b"},"id":16844,"name":"Canned Soup","href":"https://www.allrecipes.com/recipe/16844/canned-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb3270c"},"id":15625,"name":"Happy Soup","href":"https://www.allrecipes.com/recipe/15625/happy-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb3270d"},"id":13106,"name":"Peanut Soup","href":"https://www.allrecipes.com/recipe/13106/peanut-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb3270e"},"id":12948,"name":"Lump Soup","href":"https://www.allrecipes.com/recipe/12948/lump-soup","viewed":1}
-{"_id":{"$oid":"5ca4dc7fc6d0b0060eb3270f"},"id":234066,"name":"Zucchini Soup","href":"https://www.allrecipes.com/recipe/234066/zucchini-soup","viewed":-1}
+{"_id":{"$oid":"5ca4dc7fc6d0b0060eb3270f"},"id":234066,"name":"Zucchini Soup","href":"https://www.allrecipes.com/recipe/234066/zucchini-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb32710"},"id":25736,"name":"Portuguese Soup","href":"https://www.allrecipes.com/recipe/25736/portuguese-soup","viewed":1}
-{"_id":{"$oid":"5ca4dc7fc6d0b0060eb32711"},"id":13775,"name":"Carrot Soup","href":"https://www.allrecipes.com/recipe/13775/carrot-soup","viewed":-1}
+{"_id":{"$oid":"5ca4dc7fc6d0b0060eb32711"},"id":13775,"name":"Carrot Soup","href":"https://www.allrecipes.com/recipe/13775/carrot-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb32712"},"id":84847,"name":"Fennel Soup","href":"https://www.allrecipes.com/recipe/84847/fennel-soup","viewed":1}
-{"_id":{"$oid":"5ca4dc7fc6d0b0060eb32713"},"id":20083,"name":"Asparagus Soup","href":"https://www.allrecipes.com/recipe/20083/asparagus-soup","viewed":-1}
+{"_id":{"$oid":"5ca4dc7fc6d0b0060eb32713"},"id":20083,"name":"Asparagus Soup","href":"https://www.allrecipes.com/recipe/20083/asparagus-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb32714"},"id":72011,"name":"Lemon Soup","href":"https://www.allrecipes.com/recipe/72011/lemon-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb32715"},"id":20578,"name":"Avocado Soup","href":"https://www.allrecipes.com/recipe/20578/avocado-soup","viewed":1}
 {"_id":{"$oid":"5ca4dc7fc6d0b0060eb32716"},"id":25709,"name":"Garlic Soup","href":"https://www.allrecipes.com/recipe/25709/garlic-soup","viewed":-1}
@@ -457,7 +457,7 @@
 {"_id":{"$oid":"5ca51192c6d0b00f6683d06e"},"id":169974,"name":"Lime-Curry Tofu Stir-Fry","href":"https://www.allrecipes.com/recipe/169974/lime-curry-tofu-stir-fry","viewed":1}
 {"_id":{"$oid":"5ca51192c6d0b00f6683d06f"},"id":20036,"name":"Indian Chicken Curry I","href":"https://www.allrecipes.com/recipe/20036/indian-chicken-curry-i","viewed":1}
 {"_id":{"$oid":"5ca51192c6d0b00f6683d070"},"id":148142,"name":"Curried Quinoa","href":"https://www.allrecipes.com/recipe/148142/curried-quinoa","viewed":1}
-{"_id":{"$oid":"5ca51192c6d0b00f6683d071"},"id":230900,"name":"Brown Rice Curry","href":"https://www.allrecipes.com/recipe/230900/brown-rice-curry","viewed":-1}
+{"_id":{"$oid":"5ca51192c6d0b00f6683d071"},"id":230900,"name":"Brown Rice Curry","href":"https://www.allrecipes.com/recipe/230900/brown-rice-curry","viewed":1}
 {"_id":{"$oid":"5ca51192c6d0b00f6683d072"},"id":205544,"name":"Indian Shrimp Curry","href":"https://www.allrecipes.com/recipe/205544/indian-shrimp-curry","viewed":1}
 {"_id":{"$oid":"5ca51192c6d0b00f6683d073"},"id":240833,"name":"Curried Cream of Cauliflower Soup","href":"https://www.allrecipes.com/recipe/240833/curried-cream-of-cauliflower-soup","viewed":1}
 {"_id":{"$oid":"5ca51192c6d0b00f6683d074"},"id":8991,"name":"Curry Kabobs","href":"https://www.allrecipes.com/recipe/8991/curry-kabobs","viewed":1}
@@ -848,11 +848,11 @@
 {"_id":{"$oid":"5ca55c37f07ba50c41609fc3"},"id":216109,"name":"Old Man's Turkey Noodle Soup","href":"https://www.allrecipes.com/recipe/216109/old-mans-turkey-noodle-soup","viewed":1}
 {"_id":{"$oid":"5ca55c37f07ba50c41609fc4"},"id":73118,"name":"Rachel's Tomato Basil Soup","href":"https://www.allrecipes.com/recipe/73118/rachels-tomato-basil-soup","viewed":1}
 {"_id":{"$oid":"5ca55c37f07ba50c41609fc5"},"id":13062,"name":"Cheeseburger Soup I","href":"https://www.allrecipes.com/recipe/13062/cheeseburger-soup-i","viewed":1}
-{"_id":{"$oid":"5ca55c37f07ba50c41609fc6"},"id":13346,"name":"Bean Soup","href":"https://www.allrecipes.com/recipe/13346/bean-soup","viewed":0}
-{"_id":{"$oid":"5ca55c37f07ba50c41609fc7"},"id":236449,"name":"Easy Beef Stew for the Slow Cooker","href":"https://www.allrecipes.com/recipe/236449/easy-beef-stew-for-the-slow-cooker","viewed":0}
-{"_id":{"$oid":"5ca55c37f07ba50c41609fc8"},"id":13029,"name":"Gramma Brown's Corn Chowder","href":"https://www.allrecipes.com/recipe/13029/gramma-browns-corn-chowder","viewed":0}
-{"_id":{"$oid":"5ca55c37f07ba50c41609fc9"},"id":24400,"name":"Turkey Wild Rice Soup","href":"https://www.allrecipes.com/recipe/24400/turkey-wild-rice-soup","viewed":0}
-{"_id":{"$oid":"5ca55c37f07ba50c41609fca"},"id":59571,"name":"Mushroom Soup Without Cream","href":"https://www.allrecipes.com/recipe/59571/mushroom-soup-without-cream","viewed":0}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fc6"},"id":13346,"name":"Bean Soup","href":"https://www.allrecipes.com/recipe/13346/bean-soup","viewed":1}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fc7"},"id":236449,"name":"Easy Beef Stew for the Slow Cooker","href":"https://www.allrecipes.com/recipe/236449/easy-beef-stew-for-the-slow-cooker","viewed":1}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fc8"},"id":13029,"name":"Gramma Brown's Corn Chowder","href":"https://www.allrecipes.com/recipe/13029/gramma-browns-corn-chowder","viewed":1}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fc9"},"id":24400,"name":"Turkey Wild Rice Soup","href":"https://www.allrecipes.com/recipe/24400/turkey-wild-rice-soup","viewed":1}
+{"_id":{"$oid":"5ca55c37f07ba50c41609fca"},"id":59571,"name":"Mushroom Soup Without Cream","href":"https://www.allrecipes.com/recipe/59571/mushroom-soup-without-cream","viewed":1}
 {"_id":{"$oid":"5ca55c37f07ba50c41609fcb"},"id":241533,"name":"Smokey Sausage, Kale \u0026 Sweet Potato Soup","href":"https://www.allrecipes.com/recipe/241533/smokey-sausage-kale-sweet-potato-soup","viewed":1}
 {"_id":{"$oid":"5ca55c37f07ba50c41609fcc"},"id":17950,"name":"Cheesy Potato Soup II","href":"https://www.allrecipes.com/recipe/17950/cheesy-potato-soup-ii","viewed":1}
 {"_id":{"$oid":"5ca55c37f07ba50c41609fcd"},"id":13313,"name":"Best Cream Of Broccoli Soup","href":"https://www.allrecipes.com/recipe/13313/best-cream-of-broccoli-soup","viewed":-1}
@@ -862,7 +862,7 @@
 {"_id":{"$oid":"5ca55c37f07ba50c41609fd1"},"id":140444,"name":"Tomato Gorgonzola Soup","href":"https://www.allrecipes.com/recipe/140444/tomato-gorgonzola-soup","viewed":1}
 {"_id":{"$oid":"5ca55c42f07ba50c41609fd2"},"id":230904,"name":"Hearty Barley Turkey Soup","href":"https://www.allrecipes.com/recipe/230904/hearty-barley-turkey-soup","viewed":1}
 {"_id":{"$oid":"5ca55c42f07ba50c41609fd3"},"id":57661,"name":"Tomato Bisque III","href":"https://www.allrecipes.com/recipe/57661/tomato-bisque-iii","viewed":-1}
-{"_id":{"$oid":"5ca55c42f07ba50c41609fd4"},"id":25728,"name":"Cheesy Vegetable Chowder","href":"https://www.allrecipes.com/recipe/25728/cheesy-vegetable-chowder","viewed":-1}
+{"_id":{"$oid":"5ca55c42f07ba50c41609fd4"},"id":25728,"name":"Cheesy Vegetable Chowder","href":"https://www.allrecipes.com/recipe/25728/cheesy-vegetable-chowder","viewed":1}
 {"_id":{"$oid":"5ca55c42f07ba50c41609fd5"},"id":15043,"name":"Chicken Tortilla Soup IV","href":"https://www.allrecipes.com/recipe/15043/chicken-tortilla-soup-iv","viewed":1}
 {"_id":{"$oid":"5ca55c42f07ba50c41609fd6"},"id":233288,"name":"Creamy After-Thanksgiving Turkey Soup","href":"https://www.allrecipes.com/recipe/233288/creamy-after-thanksgiving-turkey-soup","viewed":1}
 {"_id":{"$oid":"5ca55c42f07ba50c41609fd7"},"id":13370,"name":"Pasta e Fagioli II","href":"https://www.allrecipes.com/recipe/13370/pasta-e-fagioli-ii","viewed":1}
@@ -1143,7 +1143,6 @@
 {"_id":{"$oid":"5ca55cd4c6d0b00cfaa69586"},"id":245864,"name":"Avocado Curry","href":"https://www.allrecipes.com/recipe/245864/avocado-curry","viewed":1}
 {"_id":{"$oid":"5ca55cd4c6d0b00cfaa69587"},"id":255024,"name":"Zucchini Fenchel Suppe (Zucchini and Fennel Soup)","href":"https://www.allrecipes.com/recipe/255024/zucchini-fenchel-suppe-zucchini-and-fennel-soup","viewed":1}
 {"_id":{"$oid":"5ca55cd4c6d0b00cfaa69588"},"id":245123,"name":"Khao Soi Soup","href":"https://www.allrecipes.com/recipe/245123/khao-soi-soup","viewed":1}
-{"_id":{"$oid":"5ca645bfc6d0b01566a362d9"},"id":213572,"name":"Husband's Grandmother's Shrimp Gumbo","href":"https://www.allrecipes.com/recipe/213572/husbands-grandmothers-shrimp-gumbo","viewed":1}
 {"_id":{"$oid":"5ca645bfc6d0b01566a362da"},"id":83370,"name":"Uncle Dank's Gumbo","href":"https://www.allrecipes.com/recipe/83370/uncle-danks-gumbo","viewed":1}
 {"_id":{"$oid":"5ca645bfc6d0b01566a362db"},"id":24789,"name":"Gumbo Style Chicken Creole","href":"https://www.allrecipes.com/recipe/24789/gumbo-style-chicken-creole","viewed":1}
 {"_id":{"$oid":"5ca645bfc6d0b01566a362dc"},"id":12717,"name":"Merwin's Shrimp Gumbo","href":"https://www.allrecipes.com/recipe/12717/merwins-shrimp-gumbo","viewed":1}
@@ -1197,6 +1196,95 @@
 {"_id":{"$oid":"5ca645d4c6d0b01566a3630c"},"id":255250,"name":"Chicken Gumbo Over Rice","href":"https://www.allrecipes.com/recipe/255250/chicken-gumbo-over-rice","viewed":1}
 {"_id":{"$oid":"5ca645d4c6d0b01566a3630d"},"id":256326,"name":"Cheater Gumbo","href":"https://www.allrecipes.com/recipe/256326/cheater-gumbo","viewed":1}
 {"_id":{"$oid":"5ca645d4c6d0b01566a3630e"},"id":257892,"name":"Easy Gumbo (Okra Soup)","href":"https://www.allrecipes.com/recipe/257892/easy-gumbo-okra-soup","viewed":1}
+{"_id":{"$oid":"5ca645ebf07ba53710a03079"},"id":77572,"name":"Bubba's Jambalaya","href":"https://www.allrecipes.com/recipe/77572/bubbas-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645ebf07ba53710a0307a"},"id":214381,"name":"Cindy's Jambalaya","href":"https://www.allrecipes.com/recipe/214381/cindys-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645ebf07ba53710a0307b"},"id":24409,"name":"Jambalaya II","href":"https://www.allrecipes.com/recipe/24409/jambalaya-ii","viewed":1}
+{"_id":{"$oid":"5ca645ebf07ba53710a0307c"},"id":73634,"name":"Colleen's Slow Cooker Jambalaya","href":"https://www.allrecipes.com/recipe/73634/colleens-slow-cooker-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645ebf07ba53710a0307d"},"id":12866,"name":"New Orleans Jambalaya","href":"https://www.allrecipes.com/recipe/12866/new-orleans-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645ebf07ba53710a0307e"},"id":15849,"name":"Chicken Jambalaya I","href":"https://www.allrecipes.com/recipe/15849/chicken-jambalaya-i","viewed":-1}
+{"_id":{"$oid":"5ca645ebf07ba53710a0307f"},"id":18839,"name":"Jenny's Jambalaya","href":"https://www.allrecipes.com/recipe/18839/jennys-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645ebf07ba53710a03080"},"id":46704,"name":"Texas Jambalaya","href":"https://www.allrecipes.com/recipe/46704/texas-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645ebf07ba53710a03081"},"id":230962,"name":"Meaty Slow Cooker Jambalaya","href":"https://www.allrecipes.com/recipe/230962/meaty-slow-cooker-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645ebf07ba53710a03082"},"id":239445,"name":"Quinoa Jambalaya","href":"https://www.allrecipes.com/recipe/239445/quinoa-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645ebf07ba53710a03083"},"id":36110,"name":"Cabbage Jambalaya","href":"https://www.allrecipes.com/recipe/36110/cabbage-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645ebf07ba53710a03084"},"id":133604,"name":"Jen's Jambalaya","href":"https://www.allrecipes.com/recipe/133604/jens-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645ebf07ba53710a03085"},"id":234504,"name":"Spruced-up Zatarain's® Jambalaya","href":"https://www.allrecipes.com/recipe/234504/spruced-up-zatarains-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645ebf07ba53710a03086"},"id":39345,"name":"The Captain's Famous Jambalaya","href":"https://www.allrecipes.com/recipe/39345/the-captains-famous-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f5f07ba53710a03087"},"id":269944,"name":"Shrimp and Smoked Sausage Jambalaya","href":"https://www.allrecipes.com/recipe/269944/shrimp-and-smoked-sausage-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f5f07ba53710a03088"},"id":25645,"name":"Turkey Jambalaya","href":"https://www.allrecipes.com/recipe/25645/turkey-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f5f07ba53710a03089"},"id":203097,"name":"Southern Jambalaya","href":"https://www.allrecipes.com/recipe/203097/southern-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f5f07ba53710a0308a"},"id":16737,"name":"Jambalaya Salad","href":"https://www.allrecipes.com/recipe/16737/jambalaya-salad","viewed":1}
+{"_id":{"$oid":"5ca645f5f07ba53710a0308b"},"id":231412,"name":"Jambalaya In a Jiffy","href":"https://www.allrecipes.com/recipe/231412/jambalaya-in-a-jiffy","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a0308c"},"id":238662,"name":"Slow Cooker Jambalaya (Vegan)","href":"https://www.allrecipes.com/recipe/238662/slow-cooker-jambalaya-vegan","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a0308d"},"id":216886,"name":"Jambalaya Pot Pie","href":"https://www.allrecipes.com/recipe/216886/jambalaya-pot-pie","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a0308e"},"id":241280,"name":"Ham and Shrimp Jambalaya","href":"https://www.allrecipes.com/recipe/241280/ham-and-shrimp-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a0308f"},"id":231315,"name":"1-2-3 Jambalaya","href":"https://www.allrecipes.com/recipe/231315/1-2-3-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a03090"},"id":245096,"name":"Simple Slow Cooker Jambalaya","href":"https://www.allrecipes.com/recipe/245096/simple-slow-cooker-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a03091"},"id":218521,"name":"Feed Your Krewe Jambalaya","href":"https://www.allrecipes.com/recipe/218521/feed-your-krewe-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a03092"},"id":12787,"name":"Jambalaya With Shrimp","href":"https://www.allrecipes.com/recipe/12787/jambalaya-with-shrimp","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a03093"},"id":237040,"name":"My Jambalaya","href":"https://www.allrecipes.com/recipe/237040/my-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a03094"},"id":48822,"name":"Man Pleasin' Jambalaya","href":"https://www.allrecipes.com/recipe/48822/man-pleasin-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a03095"},"id":229058,"name":"Easy Crowd-Pleasing Jambalaya","href":"https://www.allrecipes.com/recipe/229058/easy-crowd-pleasing-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a03096"},"id":241359,"name":"Andouille, Shrimp, and Chicken Jambalaya","href":"https://www.allrecipes.com/recipe/241359/andouille-shrimp-and-chicken-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a03097"},"id":230099,"name":"Vegetarian Jambalaya","href":"https://www.allrecipes.com/recipe/230099/vegetarian-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a03098"},"id":29459,"name":"Shrimp Jambalaya","href":"https://www.allrecipes.com/recipe/29459/shrimp-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a03099"},"id":236995,"name":"Quick and Easy Jambalaya","href":"https://www.allrecipes.com/recipe/236995/quick-and-easy-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca645f6f07ba53710a0309a"},"id":214439,"name":"Quick Jambalaya","href":"https://www.allrecipes.com/recipe/214439/quick-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca64600f07ba53710a0309b"},"id":141166,"name":"Jambalaya with Fresh Fruit","href":"https://www.allrecipes.com/recipe/141166/jambalaya-with-fresh-fruit","viewed":1}
+{"_id":{"$oid":"5ca64600f07ba53710a0309c"},"id":25646,"name":"One Dish Jambalaya","href":"https://www.allrecipes.com/recipe/25646/one-dish-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca64600f07ba53710a0309d"},"id":222762,"name":"Jambalaya-Stuffed Tomatoes","href":"https://www.allrecipes.com/recipe/222762/jambalaya-stuffed-tomatoes","viewed":1}
+{"_id":{"$oid":"5ca64600f07ba53710a0309e"},"id":22524,"name":"Chicken Jambalaya II","href":"https://www.allrecipes.com/recipe/22524/chicken-jambalaya-ii","viewed":1}
+{"_id":{"$oid":"5ca64600f07ba53710a0309f"},"id":216885,"name":"Cindi's Jambalaya Cajun Pot Pie","href":"https://www.allrecipes.com/recipe/216885/cindis-jambalaya-cajun-pot-pie","viewed":1}
+{"_id":{"$oid":"5ca64600f07ba53710a030a0"},"id":220037,"name":"Slow Cooker Jambalaya","href":"https://www.allrecipes.com/recipe/220037/slow-cooker-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca64600f07ba53710a030a1"},"id":236643,"name":"Creamy Jambalaya Pasta","href":"https://www.allrecipes.com/recipe/236643/creamy-jambalaya-pasta","viewed":1}
+{"_id":{"$oid":"5ca64600f07ba53710a030a2"},"id":111498,"name":"Jambalaya Deluxe","href":"https://www.allrecipes.com/recipe/111498/jambalaya-deluxe","viewed":1}
+{"_id":{"$oid":"5ca64600f07ba53710a030a3"},"id":13222,"name":"Jambalaya I","href":"https://www.allrecipes.com/recipe/13222/jambalaya-i","viewed":1}
+{"_id":{"$oid":"5ca64600f07ba53710a030a4"},"id":269922,"name":"Instant Pot® Cajun Jambalaya","href":"https://www.allrecipes.com/recipe/269922/instant-pot-cajun-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca64600f07ba53710a030a5"},"id":241229,"name":"Rice Cooker Jambalaya","href":"https://www.allrecipes.com/recipe/241229/rice-cooker-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca64600f07ba53710a030a6"},"id":269929,"name":"Instant Pot® Jambalaya with Shrimp and Chicken","href":"https://www.allrecipes.com/recipe/269929/instant-pot-jambalaya-with-shrimp-and-chicken","viewed":1}
+{"_id":{"$oid":"5ca64600f07ba53710a030a7"},"id":246395,"name":"Mardi Gras Jambalaya","href":"https://www.allrecipes.com/recipe/246395/mardi-gras-jambalaya","viewed":1}
+{"_id":{"$oid":"5ca646c8f07ba53773be3439"},"id":143069,"name":"Super-Delicious Zuppa Toscana","href":"https://www.allrecipes.com/recipe/143069/super-delicious-zuppa-toscana","viewed":1}
+{"_id":{"$oid":"5ca646c8f07ba53773be343a"},"id":51301,"name":"Sarah's Applesauce","href":"https://www.allrecipes.com/recipe/51301/sarahs-applesauce","viewed":1}
+{"_id":{"$oid":"5ca646c8f07ba53773be343b"},"id":240331,"name":"Sandy's Homemade Broccoli and Cheddar Soup","href":"https://www.allrecipes.com/recipe/240331/sandys-homemade-broccoli-and-cheddar-soup","viewed":-1}
+{"_id":{"$oid":"5ca646c8f07ba53773be343c"},"id":76957,"name":"Fast Chicken Soup Base","href":"https://www.allrecipes.com/recipe/76957/fast-chicken-soup-base","viewed":1}
+{"_id":{"$oid":"5ca646d3f07ba53773be343d"},"id":13333,"name":"Jamie's Minestrone","href":"https://www.allrecipes.com/recipe/13333/jamies-minestrone","viewed":1}
+{"_id":{"$oid":"5ca646d3f07ba53773be343e"},"id":160051,"name":"Lentil Soup with Lemon","href":"https://www.allrecipes.com/recipe/160051/lentil-soup-with-lemon","viewed":1}
+{"_id":{"$oid":"5ca646d3f07ba53773be343f"},"id":16797,"name":"Italian Sausage Tortellini Soup","href":"https://www.allrecipes.com/recipe/16797/italian-sausage-tortellini-soup","viewed":1}
+{"_id":{"$oid":"5ca646d3f07ba53773be3440"},"id":17897,"name":"Hungarian Mushroom Soup","href":"https://www.allrecipes.com/recipe/17897/hungarian-mushroom-soup","viewed":1}
+{"_id":{"$oid":"5ca646d3f07ba53773be3441"},"id":80773,"name":"Russian Mushroom and Potato Soup","href":"https://www.allrecipes.com/recipe/80773/russian-mushroom-and-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca646d3f07ba53773be3442"},"id":23572,"name":"Crawfish Chowder","href":"https://www.allrecipes.com/recipe/23572/crawfish-chowder","viewed":1}
+{"_id":{"$oid":"5ca646d3f07ba53773be3443"},"id":68191,"name":"Karyn's Cream of Crab Soup","href":"https://www.allrecipes.com/recipe/68191/karyns-cream-of-crab-soup","viewed":1}
+{"_id":{"$oid":"5ca646def07ba53773be3444"},"id":13316,"name":"Golden Potato Soup","href":"https://www.allrecipes.com/recipe/13316/golden-potato-soup","viewed":1}
+{"_id":{"$oid":"5ca646def07ba53773be3445"},"id":12922,"name":"Cheesy Potato and Corn Chowder","href":"https://www.allrecipes.com/recipe/12922/cheesy-potato-and-corn-chowder","viewed":1}
+{"_id":{"$oid":"5ca646def07ba53773be3446"},"id":186378,"name":"Sweet Potato, Carrot, Apple, and Red Lentil Soup","href":"https://www.allrecipes.com/recipe/186378/sweet-potato-carrot-apple-and-red-lentil-soup","viewed":1}
+{"_id":{"$oid":"5ca646def07ba53773be3447"},"id":81112,"name":"Seafood Chowder","href":"https://www.allrecipes.com/recipe/81112/seafood-chowder","viewed":1}
+{"_id":{"$oid":"5ca646def07ba53773be3448"},"id":18448,"name":"Chicken Wild Rice Soup I","href":"https://www.allrecipes.com/recipe/18448/chicken-wild-rice-soup-i","viewed":1}
+{"_id":{"$oid":"5ca646def07ba53773be3449"},"id":13183,"name":"Restaurant-Style Zuppa Toscana","href":"https://www.allrecipes.com/recipe/13183/restaurant-style-zuppa-toscana","viewed":1}
+{"_id":{"$oid":"5ca646def07ba53773be344a"},"id":223044,"name":"Chef John's Minestrone Soup","href":"https://www.allrecipes.com/recipe/223044/chef-johns-minestrone-soup","viewed":1}
+{"_id":{"$oid":"5ca646e8f07ba53773be344b"},"id":233968,"name":"Lemon Chicken Orzo Soup","href":"https://www.allrecipes.com/recipe/233968/lemon-chicken-orzo-soup","viewed":1}
+{"_id":{"$oid":"5ca646e8f07ba53773be344c"},"id":25732,"name":"Cheesiest Potato Soup","href":"https://www.allrecipes.com/recipe/25732/cheesiest-potato-soup","viewed":-1}
+{"_id":{"$oid":"5ca646e8f07ba53773be344d"},"id":220416,"name":"Chef John's Homemade Chicken Noodle Soup","href":"https://www.allrecipes.com/recipe/220416/chef-johns-homemade-chicken-noodle-soup","viewed":1}
+{"_id":{"$oid":"5ca646e8f07ba53773be344e"},"id":222331,"name":"Chef John's Gazpacho","href":"https://www.allrecipes.com/recipe/222331/chef-johns-gazpacho","viewed":1}
+{"_id":{"$oid":"5ca646e8f07ba53773be344f"},"id":13114,"name":"Cream of Fresh Asparagus Soup II","href":"https://www.allrecipes.com/recipe/13114/cream-of-fresh-asparagus-soup-ii","viewed":1}
+{"_id":{"$oid":"5ca646e8f07ba53773be3450"},"id":13050,"name":"Cream Soup Base","href":"https://www.allrecipes.com/recipe/13050/cream-soup-base","viewed":1}
+{"_id":{"$oid":"5ca646e8f07ba53773be3451"},"id":12918,"name":"Tuscan Soup","href":"https://www.allrecipes.com/recipe/12918/tuscan-soup","viewed":1}
+{"_id":{"$oid":"5ca646f3f07ba53773be3452"},"id":85055,"name":"Caldo de Res (Mexican Beef Soup)","href":"https://www.allrecipes.com/recipe/85055/caldo-de-res-mexican-beef-soup","viewed":1}
+{"_id":{"$oid":"5ca646f3f07ba53773be3453"},"id":25708,"name":"Potato Leek Soup III","href":"https://www.allrecipes.com/recipe/25708/potato-leek-soup-iii","viewed":1}
+{"_id":{"$oid":"5ca646f3f07ba53773be3454"},"id":82923,"name":"Healing Cabbage Soup","href":"https://www.allrecipes.com/recipe/82923/healing-cabbage-soup","viewed":1}
+{"_id":{"$oid":"5ca646f3f07ba53773be3455"},"id":230275,"name":"Tomato Basil Soup","href":"https://www.allrecipes.com/recipe/230275/tomato-basil-soup","viewed":1}
+{"_id":{"$oid":"5ca646f3f07ba53773be3456"},"id":14132,"name":"Black Bean and Salsa Soup","href":"https://www.allrecipes.com/recipe/14132/black-bean-and-salsa-soup","viewed":1}
+{"_id":{"$oid":"5ca646f3f07ba53773be3457"},"id":13107,"name":"Miso Soup","href":"https://www.allrecipes.com/recipe/13107/miso-soup","viewed":1}
+{"_id":{"$oid":"5ca646f3f07ba53773be3458"},"id":218794,"name":"Chicken and Gnocchi Soup","href":"https://www.allrecipes.com/recipe/218794/chicken-and-gnocchi-soup","viewed":1}
+{"_id":{"$oid":"5ca646f3f07ba53773be3459"},"id":13023,"name":"Beef Barley Vegetable Soup","href":"https://www.allrecipes.com/recipe/13023/beef-barley-vegetable-soup","viewed":1}
+{"_id":{"$oid":"5ca646f3f07ba53773be345a"},"id":185519,"name":"Homemade Wonton Soup","href":"https://www.allrecipes.com/recipe/185519/homemade-wonton-soup","viewed":1}
+{"_id":{"$oid":"5ca646f3f07ba53773be345b"},"id":235589,"name":"Chef John's Creamy Mushroom Soup","href":"https://www.allrecipes.com/recipe/235589/chef-johns-creamy-mushroom-soup","viewed":1}
+{"_id":{"$oid":"5ca646fef07ba53773be345c"},"id":217155,"name":"Dry Onion Soup Mix","href":"https://www.allrecipes.com/recipe/217155/dry-onion-soup-mix","viewed":1}
+{"_id":{"$oid":"5ca646fef07ba53773be345d"},"id":77758,"name":"Brooklyn Girl's Penne Arrabiata","href":"https://www.allrecipes.com/recipe/77758/brooklyn-girls-penne-arrabiata","viewed":1}
+{"_id":{"$oid":"5ca64713f07ba53773be345e"},"id":100335,"name":"Easy Chocolate Bundt Cake Glaze","href":"https://www.allrecipes.com/recipe/100335/easy-chocolate-bundt-cake-glaze","viewed":1}
+{"_id":{"$oid":"5ca64713f07ba53773be345f"},"id":8808,"name":"Chicken Pot Pie II","href":"https://www.allrecipes.com/recipe/8808/chicken-pot-pie-ii","viewed":1}
+{"_id":{"$oid":"5ca64729f07ba53773be3460"},"id":83302,"name":"Soul Smothered Chicken","href":"https://www.allrecipes.com/recipe/83302/soul-smothered-chicken","viewed":1}
+{"_id":{"$oid":"5ca64733f07ba53773be3461"},"id":246841,"name":"Spicy Lime Avocado Soup","href":"https://www.allrecipes.com/recipe/246841/spicy-lime-avocado-soup","viewed":1}
+{"_id":{"$oid":"5ca6475ef07ba53773be3462"},"id":257179,"name":"Chef John's Brazilian Fish Stew","href":"https://www.allrecipes.com/recipe/257179/chef-johns-brazilian-fish-stew","viewed":1}
 {"_id":{"$oid":"5ca6477dc6d0b015c4bfdec2"},"id":21170,"name":"Hot Sauce","href":"https://www.allrecipes.com/recipe/21170/hot-sauce","viewed":1}
 {"_id":{"$oid":"5ca6477dc6d0b015c4bfdec3"},"id":152262,"name":"Scotch Bonnet Hot Sauce","href":"https://www.allrecipes.com/recipe/152262/scotch-bonnet-hot-sauce","viewed":1}
 {"_id":{"$oid":"5ca6477dc6d0b015c4bfdec4"},"id":57326,"name":"Bob's Habanero Hot Sauce - Liquid Fire","href":"https://www.allrecipes.com/recipe/57326/bobs-habanero-hot-sauce-liquid-fire","viewed":1}
@@ -1237,23 +1325,23 @@
 {"_id":{"$oid":"5ca64788c6d0b015c4bfdee7"},"id":16989,"name":"Red Hot Cocktail Sauce","href":"https://www.allrecipes.com/recipe/16989/red-hot-cocktail-sauce","viewed":1}
 {"_id":{"$oid":"5ca64788c6d0b015c4bfdee8"},"id":231799,"name":"Mild Hot Tamarind Sauce","href":"https://www.allrecipes.com/recipe/231799/mild-hot-tamarind-sauce","viewed":1}
 {"_id":{"$oid":"5ca64788c6d0b015c4bfdee9"},"id":71986,"name":"Hot Dog Sauce","href":"https://www.allrecipes.com/recipe/71986/hot-dog-sauce","viewed":1}
+{"_id":{"$oid":"5ca64791f07ba537dd9bb517"},"id":52461,"name":"Carne Guisada III","href":"https://www.allrecipes.com/recipe/52461/carne-guisada-iii","viewed":1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e93d"},"id":9428,"name":"Hot Fudge Sauce I","href":"https://www.allrecipes.com/recipe/9428/hot-fudge-sauce-i","viewed":-1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e93e"},"id":80782,"name":"Heavenly Hot Dog Sauce","href":"https://www.allrecipes.com/recipe/80782/heavenly-hot-dog-sauce","viewed":1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e93f"},"id":215447,"name":"Dad's Leftover Turkey Pot Pie","href":"https://www.allrecipes.com/recipe/215447/dads-leftover-turkey-pot-pie","viewed":1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e940"},"id":19377,"name":"Hot Tomato Sauce","href":"https://www.allrecipes.com/recipe/19377/hot-tomato-sauce","viewed":1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e941"},"id":162760,"name":"Fluffy Pancakes","href":"https://www.allrecipes.com/recipe/162760/fluffy-pancakes","viewed":1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e942"},"id":44491,"name":"Big Al's K.C. Bar-B-Q Sauce","href":"https://www.allrecipes.com/recipe/44491/big-als-kc-bar-b-q-sauce","viewed":1}
-{"_id":{"$oid":"5ca6479ec6d0b0161e81e943"},"id":143069,"name":"Super-Delicious Zuppa Toscana","href":"https://www.allrecipes.com/recipe/143069/super-delicious-zuppa-toscana","viewed":1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e944"},"id":24168,"name":"New York System Hot Wiener Sauce I","href":"https://www.allrecipes.com/recipe/24168/new-york-system-hot-wiener-sauce-i","viewed":1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e945"},"id":25502,"name":"Southwestern Egg Rolls","href":"https://www.allrecipes.com/recipe/25502/southwestern-egg-rolls","viewed":1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e946"},"id":151266,"name":"Boneless Buffalo Wings","href":"https://www.allrecipes.com/recipe/151266/boneless-buffalo-wings","viewed":1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e947"},"id":9111,"name":"Cranberry Sauce","href":"https://www.allrecipes.com/recipe/9111/cranberry-sauce","viewed":1}
-{"_id":{"$oid":"5ca6479ec6d0b0161e81e948"},"id":51301,"name":"Sarah's Applesauce","href":"https://www.allrecipes.com/recipe/51301/sarahs-applesauce","viewed":1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e949"},"id":173697,"name":"Yummy Honey Mustard Dipping Sauce","href":"https://www.allrecipes.com/recipe/173697/yummy-honey-mustard-dipping-sauce","viewed":1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e94a"},"id":21318,"name":"Super Al's Cocktail Sauce","href":"https://www.allrecipes.com/recipe/21318/super-als-cocktail-sauce","viewed":1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e94b"},"id":109297,"name":"Cedar Planked Salmon","href":"https://www.allrecipes.com/recipe/109297/cedar-planked-salmon","viewed":1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e94c"},"id":166160,"name":"Juicy Thanksgiving Turkey","href":"https://www.allrecipes.com/recipe/166160/juicy-thanksgiving-turkey","viewed":1}
 {"_id":{"$oid":"5ca6479ec6d0b0161e81e94d"},"id":236849,"name":"Hot Buttered Rum Sauce","href":"https://www.allrecipes.com/recipe/236849/hot-buttered-rum-sauce","viewed":1}
+{"_id":{"$oid":"5ca647a6f07ba537dd9bb518"},"id":92763,"name":"Pennsylvania Coal Region Barbecue","href":"https://www.allrecipes.com/recipe/92763/pennsylvania-coal-region-barbecue","viewed":1}
 {"_id":{"$oid":"5ca647a9c6d0b0161e81e94e"},"id":69919,"name":"Bacon Wrapped Smokies","href":"https://www.allrecipes.com/recipe/69919/bacon-wrapped-smokies","viewed":1}
 {"_id":{"$oid":"5ca647a9c6d0b0161e81e94f"},"id":214931,"name":"Oven-Roasted Asparagus","href":"https://www.allrecipes.com/recipe/214931/oven-roasted-asparagus","viewed":1}
 {"_id":{"$oid":"5ca647a9c6d0b0161e81e950"},"id":43914,"name":"Supreme Strawberry Topping","href":"https://www.allrecipes.com/recipe/43914/supreme-strawberry-topping","viewed":1}
@@ -1273,9 +1361,10 @@
 {"_id":{"$oid":"5ca647a9c6d0b0161e81e95e"},"id":46777,"name":"Chai Tea Mix","href":"https://www.allrecipes.com/recipe/46777/chai-tea-mix","viewed":1}
 {"_id":{"$oid":"5ca647a9c6d0b0161e81e95f"},"id":91499,"name":"General Tsao's Chicken II","href":"https://www.allrecipes.com/recipe/91499/general-tsaos-chicken-ii","viewed":1}
 {"_id":{"$oid":"5ca647a9c6d0b0161e81e960"},"id":228498,"name":"Slow Cooker Baby Back Ribs","href":"https://www.allrecipes.com/recipe/228498/slow-cooker-baby-back-ribs","viewed":1}
+{"_id":{"$oid":"5ca647b1f07ba537dd9bb519"},"id":45957,"name":"Chicken Makhani (Indian Butter Chicken)","href":"https://www.allrecipes.com/recipe/45957/chicken-makhani-indian-butter-chicken","viewed":1}
+{"_id":{"$oid":"5ca647b1f07ba537dd9bb51a"},"id":218545,"name":"Latin-Inspired Spicy Cream Chicken Stew","href":"https://www.allrecipes.com/recipe/218545/latin-inspired-spicy-cream-chicken-stew","viewed":1}
 {"_id":{"$oid":"5ca647b4c6d0b0161e81e961"},"id":257938,"name":"Spicy Thai Basil Chicken (Pad Krapow Gai)","href":"https://www.allrecipes.com/recipe/257938/spicy-thai-basil-chicken-pad-krapow-gai","viewed":1}
 {"_id":{"$oid":"5ca647b4c6d0b0161e81e962"},"id":26819,"name":"Hot Artichoke and Spinach Dip II","href":"https://www.allrecipes.com/recipe/26819/hot-artichoke-and-spinach-dip-ii","viewed":1}
-{"_id":{"$oid":"5ca647b4c6d0b0161e81e963"},"id":160051,"name":"Lentil Soup with Lemon","href":"https://www.allrecipes.com/recipe/160051/lentil-soup-with-lemon","viewed":1}
 {"_id":{"$oid":"5ca647b4c6d0b0161e81e964"},"id":216391,"name":"Easy Sausage Gravy and Biscuits","href":"https://www.allrecipes.com/recipe/216391/easy-sausage-gravy-and-biscuits","viewed":1}
 {"_id":{"$oid":"5ca647b4c6d0b0161e81e965"},"id":217181,"name":"Best Bread Pudding with Vanilla Sauce","href":"https://www.allrecipes.com/recipe/217181/best-bread-pudding-with-vanilla-sauce","viewed":1}
 {"_id":{"$oid":"5ca647b4c6d0b0161e81e966"},"id":60357,"name":"Veronica's Hot Spinach, Artichoke and Chile Dip","href":"https://www.allrecipes.com/recipe/60357/veronicas-hot-spinach-artichoke-and-chile-dip","viewed":1}
@@ -1292,15 +1381,14 @@
 {"_id":{"$oid":"5ca647b4c6d0b0161e81e971"},"id":87076,"name":"Grilled Bacon Jalapeno Wraps","href":"https://www.allrecipes.com/recipe/87076/grilled-bacon-jalapeno-wraps","viewed":1}
 {"_id":{"$oid":"5ca647b4c6d0b0161e81e972"},"id":142972,"name":"Bread Machine Pizza Dough","href":"https://www.allrecipes.com/recipe/142972/bread-machine-pizza-dough","viewed":1}
 {"_id":{"$oid":"5ca647b4c6d0b0161e81e973"},"id":219109,"name":"Buffalo Chicken Wing Sauce","href":"https://www.allrecipes.com/recipe/219109/buffalo-chicken-wing-sauce","viewed":1}
+{"_id":{"$oid":"5ca647bcf07ba537dd9bb51b"},"id":44318,"name":"Lamb and Winter Vegetable Stew","href":"https://www.allrecipes.com/recipe/44318/lamb-and-winter-vegetable-stew","viewed":1}
 {"_id":{"$oid":"5ca647bfc6d0b0161e81e974"},"id":14930,"name":"Florentine Artichoke Dip","href":"https://www.allrecipes.com/recipe/14930/florentine-artichoke-dip","viewed":1}
 {"_id":{"$oid":"5ca647bfc6d0b0161e81e975"},"id":22728,"name":"Hot Fudge Ice Cream Bar Dessert","href":"https://www.allrecipes.com/recipe/22728/hot-fudge-ice-cream-bar-dessert","viewed":1}
 {"_id":{"$oid":"5ca647bfc6d0b0161e81e976"},"id":213068,"name":"Grill Master Chicken Wings","href":"https://www.allrecipes.com/recipe/213068/grill-master-chicken-wings","viewed":1}
 {"_id":{"$oid":"5ca647bfc6d0b0161e81e977"},"id":222582,"name":"Baked Spaghetti","href":"https://www.allrecipes.com/recipe/222582/baked-spaghetti","viewed":1}
 {"_id":{"$oid":"5ca647bfc6d0b0161e81e978"},"id":229088,"name":"Apple Crisp with Oat Topping","href":"https://www.allrecipes.com/recipe/229088/apple-crisp-with-oat-topping","viewed":1}
-{"_id":{"$oid":"5ca647bfc6d0b0161e81e979"},"id":214381,"name":"Cindy's Jambalaya","href":"https://www.allrecipes.com/recipe/214381/cindys-jambalaya","viewed":1}
 {"_id":{"$oid":"5ca647bfc6d0b0161e81e97a"},"id":219767,"name":"Buttery Alfredo Sauce","href":"https://www.allrecipes.com/recipe/219767/buttery-alfredo-sauce","viewed":1}
 {"_id":{"$oid":"5ca647bfc6d0b0161e81e97b"},"id":141169,"name":"Easy Indian Butter Chicken","href":"https://www.allrecipes.com/recipe/141169/easy-indian-butter-chicken","viewed":1}
-{"_id":{"$oid":"5ca647bfc6d0b0161e81e97c"},"id":186378,"name":"Sweet Potato, Carrot, Apple, and Red Lentil Soup","href":"https://www.allrecipes.com/recipe/186378/sweet-potato-carrot-apple-and-red-lentil-soup","viewed":1}
 {"_id":{"$oid":"5ca647bfc6d0b0161e81e97d"},"id":157940,"name":"Outrageous Warm Chicken Nacho Dip","href":"https://www.allrecipes.com/recipe/157940/outrageous-warm-chicken-nacho-dip","viewed":1}
 {"_id":{"$oid":"5ca647bfc6d0b0161e81e97e"},"id":231713,"name":"Chef John's Baked Mushroom Risotto","href":"https://www.allrecipes.com/recipe/231713/chef-johns-baked-mushroom-risotto","viewed":1}
 {"_id":{"$oid":"5ca647bfc6d0b0161e81e97f"},"id":11966,"name":"Best Marinara Sauce Yet","href":"https://www.allrecipes.com/recipe/11966/best-marinara-sauce-yet","viewed":1}
@@ -1317,9 +1405,7 @@
 {"_id":{"$oid":"5ca647c9c6d0b0161e81e98a"},"id":202463,"name":"Shoyu Chicken","href":"https://www.allrecipes.com/recipe/202463/shoyu-chicken","viewed":1}
 {"_id":{"$oid":"5ca647c9c6d0b0161e81e98b"},"id":166558,"name":"Happy Shrimp","href":"https://www.allrecipes.com/recipe/166558/happy-shrimp","viewed":1}
 {"_id":{"$oid":"5ca647c9c6d0b0161e81e98c"},"id":70112,"name":"Blueberry Sauce","href":"https://www.allrecipes.com/recipe/70112/blueberry-sauce","viewed":1}
-{"_id":{"$oid":"5ca647c9c6d0b0161e81e98d"},"id":233968,"name":"Lemon Chicken Orzo Soup","href":"https://www.allrecipes.com/recipe/233968/lemon-chicken-orzo-soup","viewed":1}
 {"_id":{"$oid":"5ca647c9c6d0b0161e81e98e"},"id":7385,"name":"White Chocolate Cheesecake with White Chocolate Brandy Sauce","href":"https://www.allrecipes.com/recipe/7385/white-chocolate-cheesecake-with-white-chocolate-brandy-sauce","viewed":1}
-{"_id":{"$oid":"5ca647c9c6d0b0161e81e98f"},"id":230275,"name":"Tomato Basil Soup","href":"https://www.allrecipes.com/recipe/230275/tomato-basil-soup","viewed":1}
 {"_id":{"$oid":"5ca647c9c6d0b0161e81e990"},"id":200135,"name":"Mountain Apple Cobbler","href":"https://www.allrecipes.com/recipe/200135/mountain-apple-cobbler","viewed":1}
 {"_id":{"$oid":"5ca647c9c6d0b0161e81e991"},"id":204478,"name":"Roasted Okra","href":"https://www.allrecipes.com/recipe/204478/roasted-okra","viewed":1}
 {"_id":{"$oid":"5ca647c9c6d0b0161e81e992"},"id":134137,"name":"Delicious Salmon","href":"https://www.allrecipes.com/recipe/134137/delicious-salmon","viewed":1}
@@ -1330,6 +1416,7 @@
 {"_id":{"$oid":"5ca647c9c6d0b0161e81e997"},"id":57808,"name":"Antipasto Squares","href":"https://www.allrecipes.com/recipe/57808/antipasto-squares","viewed":1}
 {"_id":{"$oid":"5ca647c9c6d0b0161e81e998"},"id":96698,"name":"Kalbi (Korean BBQ Short Ribs)","href":"https://www.allrecipes.com/recipe/96698/kalbi-korean-bbq-short-ribs","viewed":1}
 {"_id":{"$oid":"5ca647c9c6d0b0161e81e999"},"id":218031,"name":"Jalapeno Cream Cheese Chicken Enchiladas","href":"https://www.allrecipes.com/recipe/218031/jalapeno-cream-cheese-chicken-enchiladas","viewed":1}
+{"_id":{"$oid":"5ca647d1f07ba537dd9bb51c"},"id":217947,"name":"Moroccan Chickpea Stew","href":"https://www.allrecipes.com/recipe/217947/moroccan-chickpea-stew","viewed":1}
 {"_id":{"$oid":"5ca647d4c6d0b0161e81e99a"},"id":223188,"name":"Wow! Sweet and Sour Sauce","href":"https://www.allrecipes.com/recipe/223188/wow-sweet-and-sour-sauce","viewed":1}
 {"_id":{"$oid":"5ca647d4c6d0b0161e81e99b"},"id":218597,"name":"Roasted Swiss Chard with Feta","href":"https://www.allrecipes.com/recipe/218597/roasted-swiss-chard-with-feta","viewed":1}
 {"_id":{"$oid":"5ca647d4c6d0b0161e81e99c"},"id":189058,"name":"Super Simple Salmon","href":"https://www.allrecipes.com/recipe/189058/super-simple-salmon","viewed":1}
@@ -1347,12 +1434,14 @@
 {"_id":{"$oid":"5ca647d4c6d0b0161e81e9a8"},"id":166140,"name":"Thai-Style Peanut Sauce with Honey","href":"https://www.allrecipes.com/recipe/166140/thai-style-peanut-sauce-with-honey","viewed":1}
 {"_id":{"$oid":"5ca647d4c6d0b0161e81e9a9"},"id":187850,"name":"Egg in a Hole","href":"https://www.allrecipes.com/recipe/187850/egg-in-a-hole","viewed":1}
 {"_id":{"$oid":"5ca647d4c6d0b0161e81e9aa"},"id":166601,"name":"Whole Wheat, Oatmeal, and Banana Pancakes","href":"https://www.allrecipes.com/recipe/166601/whole-wheat-oatmeal-and-banana-pancakes","viewed":1}
+{"_id":{"$oid":"5ca647dcf07ba537dd9bb51d"},"id":20785,"name":"Stewed Cabbage","href":"https://www.allrecipes.com/recipe/20785/stewed-cabbage","viewed":-1}
+{"_id":{"$oid":"5ca647dcf07ba537dd9bb51e"},"id":84113,"name":"Hearty Turkey Stew with Vegetables","href":"https://www.allrecipes.com/recipe/84113/hearty-turkey-stew-with-vegetables","viewed":1}
+{"_id":{"$oid":"5ca647dcf07ba537dd9bb51f"},"id":228991,"name":"Mom's Nova Scotia Seafood Chowder","href":"https://www.allrecipes.com/recipe/228991/moms-nova-scotia-seafood-chowder","viewed":1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9ab"},"id":9501,"name":"Hot Apple Cider","href":"https://www.allrecipes.com/recipe/9501/hot-apple-cider","viewed":1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9ac"},"id":215813,"name":"Corn on the Grill","href":"https://www.allrecipes.com/recipe/215813/corn-on-the-grill","viewed":1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9ad"},"id":25441,"name":"Devil's Steak Sauce","href":"https://www.allrecipes.com/recipe/25441/devils-steak-sauce","viewed":1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9ae"},"id":213211,"name":"Turkey and Quinoa Meatloaf","href":"https://www.allrecipes.com/recipe/213211/turkey-and-quinoa-meatloaf","viewed":1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9af"},"id":222387,"name":"Chef John's Creme Fraiche","href":"https://www.allrecipes.com/recipe/222387/chef-johns-creme-fraiche","viewed":1}
-{"_id":{"$oid":"5ca647dfc6d0b0161e81e9b0"},"id":218794,"name":"Chicken and Gnocchi Soup","href":"https://www.allrecipes.com/recipe/218794/chicken-and-gnocchi-soup","viewed":1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9b1"},"id":150251,"name":"Shish Tawook Grilled Chicken","href":"https://www.allrecipes.com/recipe/150251/shish-tawook-grilled-chicken","viewed":1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9b2"},"id":14675,"name":"Brisket with BBQ Sauce","href":"https://www.allrecipes.com/recipe/14675/brisket-with-bbq-sauce","viewed":-1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9b3"},"id":200340,"name":"Grilled Filet Mignon with Gorgonzola Cream Sauce","href":"https://www.allrecipes.com/recipe/200340/grilled-filet-mignon-with-gorgonzola-cream-sauce","viewed":1}
@@ -1360,12 +1449,15 @@
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9b5"},"id":211401,"name":"Brussels Sprouts Gratin","href":"https://www.allrecipes.com/recipe/211401/brussels-sprouts-gratin","viewed":1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9b6"},"id":221141,"name":"Fresh Strawberry Sauce","href":"https://www.allrecipes.com/recipe/221141/fresh-strawberry-sauce","viewed":1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9b7"},"id":199983,"name":"Arkansas Green Beans","href":"https://www.allrecipes.com/recipe/199983/arkansas-green-beans","viewed":1}
-{"_id":{"$oid":"5ca647dfc6d0b0161e81e9b8"},"id":185519,"name":"Homemade Wonton Soup","href":"https://www.allrecipes.com/recipe/185519/homemade-wonton-soup","viewed":1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9b9"},"id":111933,"name":"Venison Bacon Burgers","href":"https://www.allrecipes.com/recipe/111933/venison-bacon-burgers","viewed":1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9ba"},"id":142892,"name":"Slow Cooker Spicy Black-Eyed Peas","href":"https://www.allrecipes.com/recipe/142892/slow-cooker-spicy-black-eyed-peas","viewed":1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9bb"},"id":213742,"name":"Meatball Nirvana","href":"https://www.allrecipes.com/recipe/213742/meatball-nirvana","viewed":1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9bc"},"id":81581,"name":"Hot Italian Giardiniera","href":"https://www.allrecipes.com/recipe/81581/hot-italian-giardiniera","viewed":1}
 {"_id":{"$oid":"5ca647dfc6d0b0161e81e9bd"},"id":134483,"name":"Chicago-Style Hot Dog","href":"https://www.allrecipes.com/recipe/134483/chicago-style-hot-dog","viewed":1}
+{"_id":{"$oid":"5ca647e7f07ba537dd9bb520"},"id":80686,"name":"Indian Eggplant - Bhurtha","href":"https://www.allrecipes.com/recipe/80686/indian-eggplant-bhurtha","viewed":1}
+{"_id":{"$oid":"5ca647e7f07ba537dd9bb521"},"id":233444,"name":"Jamaican Style Curry Chicken","href":"https://www.allrecipes.com/recipe/233444/jamaican-style-curry-chicken","viewed":1}
+{"_id":{"$oid":"5ca647e7f07ba537dd9bb522"},"id":22970,"name":"Salsa Chicken Burrito Filling","href":"https://www.allrecipes.com/recipe/22970/salsa-chicken-burrito-filling","viewed":1}
+{"_id":{"$oid":"5ca647e7f07ba537dd9bb523"},"id":82160,"name":"Texas Cowboy Stew","href":"https://www.allrecipes.com/recipe/82160/texas-cowboy-stew","viewed":1}
 {"_id":{"$oid":"5ca647eac6d0b0161e81e9be"},"id":72267,"name":"Blue Cheese Crusted Filet Mignon with Port Wine Sauce","href":"https://www.allrecipes.com/recipe/72267/blue-cheese-crusted-filet-mignon-with-port-wine-sauce","viewed":1}
 {"_id":{"$oid":"5ca647eac6d0b0161e81e9bf"},"id":24643,"name":"Chicken Enchilada Dip","href":"https://www.allrecipes.com/recipe/24643/chicken-enchilada-dip","viewed":1}
 {"_id":{"$oid":"5ca647eac6d0b0161e81e9c0"},"id":189891,"name":"Pesto Grilled Cheese Sandwich","href":"https://www.allrecipes.com/recipe/189891/pesto-grilled-cheese-sandwich","viewed":1}
@@ -1385,3 +1477,327 @@
 {"_id":{"$oid":"5ca647eac6d0b0161e81e9ce"},"id":222435,"name":"Texas Hot Wiener Sauce (Ulster County New York Style)","href":"https://www.allrecipes.com/recipe/222435/texas-hot-wiener-sauce-ulster-county-new-york-style","viewed":1}
 {"_id":{"$oid":"5ca647eac6d0b0161e81e9cf"},"id":25539,"name":"Sausage Jalapeno Poppers","href":"https://www.allrecipes.com/recipe/25539/sausage-jalapeno-poppers","viewed":1}
 {"_id":{"$oid":"5ca647eac6d0b0161e81e9d0"},"id":229263,"name":"Bread Pudding with Praline Sauce","href":"https://www.allrecipes.com/recipe/229263/bread-pudding-with-praline-sauce","viewed":1}
+{"_id":{"$oid":"5ca647f1f07ba537dd9bb524"},"id":18098,"name":"Simple Salmon Chowder II","href":"https://www.allrecipes.com/recipe/18098/simple-salmon-chowder-ii","viewed":1}
+{"_id":{"$oid":"5ca647f1f07ba537dd9bb525"},"id":222232,"name":"Spicy Coconut Shrimp Bisque","href":"https://www.allrecipes.com/recipe/222232/spicy-coconut-shrimp-bisque","viewed":1}
+{"_id":{"$oid":"5ca647f1f07ba537dd9bb526"},"id":213572,"name":"Husband's Grandmother's Shrimp Gumbo","href":"https://www.allrecipes.com/recipe/213572/husbands-grandmothers-shrimp-gumbo","viewed":1}
+{"_id":{"$oid":"5ca647f1f07ba537dd9bb527"},"id":147142,"name":"Roasted-Vegetable Stock","href":"https://www.allrecipes.com/recipe/147142/roasted-vegetable-stock","viewed":1}
+{"_id":{"$oid":"5ca647f1f07ba537dd9bb528"},"id":141395,"name":"Mediterranean Lamb and Lentil Stew","href":"https://www.allrecipes.com/recipe/141395/mediterranean-lamb-and-lentil-stew","viewed":1}
+{"_id":{"$oid":"5ca647f1f07ba537dd9bb529"},"id":13102,"name":"Bean with Bacon","href":"https://www.allrecipes.com/recipe/13102/bean-with-bacon","viewed":1}
+{"_id":{"$oid":"5ca647f1f07ba537dd9bb52a"},"id":220322,"name":"Chef John's Quick Cassoulet","href":"https://www.allrecipes.com/recipe/220322/chef-johns-quick-cassoulet","viewed":-1}
+{"_id":{"$oid":"5ca647f1f07ba537dd9bb52b"},"id":125864,"name":"Plain Caramel Apples","href":"https://www.allrecipes.com/recipe/125864/plain-caramel-apples","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1bf5"},"id":11689,"name":"Greek Pasta Salad I","href":"https://www.allrecipes.com/recipe/11689/greek-pasta-salad-i","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1bf6"},"id":18805,"name":"Old Fashioned Mac and Cheese","href":"https://www.allrecipes.com/recipe/18805/old-fashioned-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1bf7"},"id":24321,"name":"Mom's Favorite Baked Mac and Cheese","href":"https://www.allrecipes.com/recipe/24321/moms-favorite-baked-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1bf8"},"id":11805,"name":"Mouse's Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/11805/mouses-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1bf9"},"id":218698,"name":"Chipotle Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/218698/chipotle-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1bfa"},"id":245764,"name":"Buffalo Chicken Mac and Cheese","href":"https://www.allrecipes.com/recipe/245764/buffalo-chicken-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1bfb"},"id":223400,"name":"Old School Mac n' Cheese","href":"https://www.allrecipes.com/recipe/223400/old-school-mac-n-cheese","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1bfc"},"id":241498,"name":"Chef John's Lobster Mac and Cheese","href":"https://www.allrecipes.com/recipe/241498/chef-johns-lobster-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1bfd"},"id":228431,"name":"Smoky Chipotle Mac and Cheese","href":"https://www.allrecipes.com/recipe/228431/smoky-chipotle-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1bfe"},"id":180905,"name":"Macaroni and Cheese with Caramelized Onions and Bacon","href":"https://www.allrecipes.com/recipe/180905/macaroni-and-cheese-with-caramelized-onions-and-bacon","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1bff"},"id":220376,"name":"Southern Macaroni and Cheese Pie","href":"https://www.allrecipes.com/recipe/220376/southern-macaroni-and-cheese-pie","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1c00"},"id":70012,"name":"Baked Mac and Cheese for One","href":"https://www.allrecipes.com/recipe/70012/baked-mac-and-cheese-for-one","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1c01"},"id":11734,"name":"Antipasto Salad","href":"https://www.allrecipes.com/recipe/11734/antipasto-salad","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1c02"},"id":203752,"name":"Mac and Cheese Henwood Style","href":"https://www.allrecipes.com/recipe/203752/mac-and-cheese-henwood-style","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1c03"},"id":14362,"name":"Macaroni and Cheese Salad","href":"https://www.allrecipes.com/recipe/14362/macaroni-and-cheese-salad","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1c04"},"id":11665,"name":"Lucy's Mac and Corn","href":"https://www.allrecipes.com/recipe/11665/lucys-mac-and-corn","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1c05"},"id":241462,"name":"Home-Style Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/241462/home-style-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67801c6d0b019b8bc1c06"},"id":219166,"name":"Chef John's Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/219166/chef-johns-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c07"},"id":230283,"name":"Tasty Baked Mac n Cheese","href":"https://www.allrecipes.com/recipe/230283/tasty-baked-mac-n-cheese","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c08"},"id":12016,"name":"Mac and Cheese II","href":"https://www.allrecipes.com/recipe/12016/mac-and-cheese-ii","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c09"},"id":111823,"name":"Cheese's Baked Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/111823/cheeses-baked-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c0a"},"id":230285,"name":"Macaroni and Cheese Southern Style","href":"https://www.allrecipes.com/recipe/230285/macaroni-and-cheese-southern-style","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c0b"},"id":232331,"name":"VELVEETA® Down-Home Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/232331/velveeta-down-home-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c0c"},"id":25231,"name":"Bleu Cheese Macaroni","href":"https://www.allrecipes.com/recipe/25231/bleu-cheese-macaroni","viewed":-1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c0d"},"id":217193,"name":"Cheddar-Bacon Mac and Cheese","href":"https://www.allrecipes.com/recipe/217193/cheddar-bacon-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c0e"},"id":23147,"name":"Danny's Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/23147/dannys-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c0f"},"id":21122,"name":"Kicked Up Mac and Cheese","href":"https://www.allrecipes.com/recipe/21122/kicked-up-mac-and-cheese","viewed":-1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c10"},"id":133021,"name":"Pan Seared Lemon Tilapia with Parmesan Pasta","href":"https://www.allrecipes.com/recipe/133021/pan-seared-lemon-tilapia-with-parmesan-pasta","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c11"},"id":254511,"name":"Cauliflower Mac-N-Cheese","href":"https://www.allrecipes.com/recipe/254511/cauliflower-mac-n-cheese","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c12"},"id":235988,"name":"Lobster-Bacon Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/235988/lobster-bacon-macaroni-and-cheese","viewed":-1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c13"},"id":11708,"name":"Jim's Macaroni Salad","href":"https://www.allrecipes.com/recipe/11708/jims-macaroni-salad","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c14"},"id":156439,"name":"Good For You Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/156439/good-for-you-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c15"},"id":238691,"name":"Simple Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/238691/simple-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c16"},"id":255688,"name":"Elsie's Baked Mac and Cheese","href":"https://www.allrecipes.com/recipe/255688/elsies-baked-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c17"},"id":229815,"name":"Baked Mac and Cheese with Sour Cream and Cottage Cheese","href":"https://www.allrecipes.com/recipe/229815/baked-mac-and-cheese-with-sour-cream-and-cottage-cheese","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c18"},"id":161869,"name":"Shannon's Smoky Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/161869/shannons-smoky-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c19"},"id":228968,"name":"Mama's Hearty Minestrone","href":"https://www.allrecipes.com/recipe/228968/mamas-hearty-minestrone","viewed":1}
+{"_id":{"$oid":"5ca6780cc6d0b019b8bc1c1a"},"id":202692,"name":"Turkey Ragu with Fontina and Parmesan","href":"https://www.allrecipes.com/recipe/202692/turkey-ragu-with-fontina-and-parmesan","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c1b"},"id":242276,"name":"Gluten-Free Macaroni and Three Cheeses with Bacon","href":"https://www.allrecipes.com/recipe/242276/gluten-free-macaroni-and-three-cheeses-with-bacon","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c1c"},"id":102393,"name":"Baked Homemade Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/102393/baked-homemade-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c1d"},"id":186033,"name":"Fried Mac and Cheese Balls","href":"https://www.allrecipes.com/recipe/186033/fried-mac-and-cheese-balls","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c1e"},"id":19416,"name":"Easy Mac 'n' Cheese","href":"https://www.allrecipes.com/recipe/19416/easy-mac-n-cheese","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c1f"},"id":221133,"name":"Bacon Ranch Macaroni Salad","href":"https://www.allrecipes.com/recipe/221133/bacon-ranch-macaroni-salad","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c20"},"id":231533,"name":"Easy Macaroni Tuna Casserole","href":"https://www.allrecipes.com/recipe/231533/easy-macaroni-tuna-casserole","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c21"},"id":237604,"name":"Scallop and Bacon Mac N' Cheese","href":"https://www.allrecipes.com/recipe/237604/scallop-and-bacon-mac-n-cheese","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c22"},"id":231064,"name":"Kid's Favorite Pizza Casserole","href":"https://www.allrecipes.com/recipe/231064/kids-favorite-pizza-casserole","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c23"},"id":256304,"name":"Baked Tomato Mac 'n Cheese","href":"https://www.allrecipes.com/recipe/256304/baked-tomato-mac-n-cheese","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c24"},"id":261023,"name":"Easy Low-Carb Cauliflower Mac 'n Cheese","href":"https://www.allrecipes.com/recipe/261023/easy-low-carb-cauliflower-mac-n-cheese","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c25"},"id":54496,"name":"Quick Tuna Casserole","href":"https://www.allrecipes.com/recipe/54496/quick-tuna-casserole","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c26"},"id":238862,"name":"Easy Rice Cooker Mac 'n Cheese","href":"https://www.allrecipes.com/recipe/238862/easy-rice-cooker-mac-n-cheese","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c27"},"id":242268,"name":"Easy Gluten-Free Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/242268/easy-gluten-free-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c28"},"id":254693,"name":"Mac and 'Shews (Vegan Mac and Cheese)","href":"https://www.allrecipes.com/recipe/254693/mac-and-shews-vegan-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c29"},"id":214502,"name":"Chipotle Mac and Cheese","href":"https://www.allrecipes.com/recipe/214502/chipotle-mac-and-cheese","viewed":-1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c2a"},"id":245651,"name":"Ooey Gooey Mac and Cheese","href":"https://www.allrecipes.com/recipe/245651/ooey-gooey-mac-and-cheese","viewed":-1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c2b"},"id":88542,"name":"Mexican Gump","href":"https://www.allrecipes.com/recipe/88542/mexican-gump","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c2c"},"id":16974,"name":"Traci's Chicken Noodle Casserole","href":"https://www.allrecipes.com/recipe/16974/tracis-chicken-noodle-casserole","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c2d"},"id":245044,"name":"Spinach Power Pesto Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/245044/spinach-power-pesto-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67817c6d0b019b8bc1c2e"},"id":87531,"name":"Sloppy Joe Mac and Cheese","href":"https://www.allrecipes.com/recipe/87531/sloppy-joe-mac-and-cheese","viewed":-1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c2f"},"id":213664,"name":"White Cheddar Macaroni with Bacon and Thyme","href":"https://www.allrecipes.com/recipe/213664/white-cheddar-macaroni-with-bacon-and-thyme","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c30"},"id":22639,"name":"Stringy Macaroni","href":"https://www.allrecipes.com/recipe/22639/stringy-macaroni","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c31"},"id":237311,"name":"Slow Cooker Mac and Cheese","href":"https://www.allrecipes.com/recipe/237311/slow-cooker-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c32"},"id":23605,"name":"Souper Skillet Pasta","href":"https://www.allrecipes.com/recipe/23605/souper-skillet-pasta","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c33"},"id":244828,"name":"Caprese Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/244828/caprese-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c34"},"id":240605,"name":"Shipwreck Dinner","href":"https://www.allrecipes.com/recipe/240605/shipwreck-dinner","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c35"},"id":256487,"name":"Mac-n-Cheez (Adapted from Sweetie Pie's)","href":"https://www.allrecipes.com/recipe/256487/mac-n-cheez-adapted-from-sweetie-pies","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c36"},"id":235032,"name":"Cheesy Salsa Mac","href":"https://www.allrecipes.com/recipe/235032/cheesy-salsa-mac","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c37"},"id":219450,"name":"Healthier Chuck's Favorite Mac and Cheese","href":"https://www.allrecipes.com/recipe/219450/healthier-chucks-favorite-mac-and-cheese","viewed":-1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c38"},"id":259690,"name":"Instant Pot® Mac and Cheese with Ham and Peas","href":"https://www.allrecipes.com/recipe/259690/instant-pot-mac-and-cheese-with-ham-and-peas","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c39"},"id":21305,"name":"Macaroni Au Gratin","href":"https://www.allrecipes.com/recipe/21305/macaroni-au-gratin","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c3a"},"id":37350,"name":"Marinated Chicken and Pasta Salad","href":"https://www.allrecipes.com/recipe/37350/marinated-chicken-and-pasta-salad","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c3b"},"id":245669,"name":"Gluten Free Elbows Fontina Mac and Cheese with Bacon","href":"https://www.allrecipes.com/recipe/245669/gluten-free-elbows-fontina-mac-and-cheese-with-bacon","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c3c"},"id":245072,"name":"Ranch Mac 'n Cheese","href":"https://www.allrecipes.com/recipe/245072/ranch-mac-n-cheese","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c3d"},"id":60700,"name":"'Got Some Crust' Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/60700/got-some-crust-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c3e"},"id":254837,"name":"Barilla® Tomato Basil Mac \u0026 Cheese","href":"https://www.allrecipes.com/recipe/254837/barilla-tomato-basil-mac-cheese","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c3f"},"id":247442,"name":"Memphis-Style Chicken Mac 'n Cheese","href":"https://www.allrecipes.com/recipe/247442/memphis-style-chicken-mac-n-cheese","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c40"},"id":239628,"name":"Baked Macaroni and Cheese!","href":"https://www.allrecipes.com/recipe/239628/baked-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c41"},"id":158587,"name":"Smoky Four Cheese Macaroni Bake","href":"https://www.allrecipes.com/recipe/158587/smoky-four-cheese-macaroni-bake","viewed":1}
+{"_id":{"$oid":"5ca67821c6d0b019b8bc1c42"},"id":257471,"name":"Bacon White Cheddar Pesto Mac and Cheese","href":"https://www.allrecipes.com/recipe/257471/bacon-white-cheddar-pesto-mac-and-cheese","viewed":-1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c43"},"id":220278,"name":"Pumpkin Lobster Mac and Cheese","href":"https://www.allrecipes.com/recipe/220278/pumpkin-lobster-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c44"},"id":215942,"name":"Rapini-Walnut Macaroni","href":"https://www.allrecipes.com/recipe/215942/rapini-walnut-macaroni","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c45"},"id":72739,"name":"Five Food Groups Macaroni Salad","href":"https://www.allrecipes.com/recipe/72739/five-food-groups-macaroni-salad","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c46"},"id":21362,"name":"Ham and Cheese Bowties","href":"https://www.allrecipes.com/recipe/21362/ham-and-cheese-bowties","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c47"},"id":256143,"name":"Bacon Mac and Cheese Bombs","href":"https://www.allrecipes.com/recipe/256143/bacon-mac-and-cheese-bombs","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c48"},"id":236675,"name":"Baked Ziti with Cheese","href":"https://www.allrecipes.com/recipe/236675/baked-ziti-with-cheese","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c49"},"id":236942,"name":"Baked Buffalo Chicken Mac and Cheese","href":"https://www.allrecipes.com/recipe/236942/baked-buffalo-chicken-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c4a"},"id":240379,"name":"Chili Mac 'n' Cheese Bake","href":"https://www.allrecipes.com/recipe/240379/chili-mac-n-cheese-bake","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c4b"},"id":241903,"name":"Baked Cauliflower Macaroni \u0026 Cheese","href":"https://www.allrecipes.com/recipe/241903/baked-cauliflower-macaroni-cheese","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c4c"},"id":256229,"name":"Overnight Macaroni and Cheese Gratin","href":"https://www.allrecipes.com/recipe/256229/overnight-macaroni-and-cheese-gratin","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c4d"},"id":262742,"name":"Baked Gruyere and Herb Macaroni","href":"https://www.allrecipes.com/recipe/262742/baked-gruyere-and-herb-macaroni","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c4e"},"id":256039,"name":"Green Mac and Cheese","href":"https://www.allrecipes.com/recipe/256039/green-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c4f"},"id":83701,"name":"Three Cheese Macaroni with Tomatoes","href":"https://www.allrecipes.com/recipe/83701/three-cheese-macaroni-with-tomatoes","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c50"},"id":241905,"name":"Southwestern Macaroni and Cheese with Ground Turkey","href":"https://www.allrecipes.com/recipe/241905/southwestern-macaroni-and-cheese-with-ground-turkey","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c51"},"id":257472,"name":"Red Hot Chipotle Bacon Mac and Cheese","href":"https://www.allrecipes.com/recipe/257472/red-hot-chipotle-bacon-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c52"},"id":239287,"name":"Four-Cheese Truffled Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/239287/four-cheese-truffled-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c53"},"id":272461,"name":"\"Instant\" Mac and Cheese","href":"https://www.allrecipes.com/recipe/272461/instant-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c54"},"id":87863,"name":"Macaroni and Cheese with Ham, Peas and Shallots","href":"https://www.allrecipes.com/recipe/87863/macaroni-and-cheese-with-ham-peas-and-shallots","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c55"},"id":236589,"name":"Ed's Macaroni Jumble","href":"https://www.allrecipes.com/recipe/236589/eds-macaroni-jumble","viewed":1}
+{"_id":{"$oid":"5ca6782cc6d0b019b8bc1c56"},"id":244384,"name":"Vegan Thai Mac n Cheese","href":"https://www.allrecipes.com/recipe/244384/vegan-thai-mac-n-cheese","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c57"},"id":19368,"name":"Chuck's Favorite Mac and Cheese","href":"https://www.allrecipes.com/recipe/19368/chucks-favorite-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c58"},"id":235808,"name":"Wacky Whole Grain Butternut Squash Mac and Cheese","href":"https://www.allrecipes.com/recipe/235808/wacky-whole-grain-butternut-squash-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c59"},"id":267816,"name":"Classic Mac and Cheese","href":"https://www.allrecipes.com/recipe/267816/classic-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c5a"},"id":103088,"name":"Wisconsin Five-Cheese Bake","href":"https://www.allrecipes.com/recipe/103088/wisconsin-five-cheese-bake","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c5b"},"id":244357,"name":"Mac and Cheese in a Cheese Waffle Cone","href":"https://www.allrecipes.com/recipe/244357/mac-and-cheese-in-a-cheese-waffle-cone","viewed":-1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c5c"},"id":240697,"name":"Protein Packed Mac \u0026 Cheese","href":"https://www.allrecipes.com/recipe/240697/protein-packed-mac-cheese","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c5d"},"id":149239,"name":"Easiest Mac-N-Cheese Ever!","href":"https://www.allrecipes.com/recipe/149239/easiest-mac-n-cheese-ever","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c5e"},"id":228416,"name":"Mac-N-Cheese Pizza","href":"https://www.allrecipes.com/recipe/228416/mac-n-cheese-pizza","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c5f"},"id":268911,"name":"Decadent Baked Mac and Cheese","href":"https://www.allrecipes.com/recipe/268911/decadent-baked-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c60"},"id":255651,"name":"One-Pan Cheddar Mac","href":"https://www.allrecipes.com/recipe/255651/one-pan-cheddar-mac","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c61"},"id":88065,"name":"Four Cheese Macaroni Casserole","href":"https://www.allrecipes.com/recipe/88065/four-cheese-macaroni-casserole","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c62"},"id":242081,"name":"Mac and Guac Casserole","href":"https://www.allrecipes.com/recipe/242081/mac-and-guac-casserole","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c63"},"id":231135,"name":"South-of-the-Border Mac and Cheese","href":"https://www.allrecipes.com/recipe/231135/south-of-the-border-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c64"},"id":262377,"name":"Spinach Mac And Cheese","href":"https://www.allrecipes.com/recipe/262377/spinach-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c65"},"id":18871,"name":"Easy Tuna Casserole","href":"https://www.allrecipes.com/recipe/18871/easy-tuna-casserole","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c66"},"id":12027,"name":"Microwave Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/12027/microwave-macaroni-and-cheese","viewed":-1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c67"},"id":254839,"name":"Barilla® Pick Your Pizza Pasta","href":"https://www.allrecipes.com/recipe/254839/barilla-pick-your-pizza-pasta","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c68"},"id":218295,"name":"Chicago Macaroni Salad","href":"https://www.allrecipes.com/recipe/218295/chicago-macaroni-salad","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c69"},"id":240401,"name":"Bacon and Tomato Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/240401/bacon-and-tomato-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67837c6d0b019b8bc1c6a"},"id":254555,"name":"Easy Cheesy Mac And Cheese (With Optional Crunchy Topping)","href":"https://www.allrecipes.com/recipe/254555/easy-cheesy-mac-and-cheese-with-optional-crunchy-topping","viewed":1}
+{"_id":{"$oid":"5ca67841c6d0b019b8bc1c6b"},"id":236868,"name":"Soupier Mac and Cheese","href":"https://www.allrecipes.com/recipe/236868/soupier-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c6c"},"id":242320,"name":"Jim's Beer Mac and Cheese Gratin","href":"https://www.allrecipes.com/recipe/242320/jims-beer-mac-and-cheese-gratin","viewed":-1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c6d"},"id":257019,"name":"Gooey Lobster Mac and Cheese","href":"https://www.allrecipes.com/recipe/257019/gooey-lobster-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c6e"},"id":246656,"name":"Asiago Cremini Pasta Bake with Radicchio","href":"https://www.allrecipes.com/recipe/246656/asiago-cremini-pasta-bake-with-radicchio","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c6f"},"id":235400,"name":"Baked Tomato Mac n Cheese Casserole","href":"https://www.allrecipes.com/recipe/235400/baked-tomato-mac-n-cheese-casserole","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c70"},"id":268906,"name":"Kimchi Mac and Cheese","href":"https://www.allrecipes.com/recipe/268906/kimchi-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c71"},"id":239680,"name":"Creamy Poblano Mac \u0026 Cheese","href":"https://www.allrecipes.com/recipe/239680/creamy-poblano-mac-cheese","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c72"},"id":233885,"name":"Bison Pepperoni Macaroni","href":"https://www.allrecipes.com/recipe/233885/bison-pepperoni-macaroni","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c73"},"id":246771,"name":"Gluten-Free Mac-n-Cheese","href":"https://www.allrecipes.com/recipe/246771/gluten-free-mac-n-cheese","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c74"},"id":241902,"name":"Bacon Ranch Cheeseburger Mac","href":"https://www.allrecipes.com/recipe/241902/bacon-ranch-cheeseburger-mac","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c75"},"id":241909,"name":"Skillet Bacon and Broccoli Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/241909/skillet-bacon-and-broccoli-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c76"},"id":254512,"name":"Cauliflower Macaroni and Cheese Casserole","href":"https://www.allrecipes.com/recipe/254512/cauliflower-macaroni-and-cheese-casserole","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c77"},"id":232850,"name":"Cheese and Hamburger Macaroni","href":"https://www.allrecipes.com/recipe/232850/cheese-and-hamburger-macaroni","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c78"},"id":238755,"name":"Homemade Mac and Cheese Casserole","href":"https://www.allrecipes.com/recipe/238755/homemade-mac-and-cheese-casserole","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c79"},"id":237184,"name":"Macaroni and Cheese Pizza Bake","href":"https://www.allrecipes.com/recipe/237184/macaroni-and-cheese-pizza-bake","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c7a"},"id":241362,"name":"Lobster Mac with Cheddar, Brie, and Gruyere","href":"https://www.allrecipes.com/recipe/241362/lobster-mac-with-cheddar-brie-and-gruyere","viewed":-1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c7b"},"id":18349,"name":"Allie's Delicious Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/18349/allies-delicious-macaroni-and-cheese","viewed":-1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c7c"},"id":255131,"name":"Mac 'n Cheese Bites","href":"https://www.allrecipes.com/recipe/255131/mac-n-cheese-bites","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c7d"},"id":264615,"name":"Easy Gluten-Free Vegetarian Pasta with Boursin®","href":"https://www.allrecipes.com/recipe/264615/easy-gluten-free-vegetarian-pasta-with-boursin","viewed":1}
+{"_id":{"$oid":"5ca67842c6d0b019b8bc1c7e"},"id":218724,"name":"Not Your Mom's Mac and Cheese","href":"https://www.allrecipes.com/recipe/218724/not-your-moms-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c7f"},"id":230781,"name":"Game Day Mac and Mex","href":"https://www.allrecipes.com/recipe/230781/game-day-mac-and-mex","viewed":1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c80"},"id":260265,"name":"Mustard Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/260265/mustard-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c81"},"id":268434,"name":"Pumpkin Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/268434/pumpkin-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c82"},"id":241518,"name":"Buffalo Chicken Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/241518/buffalo-chicken-macaroni-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c83"},"id":246024,"name":"Gluten Free Spicy Mac \u0026 Cheese","href":"https://www.allrecipes.com/recipe/246024/gluten-free-spicy-mac-cheese","viewed":1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c84"},"id":111361,"name":"Easy Mac and Cheese Muffins","href":"https://www.allrecipes.com/recipe/111361/easy-mac-and-cheese-muffins","viewed":1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c85"},"id":237150,"name":"Easy Mac and Cheese Pizza","href":"https://www.allrecipes.com/recipe/237150/easy-mac-and-cheese-pizza","viewed":1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c86"},"id":260700,"name":"Skinny Broccoli Mac and Cheese","href":"https://www.allrecipes.com/recipe/260700/skinny-broccoli-mac-and-cheese","viewed":-1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c87"},"id":269006,"name":"One-Pan White Cheddar Mac and Cheese","href":"https://www.allrecipes.com/recipe/269006/one-pan-white-cheddar-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c88"},"id":234157,"name":"Mock-a-Roni","href":"https://www.allrecipes.com/recipe/234157/mock-a-roni","viewed":1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c89"},"id":15123,"name":"Tim's Mac and Cheese","href":"https://www.allrecipes.com/recipe/15123/tims-mac-and-cheese","viewed":-1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c8a"},"id":232974,"name":"Velveeta® Salsa Mac and Cheese","href":"https://www.allrecipes.com/recipe/232974/velveeta-salsa-mac-and-cheese","viewed":1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c8b"},"id":256223,"name":"Veggie Tot Mac \u0026 Cheese","href":"https://www.allrecipes.com/recipe/256223/veggie-tot-mac-cheese","viewed":1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c8c"},"id":241907,"name":"20-Minute Spinach and Artichoke Macaroni \u0026 Cheese","href":"https://www.allrecipes.com/recipe/241907/20-minute-spinach-and-artichoke-macaroni-cheese","viewed":1}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c8d"},"id":40267,"name":"Cheese and Pasta in a Pot","href":"https://www.allrecipes.com/recipe/40267/cheese-and-pasta-in-a-pot","viewed":0}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c8e"},"id":241904,"name":"Baked Bacon Macaroni and Cheese Casserole","href":"https://www.allrecipes.com/recipe/241904/baked-bacon-macaroni-and-cheese-casserole","viewed":0}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c8f"},"id":237776,"name":"Smoky Penne and Cheese with Ham and Kale","href":"https://www.allrecipes.com/recipe/237776/smoky-penne-and-cheese-with-ham-and-kale","viewed":0}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c90"},"id":254910,"name":"Kicked Up Mac \u0026 Cheese","href":"https://www.allrecipes.com/recipe/254910/kicked-up-mac-cheese","viewed":0}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c91"},"id":23983,"name":"Home Style Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/23983/home-style-macaroni-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca6784cc6d0b019b8bc1c92"},"id":231530,"name":"Easiest Homestyle Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/231530/easiest-homestyle-macaroni-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1c93"},"id":240223,"name":"Kilen's Ultimate Macaroni-n-Cheese","href":"https://www.allrecipes.com/recipe/240223/kilens-ultimate-macaroni-n-cheese","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1c94"},"id":237465,"name":"Grandmother's Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/237465/grandmothers-macaroni-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1c95"},"id":255965,"name":"Cheesy One Pan Mac And Cheese from Barilla®","href":"https://www.allrecipes.com/recipe/255965/cheesy-one-pan-mac-and-cheese-from-barilla","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1c96"},"id":223423,"name":"Family Picnic Macaroni Salad","href":"https://www.allrecipes.com/recipe/223423/family-picnic-macaroni-salad","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1c97"},"id":245670,"name":"Gluten Free Elbows Pasta Salad with Pesto and Eggplant","href":"https://www.allrecipes.com/recipe/245670/gluten-free-elbows-pasta-salad-with-pesto-and-eggplant","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1c98"},"id":232915,"name":"Easy Pizza Macaroni Bake","href":"https://www.allrecipes.com/recipe/232915/easy-pizza-macaroni-bake","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1c99"},"id":19428,"name":"Quick Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/19428/quick-macaroni-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1c9a"},"id":229425,"name":"Macaroni and Cheese with Sausage and Pears","href":"https://www.allrecipes.com/recipe/229425/macaroni-and-cheese-with-sausage-and-pears","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1c9b"},"id":245671,"name":"Gluten Free Elbows Tomato \u0026 Mozzarella Pasta Salad","href":"https://www.allrecipes.com/recipe/245671/gluten-free-elbows-tomato-mozzarella-pasta-salad","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1c9c"},"id":255670,"name":"Kale \u0026 Poblano Mac N' Cheese","href":"https://www.allrecipes.com/recipe/255670/kale-poblano-mac-n-cheese","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1c9d"},"id":87869,"name":"Macaroni and Cheese with Bacon and Onions","href":"https://www.allrecipes.com/recipe/87869/macaroni-and-cheese-with-bacon-and-onions","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1c9e"},"id":82280,"name":"Tuna, Noodles, Pickles and Cheese","href":"https://www.allrecipes.com/recipe/82280/tuna-noodles-pickles-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1c9f"},"id":19312,"name":"Walter's Chicken and Mac","href":"https://www.allrecipes.com/recipe/19312/walters-chicken-and-mac","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1ca0"},"id":19427,"name":"Mom's Baked Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/19427/moms-baked-macaroni-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1ca1"},"id":233663,"name":"Healthier Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/233663/healthier-macaroni-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1ca2"},"id":213652,"name":"Creamy Macaroni with Asparagus Without the Cream","href":"https://www.allrecipes.com/recipe/213652/creamy-macaroni-with-asparagus-without-the-cream","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1ca3"},"id":217826,"name":"Vincente's Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/217826/vincentes-macaroni-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1ca4"},"id":23705,"name":"Easy Add-In Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/23705/easy-add-in-macaroni-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1ca5"},"id":108675,"name":"Macaroni and Cheese with Bacon","href":"https://www.allrecipes.com/recipe/108675/macaroni-and-cheese-with-bacon","viewed":0}
+{"_id":{"$oid":"5ca67857c6d0b019b8bc1ca6"},"id":241908,"name":"Easy Caprese Mac and Cheese","href":"https://www.allrecipes.com/recipe/241908/easy-caprese-mac-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1ca7"},"id":233065,"name":"Tuna Mac","href":"https://www.allrecipes.com/recipe/233065/tuna-mac","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1ca8"},"id":255465,"name":"Mock Sou Boreg (Armenian Macaroni and Cheese)","href":"https://www.allrecipes.com/recipe/255465/mock-sou-boreg-armenian-macaroni-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1ca9"},"id":213720,"name":"Bee's Mac and Cheese Bake","href":"https://www.allrecipes.com/recipe/213720/bees-mac-and-cheese-bake","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1caa"},"id":235760,"name":"Kicked-Up Goulash","href":"https://www.allrecipes.com/recipe/235760/kicked-up-goulash","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cab"},"id":14203,"name":"Mediterranean Pasta Salad","href":"https://www.allrecipes.com/recipe/14203/mediterranean-pasta-salad","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cac"},"id":233536,"name":"Classic Smoked Sausage Mac and Cheese","href":"https://www.allrecipes.com/recipe/233536/classic-smoked-sausage-mac-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cad"},"id":246169,"name":"Spamaroni and Cheese","href":"https://www.allrecipes.com/recipe/246169/spamaroni-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cae"},"id":231944,"name":"White Spaghetti Pie","href":"https://www.allrecipes.com/recipe/231944/white-spaghetti-pie","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1caf"},"id":262615,"name":"Creamy Pressure Cooker Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/262615/creamy-pressure-cooker-macaroni-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cb0"},"id":255271,"name":"Grown Up Mac \u0026 Cheese","href":"https://www.allrecipes.com/recipe/255271/grown-up-mac-cheese","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cb1"},"id":233824,"name":"Macaroni with Four Cheeses","href":"https://www.allrecipes.com/recipe/233824/macaroni-with-four-cheeses","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cb2"},"id":240354,"name":"Cheeseburger Macaroni from RED GOLD®","href":"https://www.allrecipes.com/recipe/240354/cheeseburger-macaroni-from-red-gold","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cb3"},"id":22169,"name":"Macaroni and Peppers in White Sauce","href":"https://www.allrecipes.com/recipe/22169/macaroni-and-peppers-in-white-sauce","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cb4"},"id":240625,"name":"Pumpkin Mac and Cheese","href":"https://www.allrecipes.com/recipe/240625/pumpkin-mac-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cb5"},"id":235128,"name":"Easy Goulash","href":"https://www.allrecipes.com/recipe/235128/easy-goulash","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cb6"},"id":241277,"name":"Cheeseburger Macaroni Casserole","href":"https://www.allrecipes.com/recipe/241277/cheeseburger-macaroni-casserole","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cb7"},"id":23586,"name":"Four Cheese Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/23586/four-cheese-macaroni-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cb8"},"id":19422,"name":"Macaroni and Cheese V","href":"https://www.allrecipes.com/recipe/19422/macaroni-and-cheese-v","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cb9"},"id":233746,"name":"Mac and Cheese Bake","href":"https://www.allrecipes.com/recipe/233746/mac-and-cheese-bake","viewed":0}
+{"_id":{"$oid":"5ca67862c6d0b019b8bc1cba"},"id":266534,"name":"Vegan Pumpkin Macaroni and Cheese","href":"https://www.allrecipes.com/recipe/266534/vegan-pumpkin-macaroni-and-cheese","viewed":0}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8a7"},"id":19345,"name":"Pasta Sauce with Italian Sausage","href":"https://www.allrecipes.com/recipe/19345/pasta-sauce-with-italian-sausage","viewed":0}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8a8"},"id":206837,"name":"Tomato and Basil Pasta Sauce","href":"https://www.allrecipes.com/recipe/206837/tomato-and-basil-pasta-sauce","viewed":0}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8a9"},"id":23982,"name":"Easy Vegan Pasta Sauce","href":"https://www.allrecipes.com/recipe/23982/easy-vegan-pasta-sauce","viewed":0}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8aa"},"id":11855,"name":"Lemon Pasta Sauce","href":"https://www.allrecipes.com/recipe/11855/lemon-pasta-sauce","viewed":0}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8ab"},"id":201097,"name":"No Tomato Pasta Sauce","href":"https://www.allrecipes.com/recipe/201097/no-tomato-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8ac"},"id":21455,"name":"Quick Pasta Sauce","href":"https://www.allrecipes.com/recipe/21455/quick-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8ad"},"id":231426,"name":"Italian Pasta Sauce","href":"https://www.allrecipes.com/recipe/231426/italian-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8ae"},"id":22748,"name":"Pepper and Olive Pasta Sauce","href":"https://www.allrecipes.com/recipe/22748/pepper-and-olive-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8af"},"id":152257,"name":"Vincenza's Pasta Sauce","href":"https://www.allrecipes.com/recipe/152257/vincenzas-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8b0"},"id":23609,"name":"Everything in the Fridge Pasta Sauce","href":"https://www.allrecipes.com/recipe/23609/everything-in-the-fridge-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8b1"},"id":143177,"name":"Simple Delicious Pasta Sauce","href":"https://www.allrecipes.com/recipe/143177/simple-delicious-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8b2"},"id":229013,"name":"Pasta Sauce - Vegan","href":"https://www.allrecipes.com/recipe/229013/pasta-sauce-vegan","viewed":1}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8b3"},"id":261959,"name":"Turkey Pasta Sauce","href":"https://www.allrecipes.com/recipe/261959/turkey-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8b4"},"id":220667,"name":"Artichoke Spinach Pasta Sauce","href":"https://www.allrecipes.com/recipe/220667/artichoke-spinach-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8b5"},"id":13897,"name":"Sicilian Lentil Pasta Sauce","href":"https://www.allrecipes.com/recipe/13897/sicilian-lentil-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8b6"},"id":215757,"name":"Spaghetti Pasta Sauce","href":"https://www.allrecipes.com/recipe/215757/spaghetti-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8b7"},"id":220604,"name":"Raw Pasta Sauce","href":"https://www.allrecipes.com/recipe/220604/raw-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8b8"},"id":219464,"name":"Pumpkin Chipotle Pasta Sauce","href":"https://www.allrecipes.com/recipe/219464/pumpkin-chipotle-pasta-sauce","viewed":-1}
+{"_id":{"$oid":"5ca6b16bc6d0b01c1a1fc8b9"},"id":245022,"name":"Savory Pumpkin Pasta Sauce","href":"https://www.allrecipes.com/recipe/245022/savory-pumpkin-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8ba"},"id":214687,"name":"Pomodoro Pasta Sauce","href":"https://www.allrecipes.com/recipe/214687/pomodoro-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8bb"},"id":89660,"name":"Feta and Bacon Pasta Sauce","href":"https://www.allrecipes.com/recipe/89660/feta-and-bacon-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8bc"},"id":14954,"name":"Ragu Bologna Pasta Sauce","href":"https://www.allrecipes.com/recipe/14954/ragu-bologna-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8bd"},"id":233454,"name":"Fresh Zucchini Pasta Sauce","href":"https://www.allrecipes.com/recipe/233454/fresh-zucchini-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8be"},"id":236605,"name":"Chef John's Sunday Pasta Sauce","href":"https://www.allrecipes.com/recipe/236605/chef-johns-sunday-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8bf"},"id":19321,"name":"Easy Red Pasta Sauce","href":"https://www.allrecipes.com/recipe/19321/easy-red-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8c0"},"id":214898,"name":"Homemade Tomato Basil Pasta Sauce","href":"https://www.allrecipes.com/recipe/214898/homemade-tomato-basil-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8c1"},"id":12061,"name":"Mom's Quick Pasta Sauce","href":"https://www.allrecipes.com/recipe/12061/moms-quick-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8c2"},"id":264290,"name":"Creamy Ricotta Pasta Sauce","href":"https://www.allrecipes.com/recipe/264290/creamy-ricotta-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8c3"},"id":215320,"name":"Cheesy Butternut Squash Pasta Sauce","href":"https://www.allrecipes.com/recipe/215320/cheesy-butternut-squash-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8c4"},"id":132326,"name":"Courtney's Three Tomato Pasta Sauce","href":"https://www.allrecipes.com/recipe/132326/courtneys-three-tomato-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8c5"},"id":232338,"name":"Clean-Eating Hearty Pasta Sauce","href":"https://www.allrecipes.com/recipe/232338/clean-eating-hearty-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8c6"},"id":258346,"name":"Nonna's Sweet Pasta Sauce for Two","href":"https://www.allrecipes.com/recipe/258346/nonnas-sweet-pasta-sauce-for-two","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8c7"},"id":228556,"name":"Fresh Fig and Prosciutto Pasta Sauce","href":"https://www.allrecipes.com/recipe/228556/fresh-fig-and-prosciutto-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8c8"},"id":231916,"name":"Hearty Pasta Sauce--Ragu Style","href":"https://www.allrecipes.com/recipe/231916/hearty-pasta-sauce-ragu-style","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8c9"},"id":267253,"name":"Spicy Roasted Tomato and Ricotta Pasta Sauce","href":"https://www.allrecipes.com/recipe/267253/spicy-roasted-tomato-and-ricotta-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8ca"},"id":23830,"name":"Bryan's Sweet and Hot Tomato Pasta Sauce","href":"https://www.allrecipes.com/recipe/23830/bryans-sweet-and-hot-tomato-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8cb"},"id":19380,"name":"Pasta/Pizza Sauce","href":"https://www.allrecipes.com/recipe/19380/pastapizza-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8cc"},"id":14018,"name":"Pasta Primavera Sauce","href":"https://www.allrecipes.com/recipe/14018/pasta-primavera-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b175c6d0b01c1a1fc8cd"},"id":201626,"name":"Sayguh's Spicy Olive Oil, Tomato and Lime Pasta Sauce","href":"https://www.allrecipes.com/recipe/201626/sayguhs-spicy-olive-oil-tomato-and-lime-pasta-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b180c6d0b01c1a1fc8ce"},"id":11668,"name":"Pasta in Vodka Sauce","href":"https://www.allrecipes.com/recipe/11668/pasta-in-vodka-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b180c6d0b01c1a1fc8cf"},"id":21520,"name":"Pasta with Clam Sauce","href":"https://www.allrecipes.com/recipe/21520/pasta-with-clam-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b180c6d0b01c1a1fc8d0"},"id":258357,"name":"Camping Pasta with Clam Sauce","href":"https://www.allrecipes.com/recipe/258357/camping-pasta-with-clam-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b180c6d0b01c1a1fc8d1"},"id":263048,"name":"Salmon Pasta in Cream Sauce","href":"https://www.allrecipes.com/recipe/263048/salmon-pasta-in-cream-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b180c6d0b01c1a1fc8d2"},"id":47553,"name":"Rita's Pasta and Meat Sauce","href":"https://www.allrecipes.com/recipe/47553/ritas-pasta-and-meat-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b180c6d0b01c1a1fc8d3"},"id":246653,"name":"Pasta with Gorgonzola Sauce and Radicchio","href":"https://www.allrecipes.com/recipe/246653/pasta-with-gorgonzola-sauce-and-radicchio","viewed":1}
+{"_id":{"$oid":"5ca6b180c6d0b01c1a1fc8d4"},"id":11687,"name":"Pasta with Yogurt Sauce","href":"https://www.allrecipes.com/recipe/11687/pasta-with-yogurt-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b180c6d0b01c1a1fc8d5"},"id":11816,"name":"Garden Basket Pasta with Clam Sauce","href":"https://www.allrecipes.com/recipe/11816/garden-basket-pasta-with-clam-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b180c6d0b01c1a1fc8d6"},"id":11909,"name":"Pasta With Spinach Sauce","href":"https://www.allrecipes.com/recipe/11909/pasta-with-spinach-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b180c6d0b01c1a1fc8d7"},"id":11829,"name":"Pasta With Peanut Sauce","href":"https://www.allrecipes.com/recipe/11829/pasta-with-peanut-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b180c6d0b01c1a1fc8d8"},"id":237670,"name":"Angel Hair Pasta with Gorgonzola Sauce","href":"https://www.allrecipes.com/recipe/237670/angel-hair-pasta-with-gorgonzola-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b180c6d0b01c1a1fc8d9"},"id":12760,"name":"Pasta With Tuna Sauce","href":"https://www.allrecipes.com/recipe/12760/pasta-with-tuna-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b180c6d0b01c1a1fc8da"},"id":220711,"name":"Chicken Asparagus Pasta with Cream Sauce","href":"https://www.allrecipes.com/recipe/220711/chicken-asparagus-pasta-with-cream-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b180c6d0b01c1a1fc8db"},"id":23600,"name":"World's Best Lasagna","href":"https://www.allrecipes.com/recipe/23600/worlds-best-lasagna","viewed":1}
+{"_id":{"$oid":"5ca6b18bc6d0b01c1a1fc8dc"},"id":21340,"name":"Linda's Lasagna","href":"https://www.allrecipes.com/recipe/21340/lindas-lasagna","viewed":1}
+{"_id":{"$oid":"5ca6b18bc6d0b01c1a1fc8dd"},"id":233661,"name":"Chef John's Lasagna","href":"https://www.allrecipes.com/recipe/233661/chef-johns-lasagna","viewed":1}
+{"_id":{"$oid":"5ca6b18bc6d0b01c1a1fc8de"},"id":11758,"name":"Baked Ziti I","href":"https://www.allrecipes.com/recipe/11758/baked-ziti-i","viewed":1}
+{"_id":{"$oid":"5ca6b18bc6d0b01c1a1fc8df"},"id":26254,"name":"Baked Ziti IV","href":"https://www.allrecipes.com/recipe/26254/baked-ziti-iv","viewed":1}
+{"_id":{"$oid":"5ca6b18bc6d0b01c1a1fc8e0"},"id":26257,"name":"Bow Ties with Sausage, Tomatoes and Cream","href":"https://www.allrecipes.com/recipe/26257/bow-ties-with-sausage-tomatoes-and-cream","viewed":1}
+{"_id":{"$oid":"5ca6b195c6d0b01c1a1fc8e1"},"id":220059,"name":"Chef John's Classic Beef Stroganoff","href":"https://www.allrecipes.com/recipe/220059/chef-johns-classic-beef-stroganoff","viewed":1}
+{"_id":{"$oid":"5ca6b195c6d0b01c1a1fc8e2"},"id":17098,"name":"Baked Ziti III","href":"https://www.allrecipes.com/recipe/17098/baked-ziti-iii","viewed":1}
+{"_id":{"$oid":"5ca6b195c6d0b01c1a1fc8e3"},"id":12009,"name":"Creamy Cajun Chicken Pasta","href":"https://www.allrecipes.com/recipe/12009/creamy-cajun-chicken-pasta","viewed":1}
+{"_id":{"$oid":"5ca6b195c6d0b01c1a1fc8e4"},"id":11729,"name":"American Lasagna","href":"https://www.allrecipes.com/recipe/11729/american-lasagna","viewed":1}
+{"_id":{"$oid":"5ca6b195c6d0b01c1a1fc8e5"},"id":11853,"name":"Orzo with Parmesan and Basil","href":"https://www.allrecipes.com/recipe/11853/orzo-with-parmesan-and-basil","viewed":1}
+{"_id":{"$oid":"5ca6b195c6d0b01c1a1fc8e6"},"id":24833,"name":"Black Bean and Couscous Salad","href":"https://www.allrecipes.com/recipe/24833/black-bean-and-couscous-salad","viewed":1}
+{"_id":{"$oid":"5ca6b195c6d0b01c1a1fc8e7"},"id":11776,"name":"Grandma's Noodles II","href":"https://www.allrecipes.com/recipe/11776/grandmas-noodles-ii","viewed":1}
+{"_id":{"$oid":"5ca6b1a0c6d0b01c1a1fc8e8"},"id":11991,"name":"Egg Noodles","href":"https://www.allrecipes.com/recipe/11991/egg-noodles","viewed":1}
+{"_id":{"$oid":"5ca6b1a0c6d0b01c1a1fc8e9"},"id":90119,"name":"Pasta Primavera with Italian Turkey Sausage","href":"https://www.allrecipes.com/recipe/90119/pasta-primavera-with-italian-turkey-sausage","viewed":1}
+{"_id":{"$oid":"5ca6b1a0c6d0b01c1a1fc8ea"},"id":76129,"name":"Spinach Tomato Tortellini","href":"https://www.allrecipes.com/recipe/76129/spinach-tomato-tortellini","viewed":1}
+{"_id":{"$oid":"5ca6b1a0c6d0b01c1a1fc8eb"},"id":13883,"name":"Manicotti","href":"https://www.allrecipes.com/recipe/13883/manicotti","viewed":1}
+{"_id":{"$oid":"5ca6b1a0c6d0b01c1a1fc8ec"},"id":11786,"name":"Hearty Vegetable Lasagna","href":"https://www.allrecipes.com/recipe/11786/hearty-vegetable-lasagna","viewed":1}
+{"_id":{"$oid":"5ca6b1a0c6d0b01c1a1fc8ed"},"id":219046,"name":"Rich and Creamy Beef Stroganoff","href":"https://www.allrecipes.com/recipe/219046/rich-and-creamy-beef-stroganoff","viewed":1}
+{"_id":{"$oid":"5ca6b1abc6d0b01c1a1fc8ee"},"id":244305,"name":"Chef John's Classic Macaroni Salad","href":"https://www.allrecipes.com/recipe/244305/chef-johns-classic-macaroni-salad","viewed":1}
+{"_id":{"$oid":"5ca6b1abc6d0b01c1a1fc8ef"},"id":235565,"name":"Chef John's Tomato Sauce","href":"https://www.allrecipes.com/recipe/235565/chef-johns-tomato-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b1abc6d0b01c1a1fc8f0"},"id":203951,"name":"Sarah's Rice Pilaf","href":"https://www.allrecipes.com/recipe/203951/sarahs-rice-pilaf","viewed":1}
+{"_id":{"$oid":"5ca6b1abc6d0b01c1a1fc8f1"},"id":11808,"name":"Creamy Pesto Shrimp","href":"https://www.allrecipes.com/recipe/11808/creamy-pesto-shrimp","viewed":1}
+{"_id":{"$oid":"5ca6b1abc6d0b01c1a1fc8f2"},"id":19304,"name":"Chicken Milano","href":"https://www.allrecipes.com/recipe/19304/chicken-milano","viewed":1}
+{"_id":{"$oid":"5ca6b1abc6d0b01c1a1fc8f3"},"id":11688,"name":"Cajun Seafood Pasta","href":"https://www.allrecipes.com/recipe/11688/cajun-seafood-pasta","viewed":1}
+{"_id":{"$oid":"5ca6b1abc6d0b01c1a1fc8f4"},"id":14285,"name":"Chinese Cabbage Salad I","href":"https://www.allrecipes.com/recipe/14285/chinese-cabbage-salad-i","viewed":1}
+{"_id":{"$oid":"5ca6b1abc6d0b01c1a1fc8f5"},"id":229455,"name":"Chef John's Chicken Riggies","href":"https://www.allrecipes.com/recipe/229455/chef-johns-chicken-riggies","viewed":1}
+{"_id":{"$oid":"5ca6b1abc6d0b01c1a1fc8f6"},"id":20082,"name":"Artichoke Spinach Lasagna","href":"https://www.allrecipes.com/recipe/20082/artichoke-spinach-lasagna","viewed":1}
+{"_id":{"$oid":"5ca6b1abc6d0b01c1a1fc8f7"},"id":11836,"name":"Stuffed Shells I","href":"https://www.allrecipes.com/recipe/11836/stuffed-shells-i","viewed":1}
+{"_id":{"$oid":"5ca6b1b6c6d0b01c1a1fc8f8"},"id":24082,"name":"Easy Vodka Sauce","href":"https://www.allrecipes.com/recipe/24082/easy-vodka-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b1b6c6d0b01c1a1fc8f9"},"id":12065,"name":"Classic Alfredo Sauce","href":"https://www.allrecipes.com/recipe/12065/classic-alfredo-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b1b6c6d0b01c1a1fc8fa"},"id":14278,"name":"Antipasto Pasta Salad","href":"https://www.allrecipes.com/recipe/14278/antipasto-pasta-salad","viewed":1}
+{"_id":{"$oid":"5ca6b1b6c6d0b01c1a1fc8fb"},"id":22729,"name":"Spinach Lasagna III","href":"https://www.allrecipes.com/recipe/22729/spinach-lasagna-iii","viewed":1}
+{"_id":{"$oid":"5ca6b1b6c6d0b01c1a1fc8fc"},"id":18517,"name":"Napa Cabbage Salad","href":"https://www.allrecipes.com/recipe/18517/napa-cabbage-salad","viewed":1}
+{"_id":{"$oid":"5ca6b1b6c6d0b01c1a1fc8fd"},"id":23404,"name":"Tomato-Cream Sauce for Pasta","href":"https://www.allrecipes.com/recipe/23404/tomato-cream-sauce-for-pasta","viewed":1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc8fe"},"id":239047,"name":"One Pan Orecchiette Pasta","href":"https://www.allrecipes.com/recipe/239047/one-pan-orecchiette-pasta","viewed":1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc8ff"},"id":214164,"name":"Garlic Alfredo Tilapia","href":"https://www.allrecipes.com/recipe/214164/garlic-alfredo-tilapia","viewed":1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc900"},"id":23431,"name":"To Die For Fettuccine Alfredo","href":"https://www.allrecipes.com/recipe/23431/to-die-for-fettuccine-alfredo","viewed":1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc901"},"id":23048,"name":"Manicotti Shells","href":"https://www.allrecipes.com/recipe/23048/manicotti-shells","viewed":1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc902"},"id":87272,"name":"Mad Hatter Salad","href":"https://www.allrecipes.com/recipe/87272/mad-hatter-salad","viewed":-1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc903"},"id":12011,"name":"Easy Lasagna II","href":"https://www.allrecipes.com/recipe/12011/easy-lasagna-ii","viewed":1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc904"},"id":22831,"name":"Alfredo Sauce","href":"https://www.allrecipes.com/recipe/22831/alfredo-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc905"},"id":19611,"name":"Bar-B-Que Sauce","href":"https://www.allrecipes.com/recipe/19611/bar-b-que-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc906"},"id":78741,"name":"Chicken Breasts in Caper Cream Sauce","href":"https://www.allrecipes.com/recipe/78741/chicken-breasts-in-caper-cream-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc907"},"id":18442,"name":"Bob's Awesome Lasagna","href":"https://www.allrecipes.com/recipe/18442/bobs-awesome-lasagna","viewed":1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc908"},"id":17319,"name":"Exquisite Pizza Sauce","href":"https://www.allrecipes.com/recipe/17319/exquisite-pizza-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc909"},"id":11892,"name":"Penne and Vodka Sauce","href":"https://www.allrecipes.com/recipe/11892/penne-and-vodka-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc90a"},"id":25202,"name":"Beef Stroganoff III","href":"https://www.allrecipes.com/recipe/25202/beef-stroganoff-iii","viewed":1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc90b"},"id":216470,"name":"Pesto Chicken Penne Casserole","href":"https://www.allrecipes.com/recipe/216470/pesto-chicken-penne-casserole","viewed":1}
+{"_id":{"$oid":"5ca6b1c0c6d0b01c1a1fc90c"},"id":77008,"name":"Rosemary-Scented Pork Loin Stuffed With Roasted Garlic, Dried Apricots and Cranberries and Port Wine Pan Sauce","href":"https://www.allrecipes.com/recipe/77008/rosemary-scented-pork-loin-stuffed-with-roasted-garlic-dried-apricots-and-cranberries-and-port-wine-pan-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc90d"},"id":52734,"name":"Awesome Pasta Salad","href":"https://www.allrecipes.com/recipe/52734/awesome-pasta-salad","viewed":1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc90e"},"id":16414,"name":"Broccoli and Ramen Noodle Salad","href":"https://www.allrecipes.com/recipe/16414/broccoli-and-ramen-noodle-salad","viewed":-1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc90f"},"id":236375,"name":"Chef John's Chimichurri Sauce","href":"https://www.allrecipes.com/recipe/236375/chef-johns-chimichurri-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc910"},"id":11945,"name":"Easy Alfredo Sauce I","href":"https://www.allrecipes.com/recipe/11945/easy-alfredo-sauce-i","viewed":1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc911"},"id":220094,"name":"Eggplant Lasagna","href":"https://www.allrecipes.com/recipe/220094/eggplant-lasagna","viewed":1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc912"},"id":222000,"name":"Spaghetti Aglio e Olio","href":"https://www.allrecipes.com/recipe/222000/spaghetti-aglio-e-olio","viewed":1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc913"},"id":14153,"name":"Broccoli and Tortellini Salad","href":"https://www.allrecipes.com/recipe/14153/broccoli-and-tortellini-salad","viewed":-1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc914"},"id":24239,"name":"Vietnamese Fresh Spring Rolls","href":"https://www.allrecipes.com/recipe/24239/vietnamese-fresh-spring-rolls","viewed":1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc915"},"id":25300,"name":"Manicotti Alla Romana","href":"https://www.allrecipes.com/recipe/25300/manicotti-alla-romana","viewed":1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc916"},"id":59671,"name":"Baked Asparagus with Balsamic Butter Sauce","href":"https://www.allrecipes.com/recipe/59671/baked-asparagus-with-balsamic-butter-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc917"},"id":176770,"name":"The Best Steak Marinade","href":"https://www.allrecipes.com/recipe/176770/the-best-steak-marinade","viewed":1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc918"},"id":9169,"name":"Oranged Cranberry Sauce","href":"https://www.allrecipes.com/recipe/9169/oranged-cranberry-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc919"},"id":14440,"name":"Spinach and Tortellini Salad","href":"https://www.allrecipes.com/recipe/14440/spinach-and-tortellini-salad","viewed":1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc91a"},"id":221079,"name":"Chef John's Crab Cakes","href":"https://www.allrecipes.com/recipe/221079/chef-johns-crab-cakes","viewed":1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc91b"},"id":23597,"name":"Honey Mustard Sauce","href":"https://www.allrecipes.com/recipe/23597/honey-mustard-sauce","viewed":1}
+{"_id":{"$oid":"5ca6b1cbc6d0b01c1a1fc91c"},"id":26301,"name":"Spinach and Orzo Salad","href":"https://www.allrecipes.com/recipe/26301/spinach-and-orzo-salad","viewed":1}
