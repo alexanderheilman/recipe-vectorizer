@@ -370,7 +370,7 @@ phrases = [' - ',', or ', ' for garnish', 'cut ', 'such as', ' like ', 'e.g.', '
 
 stopwords = ['and', 'into', 'very', 'hot', 'cold', 'warm', 'fresh', 'frozen', 'large', 'medium', 'small', 'halves', 'torn', 'bulk',
              'optional', 'fatfree', 'lowsodium', 'low', 'sodium', 'reducedsodium', 'reducedfat', 'ripe', 'lean',
-             'extra', 'pure', 'goya', 'whole', 'ground', 'organic']
+             'extra', 'pure', 'goya', 'whole', 'ground', 'domestic']
 
 suffixes = ['ed','less','ly']
 
@@ -378,6 +378,10 @@ flag_words = ['can or bottle', 'can', 'cans', 'package', 'packages', 'jar', 'jar
               'bottle', 'bottles', 'envelope', 'envelopes', 'carton','cartons', 'packet', 'packets']
 flag_words.sort(key=len)
 flag_words.reverse()
+
+identicals = {'bell pepper':['green bell pepper', 'red bell pepper', 'yellow bell pepper', 'orange bell pepper'],
+              'chicken': ['whole chicken', 'chicken breast', 'chicken thigh'],
+              'onion': ['yellow onion', 'white onion', 'sweet onion', 'red onion']}
 
 conversion_dict = {}
 conversion_dict['ounce'] = {'other':1}
@@ -413,29 +417,23 @@ conversion_dict['head'] = {'other': 20,
 conversion_dict['rib'] = {'celery': 2, 'other': 2}
 conversion_dict['stalk'] = {'celery': 2, 'other': 2}
 conversion_dict['each'] = {'onion': 8,
-                             'green bell pepper': 6,
+                             'bell pepper': 6,
                              'potato': 6,
                              'carrot': 4,
-                             'red bell pepper': 6,
                              'jalapeno pepper': 0.7,
-                             'chicken breast': 10,
+                             'chicken': 10,
                              'bay leaf': 1,
-                             'yellow onion': 8,
                              'tomato': 6,
                              'green onion': 0.5,
                              'zucchini': 5,
                              'bay leave': 1,
-                             'red onion': 8,
-                             'yellow bell pepper': 6,
                              'slices bacon': 1,
                              'lime': 1.5,
                              'head cabbage': 30,
-                             'sweet onion': 8,
                              'habanero pepper': 0.1,
                              'sweet potato': 6,
                              'eggs': 1,
                              'green chile pepper': 1,
-                             'white onion': 8,
                              'other': 1}
 
 ### MAIN FUNCTIONS ###
@@ -493,7 +491,7 @@ def parse_ingredients(ingredients, units=units, flag_words=flag_words):
         parsed = _remove_descriptors(remainder)
         if not parsed:
             continue
-        item_dict['ingredient'] = parsed
+        item_dict['ingredient'] = _merge_identicals(parsed, identicals)
         item_dict['normalized_qty'] = _normalize_ingredient_quantity(item_dict, conversion_dict)
         # Add item dictionary to list
         ing_list.append(item_dict)
@@ -600,3 +598,9 @@ def _normalize_ingredient_quantity(ingredient_dict, conversion_dict):
         return qty * conv_factor
     else:
         return qty
+    
+def _merge_identicals(ingredient, identicals):
+    for key, val in identicals.items():
+        if ingredient in val:
+            return key
+    return ingredient
