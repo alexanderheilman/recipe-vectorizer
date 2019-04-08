@@ -411,6 +411,7 @@ conversion_dict['packet'] = {'other':1}
 conversion_dict['head'] = {'other': 20,
                              'escarole': 10,
                              'garlic clove': 1.5,
+                             'garlic': 1.5,
                              'cabbage': 30,
                              'cauliflower': 30,
                              'broccoli': 20}
