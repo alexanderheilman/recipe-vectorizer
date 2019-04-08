@@ -381,7 +381,8 @@ flag_words.reverse()
 
 identicals = {'bell pepper':['green bell pepper', 'red bell pepper', 'yellow bell pepper', 'orange bell pepper'],
               'chicken': ['whole chicken', 'chicken breast', 'chicken thigh'],
-              'onion': ['yellow onion', 'white onion', 'sweet onion', 'red onion']}
+              'onion': ['yellow onion', 'white onion', 'sweet onion', 'red onion'],
+              'kidney beans': ['dark red kidney beans', 'light red kidney beans']}
 
 conversion_dict = {}
 conversion_dict['ounce'] = {'other':1}
