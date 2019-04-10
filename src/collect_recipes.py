@@ -21,7 +21,7 @@ if __name__ == '__main__':
     db = mc['allrecipes']
     recipes_coll = db['recipes']
     results_coll = db['search_results']
-    remove_duplicates_and_update_serach_results()
+    remove_duplicates_and_update_search_results()
     
     # Launch headless browser with selenium
     options = Options()
@@ -35,14 +35,33 @@ if __name__ == '__main__':
     while next_recipe:
         browser.get(next_recipe['href'])
         time.sleep(10)
+        # If redirected to different url, id# has been changed and must be updated
+        if next_recipe['href'] != browser.current_url:
+            update_results_collection(next_recipe, browser.current_url, results_coll)
         try:
-            recipes_coll.insert_one(get_recipe_info(browser))
-            mark_as_viewed(next_recipe['id'], results_coll)
+            info = get_recipe_info(browser)
+            # If recipe in database, update rating info...
+            if list(recipes_coll.find({'id':info['id']})):
+                recipes_coll.update_one({'id':info['id']},
+                                        {"$set":{'rating_info': info['rating_info']}},
+                                        upsert=False)
+            # Else if recipe is in database under outdated recipe_id, update rating and id
+            elif list(recipes_coll.find({'id':next_recipe['id']})):
+                recipes_coll.update_one({'id':next_recipe['id']},
+                                        {"$set":{'rating_info': info['rating_info'],
+                                                 'id' : info['id'],
+                                                 'href' : info['href']}},
+                                        upsert=False)
+            # Else insert new entry
+            else:
+                recipes_coll.insert_one(info)
+            mark_as_viewed(info['id'], results_coll)
             count += 1
-            print('Last recipe: {}'.format(next_recipe['name']))
+            print('Last recipe:\nID : {0}\nName : {1}'.format(info['id'],
+                                                              info['name']))
             if count >= max_count:
                 break
-            print('{} recipes collected'.format(count))
+            print('{} recipes collected\n'.format(count))
         except:
             mark_as_viewed(next_recipe['id'], results_coll, error=True)
             print('Error reading recipe: {}'.format(next_recipe['name']))

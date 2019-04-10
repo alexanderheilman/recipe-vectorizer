@@ -208,6 +208,11 @@ def remove_duplicates_and_update_search_results():
         results_coll.update_one({'id':recipe['id']},
                           {"$set":{'viewed': 1}}, upsert=False)
 
+def update_results_collection(recipe, url, collection):
+    new_id = int(url.split('/recipe/')[1].split('/')[0])
+    collection.update_one({'id':recipe['id']},
+                            {"$set":{'id': new_id, 'href': url}},
+                            upsert=False)
 
 ########################################
 #   Recipe scraping functions
