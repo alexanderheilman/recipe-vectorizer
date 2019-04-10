@@ -13,3 +13,4 @@ if __name__ == '__main__':
     now = datetime.now(timezone.utc)
     diff = now-timestamp
     print('Recipe collected on {0} ({1} ago)'.format(time_str, str(diff)))
+    print('Full recipe:', recipe)
