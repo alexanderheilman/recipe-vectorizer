@@ -370,7 +370,7 @@ phrases = [' - ',', or ', ' for garnish', 'cut ', 'such as', ' like ', 'e.g.', '
 
 stopwords = ['and', 'into', 'very', 'hot', 'cold', 'warm', 'fresh', 'frozen', 'large', 'medium', 'small', 'halves', 'torn', 'bulk',
              'optional', 'fatfree', 'lowsodium', 'low', 'sodium', 'reducedsodium', 'reducedfat', 'ripe', 'lean',
-             'extra', 'pure', 'goya', 'whole', 'ground', 'domestic']
+             'extra', 'pure', 'goya', 'whole', 'ground', 'domestic', 'extravirgin']
 
 suffixes = ['ed','less','ly']
 
@@ -382,7 +382,20 @@ flag_words.reverse()
 identicals = {'bell pepper':['green bell pepper', 'red bell pepper', 'yellow bell pepper', 'orange bell pepper'],
               'chicken': ['whole chicken', 'chicken breast', 'chicken thigh'],
               'onion': ['yellow onion', 'white onion', 'sweet onion', 'red onion'],
-              'kidney beans': ['dark red kidney beans', 'light red kidney beans']}
+              'kidney beans': ['dark red kidney beans', 'light red kidney beans'],
+              'bay leaf': ['bay leave'],
+              'half-and-half': ['halfandhalf', 'halfandhalf cream','halfhalf'],
+              'corn' : ['kernel corn', 'corn kernel'],
+              'ginger' : ['ginger root'],
+              'salt' : ['kosher salt', 'sea salt'],
+              'beef' : ['beef stew meat'],
+              'heavy cream' : ['heavy whipping cream'],
+              'vegetable oil' : ['canola oil'],
+              'green chile' : ['green chile pepper'],
+              'rice' : ['white rice'],
+              'egg' : ['eggs'],
+              'garlic' : ['garlic clove'],
+              'basil' : ['basil leave']}
 
 conversion_dict = {}
 conversion_dict['ounce'] = {'other':1}
@@ -437,6 +450,30 @@ conversion_dict['each'] = {'onion': 8,
                              'eggs': 1,
                              'green chile pepper': 1,
                              'other': 1}
+
+ing_categories = {'vegetable': ['onion','bell pepper','potato', 'carrot','jalapeno pepper','zucchini',
+                                'tomato','celery','garlic','tomato sauce','parsley','cilantro','green onion',
+                                'tomato paste','kidney beans','black beans','mushroom','corn','green chile',
+                                'pinto beans','spinach','sweet potato','shallot','okra','chili beans',
+                                'great northern beans','green beans','cannellini beans','butternut squash',
+                                'apple','habanero pepper','peas','garbanzo beans','leek','cabbage'],
+                  'protein'  : ['chicken','beef','shrimp','bacon','turkey','ham','andouille sausage','egg','sausage',
+                                'italian sausage'],
+                  'base'     : ['water', 'chicken broth', 'milk','coconut milk','chicken stock', 'heavy cream',
+                                'vegetable broth','beef broth','halfandhalf','cream of chicken soup','tomato soup'],
+                  'seasoning': ['salt','black pepper','cumin','chili powder','cayenne pepper','curry powder',
+                                'oregano','white sugar','thyme','paprika','basil','garlic powder','bay leaf',
+                                'red pepper flake','brown sugar','worcestershire sauce','ginger','lemon juice',
+                                'turmeric','soy sauce','cinnamon','coriander','pepper sauce','lime juice',
+                                'white vinegar','clove','onion powder','garam masala','lime','white pepper',
+                                'chicken bouillon','fish sauce','cajun seasoning','honey','rosemary','ketchup',
+                                'nutmeg','red curry paste','taco seasoning mix','salsa','italian seasoning',
+                                'sage','red pepper','cumin seed','dill','allspice','garlic salt'],
+                  'fat'      : ['butter','olive oil','vegetable oil','margarine','vegetable shortening','peanut oil'],
+                  'other'    : ['allpurpose flour','cheddar cheese','sour cream','parmesan cheese','cream cheese',
+                                'cornstarch','rice','monterey jack cheese','red wine','white wine','mayonnaise',
+                                'beer','sauce','raisin']}
+
 
 ### MAIN FUNCTIONS ###
 
@@ -495,6 +532,7 @@ def parse_ingredients(ingredients, units=units, flag_words=flag_words):
             continue
         ing_name = _merge_identicals(parsed, identicals)
         item_dict['normalized_qty'] = _normalize_ingredient_quantity(ing_name, item_dict, conversion_dict)
+        item_dict['category'] = _get_ingredient_category(ing_name, ing_categories)
         # Add item dictionary to ingredient dictionary
         # If duplicate, combine normalized quantities and flag other entries
         if ing_name in ing_dict.keys():
@@ -580,7 +618,7 @@ def _remove_descriptors(item,
     for suffix in suffixes:
         for word in words.copy():
             try:
-                if (word[-len(suffix):] == suffix) and word != 'red':
+                if (word[-len(suffix):] == suffix) and word not in ['red', 'shortening']:
                     words.remove(word)
             except:
                 continue    
@@ -614,3 +652,9 @@ def _merge_identicals(ingredient, identicals):
         if ingredient in val:
             return key
     return ingredient
+
+def _get_ingredient_category(ingredient, category_dict):
+    for key, val in category_dict.items():
+        if ingredient in val:
+            return key
+    return 'other'
