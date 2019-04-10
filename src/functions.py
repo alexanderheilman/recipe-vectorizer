@@ -158,7 +158,7 @@ def get_next_recipe(collection, reverse=False):
     cursor = collection.find({'viewed':0}).sort([('_id',direction)]).limit(1)
     return next(cursor)
 
-def remove_duplicates_and_update_serach_results():
+def remove_duplicates_and_update_search_results():
     mc = pymongo.MongoClient()
     db = mc['allrecipes']
     recipes_coll = db['recipes']
@@ -218,7 +218,10 @@ def get_recipe_info(browser):
     recipe_info['name'] = _get_name(browser)
     recipe_info['href'] = browser.current_url.split('?')[0]
     recipe_info['category'] = _get_categories(browser)
-    recipe_info['rating_info'] = _get_rating_info(browser)
+    try:
+        recipe_info['rating_info'] = _get_rating_info(browser)
+    except:
+        recipe_info['rating_info'] = None
     try:
         recipe_info['submitter_info'] = _get_submitter_info(browser)
     except:
@@ -271,6 +274,7 @@ def _get_rating_info(browser):
         n_reviews = int(reviews[4][:-1]) * 1000    
     rating_info['made_by'] = n_made
     rating_info['reviews'] = n_reviews
+    return rating_info
 
 def _get_submitter_info(browser):
     submitter_info = {}
