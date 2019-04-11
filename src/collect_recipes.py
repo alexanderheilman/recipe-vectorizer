@@ -66,5 +66,10 @@ if __name__ == '__main__':
             mark_as_viewed(next_recipe['id'], results_coll, error=True)
             print('Error reading recipe: {}'.format(next_recipe['name']))
         next_recipe = get_next_recipe(results_coll, reverse=reverse)
+        # If attempting to collect repeat recipe, purge duplicates 
+        # (not sure why but it appears to work)
+        if next_recipe['name'] == info['name']:
+            remove_duplicates_and_update_search_results()
+        next_recipe = get_next_recipe(results_coll, reverse=reverse)
     browser.quit()
     print('Search complete. {} recipes found'.format(count))
