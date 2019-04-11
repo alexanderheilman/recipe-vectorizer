@@ -23,7 +23,7 @@ if __name__ == '__main__':
     recipes_coll = db['recipes']
 
     print('Searching for {} recipes...'.format(search_term))
-    recipes, ratings = find_recipes_matching_search(recipes_coll, 'chili')
+    recipes, ratings = find_recipes_matching_search(recipes_coll, search_term)
     print('{} recipes found.'.format(len(recipes)))
 
     df = create_dataframe(recipes)
