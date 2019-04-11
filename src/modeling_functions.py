@@ -12,7 +12,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 def create_dataframe(recipes, cutoff=None):
     if cutoff == None:
         cutoff = int(len(recipes)**(1/3))
-    print('Ingredient cutoff : {} occurrences'.format(cutoff))
+#    print('Ingredient cutoff : {} occurrences'.format(cutoff))
     recipe_ids = _get_recipe_ids(recipes)
     common_ingredients = _get_common_ingredients(recipes, cutoff=cutoff)
     df = pd.DataFrame(columns=common_ingredients, index=recipe_ids).fillna(0)
@@ -79,23 +79,6 @@ def _get_common_ingredients(recipes, cutoff=2):
     #print('Number of common ingredients :', len(common_ingredients))
     return common_ingredients
 
-def get_label_names(recipes, cat_lvl=2):
-    labels = []
-    key = 'lvl_{}'.format(cat_lvl)
-    for recipe in recipes:
-        labels.append(recipe['category'][key])
-    return labels
-
-def get_label_numbers(label_names, limit=None):
-    ordered_names = [key for key, val in Counter(label_names).most_common()]
-    label_nums = [ordered_names.index(label) for label in label_names]
-    if not limit:
-        return ordered_names, label_nums
-    else:
-        abbr_names = ordered_names[:limit-1] + ['Other']
-        abbr_nums = [num if num < limit-1 else limit-1 for num in label_nums]
-        return abbr_names, abbr_nums
-
 def find_recipes_matching_search(collection, search_term):
     matching_recipes = []
     ratings = []
@@ -119,23 +102,23 @@ def find_recipes_matching_search(collection, search_term):
 #   Graph functions
 #########################################
 
-def create_graph(similarity_matrix, threshold, weight=100):
+def create_graph(similarity_matrix, threshold):
     G = nx.Graph()
     for i, row in enumerate(similarity_matrix):
         for j in range(i+1, len(similarity_matrix)):
             if similarity_matrix[i,j] > threshold:
-                G.add_edge(i, j, weight=weight * similarity_matrix[i,j])
+                G.add_edge(i, j)
     return G
 
 def remove_isolates(G, min_size=3):
-    for comm in nx.components.connected_components(G.copy()):
-        if len(comm) < min_size:
-            for node in comm:
+    for subG in nx.connected_component_subgraphs(G.copy()):
+        if len(subG) < min_size:
+            for node in subG.nodes:
                 G.remove_node(node)
 
 def split_graph(G):
-    initial_communities = nx.components.number_connected_components(G)
-    while initial_communities == nx.components.number_connected_components(G):
+    initial_communities = nx.number_connected_components(G)
+    while initial_communities == nx.number_connected_components(G):
         betweenness = nx.edge_betweenness_centrality(G)
         edge_array = np.array([key for key, val in betweenness.items()])
         between_array = np.array([val for key, val in betweenness.items()])
@@ -144,10 +127,10 @@ def split_graph(G):
 
 def split_subgraph(subG, G):
     """
-    Only makes splits within subG, a subgraph of G, but removes edges in G also.
+    Only makes splits within subG, a subgraph of G, but also removes edges in G
     """
-    initial_communities = nx.components.number_connected_components(subG)
-    while initial_communities == nx.components.number_connected_components(subG):
+    initial_communities = nx.number_connected_components(subG)
+    while initial_communities == nx.number_connected_components(subG):
         betweenness = nx.edge_betweenness_centrality(subG)
         edge_array = np.array([key for key, val in betweenness.items()])
         between_array = np.array([val for key, val in betweenness.items()])
@@ -181,9 +164,15 @@ def find_keywords(recipe_names, stopwords=stopwords, limit=10):
                 all_words[w] += 1
     return all_words.most_common()[:limit]
 
-def generate_recipes(G, n_ingredients=20):
+def get_ingredient_frequencies(df):
+    frequencies = Counter()
+    for col in df.columns:
+        frequencies[col] = np.mean(df[col] != 0)
+    return frequencies
+
+def generate_recipes(G, df, n_ingredients=20):
     recipes = []
-    subgraphs = list(nx.components.connected_component_subgraphs(G))
+    subgraphs = list(nx.connected_component_subgraphs(G))
     for subG in subgraphs:
         eigen_centralities = nx.eigenvector_centrality(subG)
         eigen_array = np.array([val for key, val in eigen_centralities.items()])
