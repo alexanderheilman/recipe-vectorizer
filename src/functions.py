@@ -669,6 +669,11 @@ def _get_ingredient_category(ingredient, category_dict):
             return key
     return 'other'
 
+
+########################################
+#   Ingredient decoding functions
+########################################
+
 def get_common_units_by_ingredient(recipes):
     units_by_ing = {}
     for recipe in recipes:
@@ -690,3 +695,74 @@ def get_common_ingredients_by_unit(recipes):
             ing_counter[ing] += 1
             ings_by_unit[val['units']] = ing_counter
     return ings_by_unit
+
+def convert_qty_to_common_units(ingredient,
+                                norm_qty,
+                                units_by_ing,
+                                conversion_dict=conversion_dict):
+    desired_units = units_by_ing[ingredient].most_common(1)[0][0]
+    volume_based_units = ['teaspoon','tablespoon','cup','pint','quart','gallon','ounce','fluid ounce','milliliter',
+                          'pinch','dash']
+    if desired_units in volume_based_units:
+        return decode_volume_units(norm_qty)
+    elif desired_units == 'each':
+        ingredient_conversions = conversion_dict[desired_units]
+        try:
+            return str(round(norm_qty / ingredient_conversions[ingredient]))
+        except:
+            return str(round(norm_qty / ingredient_conversions['other']))
+    else:
+        try:
+            ingredient_conversions = conversion_dict[desired_units]
+            try:
+                return '{0} {1}'.format(round(norm_qty/ingredient_conversions[ingredient]), desired_units)
+            except:
+                return '{0} {1}'.format(round(norm_qty/ingredient_conversions['other']), desired_units)
+        except:
+            return '{0} {1}'.format(norm_qty, desired_units)
+
+def decode_volume_units(norm_qty):
+    if norm_qty < 1/24 * 1.5:
+        return '1/4 teaspoon'
+    elif norm_qty < 1/12 * 1.5:
+        return '1/2 teaspoon'
+    elif norm_qty < 1/6 * 1.25:
+        return '1 teaspoon'
+    elif norm_qty < 1/6 * 1.75:
+        return '1 1/2 teaspoons'
+    elif norm_qty < 1/6 * 2.25:
+        return '2 teaspoons'
+    elif norm_qty < 1/6 * 2.75:
+        return '2 1/2 teaspoons'
+    elif norm_qty < 1/2 * 1.25:
+        return '1 tablespoon'
+    elif norm_qty < 1/2 * 1.75:
+        return '1 1/2 tablespoons'
+    elif norm_qty < 1.25:
+        return '2 tablespoons'
+    elif norm_qty < 1.75:
+        return '3 tablespoons'
+    elif norm_qty < 2.3:
+        return '1/4 cup'
+    elif norm_qty < 3:
+        return '1/3 cup'
+    elif norm_qty < 5:
+        return '1/2 cup'
+    elif norm_qty < 7:
+        return '3/4 cup'
+    elif norm_qty < 9:
+        return '1 cup'
+    elif norm_qty < 11:
+        return '1 1/4 cups'
+    elif norm_qty < 14:
+        return '1 1/2 cups'
+    elif norm_qty < 18:
+        return '2 cups'
+    elif norm_qty < 22:
+        return '2 1/2 cups'
+    elif norm_qty < 28:
+        return '3 cups'
+    elif norm_qty < 36:
+        return '1 quart'
+    else:
+        return '{0:1.2} quarts'.format(norm_qty / 32)

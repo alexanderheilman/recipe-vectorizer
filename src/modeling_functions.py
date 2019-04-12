@@ -86,14 +86,15 @@ def find_recipes_matching_search(collection, search_term):
     ratings = []
     for recipe in collection.find():
         flag = False
-        if len(recipe['name'].lower().split(search_term.lower())) > 1:
-            flag = True
-        if recipe['category']['lvl_2']:
-            if len(recipe['category']['lvl_2'].lower().split(search_term.lower())) > 1:
+        for word in search_term.split():
+            if len(recipe['name'].lower().split(word.lower())) > 1:
                 flag = True
-        if recipe['category']['lvl_3']:
-            if len(recipe['category']['lvl_3'].lower().split(search_term.lower())) > 1:
-                flag = True
+            if recipe['category']['lvl_2']:
+                if len(recipe['category']['lvl_2'].lower().split(word.lower())) > 1:
+                    flag = True
+            if recipe['category']['lvl_3']:
+                if len(recipe['category']['lvl_3'].lower().split(word.lower())) > 1:
+                    flag = True
         if flag:
             matching_recipes.append(recipe)
             ratings.append(recipe['rating_info'])
