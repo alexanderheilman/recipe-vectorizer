@@ -10,6 +10,7 @@ import time
 import numpy as np
 import pandas as pd
 import pymongo
+from collections import Counter
 
 ####################################
 #   Searching and crawling functions
@@ -668,4 +669,24 @@ def _get_ingredient_category(ingredient, category_dict):
             return key
     return 'other'
 
+def get_common_units_by_ingredient(recipes):
+    units_by_ing = {}
+    for recipe in recipes:
+        ing_dict = recipe['ingredients']
+        for ing, val in ing_dict.items():
+            # For each ingredient, count the occurences of different units
+            units_counter = units_by_ing.get(ing, Counter())
+            units_counter[val['units']] += 1
+            units_by_ing[ing] = units_counter
+    return units_by_ing
 
+def get_common_ingredients_by_unit(recipes):
+    ings_by_unit = {}
+    for recipe in recipes:
+        ing_dict = recipe['ingredients']
+        for ing, val in ing_dict.items():
+            # For each ingredient, count the occurences of different units
+            ing_counter = ings_by_unit.get(val['units'], Counter())
+            ing_counter[ing] += 1
+            ings_by_unit[val['units']] = ing_counter
+    return ings_by_unit

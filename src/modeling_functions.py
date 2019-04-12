@@ -4,6 +4,8 @@ import pandas as pd
 from collections import Counter
 from string import *
 from sklearn.metrics.pairwise import cosine_similarity
+import matplotlib.pyplot as plt
+from matplotlib import cm
 
 #########################################
 #   Recipe searching and data structuring
@@ -102,12 +104,12 @@ def find_recipes_matching_search(collection, search_term):
 #   Graph functions
 #########################################
 
-def create_graph(similarity_matrix, threshold):
+def create_graph(similarity_matrix, threshold, weight=100):
     G = nx.Graph()
     for i, row in enumerate(similarity_matrix):
         for j in range(i+1, len(similarity_matrix)):
             if similarity_matrix[i,j] > threshold:
-                G.add_edge(i, j)
+                G.add_edge(i, j, weight=weight*similarity_matrix[i,j])
     return G
 
 def remove_isolates(G, min_size=3):
@@ -125,11 +127,12 @@ def split_graph(G):
         most_important_edge = edge_array[np.argmax(between_array)]
         G.remove_edge(most_important_edge[0], most_important_edge[1])
 
-def split_subgraph(subG, G):
+def split_subgraph(subG, G, return_history=False):
     """
     Only makes splits within subG, a subgraph of G, but also removes edges in G
     """
     initial_communities = nx.number_connected_components(subG)
+    history = []
     while initial_communities == nx.number_connected_components(subG):
         betweenness = nx.edge_betweenness_centrality(subG)
         edge_array = np.array([key for key, val in betweenness.items()])
@@ -137,6 +140,42 @@ def split_subgraph(subG, G):
         most_important_edge = edge_array[np.argmax(between_array)]
         subG.remove_edge(most_important_edge[0], most_important_edge[1])
         G.remove_edge(most_important_edge[0], most_important_edge[1])
+        if return_history:
+            history.append(G.copy())
+    if return_history:
+        return history
+
+#########################################
+#   Plotting functions
+#########################################
+
+def plot_weighted_graph(G, ax, k=0.5, fixed_axes=None):
+    eigen_centralities = nx.eigenvector_centrality(G)
+    eigen_array = np.array([val for key, val in eigen_centralities.items()])
+    node_colors = [cm.jet(eig/np.max(eigen_array)) for eig in eigen_array]
+
+    betweenness = nx.edge_betweenness_centrality(G)
+    between_array = np.array([val for key, val in betweenness.items()])
+    edge_colors = [cm.jet(bet/np.max(between_array)) for bet in between_array]
+
+    spring = nx.spring_layout(G, k=k, weight='weight', seed=427)
+    nx.draw_networkx_nodes(G,
+                           pos=spring,
+                           node_size=150 * eigen_array/np.max(eigen_array) + 10,
+                           node_color=node_colors,
+                           ax=ax,
+                           alpha=0.5,
+                           with_labels=False)
+    nx.draw_networkx_edges(G,
+                           pos=spring,
+                           edge_color=edge_colors,
+                           width=8 * between_array/np.max(between_array) + 0.1,
+                           alpha=0.5)
+    ax.set_yticklabels([])
+    ax.set_xticklabels([])
+    if fixed_axes:
+        ax.set_xlim(left=fixed_axes[0], right=fixed_axes[1])
+        ax.set_ylim(bottom=fixed_axes[2], top=fixed_axes[3])
 
 
 #########################################
