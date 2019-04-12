@@ -16,7 +16,7 @@ if __name__ == '__main__':
     search_term = argv[1]
     n_recipes = int(argv[2])
 
-    min_cluster_size = 6
+    min_cluster_size = 10
 
     mc = pymongo.MongoClient()
     db = mc['allrecipes']
@@ -30,7 +30,7 @@ if __name__ == '__main__':
     X = df.values
     cosine_sims = cosine_similarity(X)
 
-    G = create_graph(cosine_sims, threshold=0.7)
+    G = create_graph(cosine_sims, threshold=0.75)
     remove_isolates(G, min_cluster_size)
 
     n_subgraphs = nx.number_connected_components(G)
@@ -55,6 +55,7 @@ if __name__ == '__main__':
         cluster_keywords.append(find_keywords(names, limit=4))
     
     recipe_results = generate_recipes(G, df)
+    units_by_ing = get_common_units_by_ingredient(recipes)
 
     for i, r in enumerate(recipe_results):
         print('\nRecipes in cluster (5 of {}) :'.format(len(recipe_names_in_cluster[i])))
@@ -62,5 +63,7 @@ if __name__ == '__main__':
         print('\nCluster keywords :')
         print(cluster_keywords[i])
         print('\nSuggested recipe :')
-        print(r)
+        for j, qty in enumerate(r):
+            ing = r.index[j]
+            print(convert_qty_to_common_units(ing, qty*10, units_by_ing), ing)
         print('--------------------------------')

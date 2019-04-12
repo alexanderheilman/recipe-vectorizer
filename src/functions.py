@@ -705,12 +705,16 @@ def convert_qty_to_common_units(ingredient,
                           'pinch','dash']
     if desired_units in volume_based_units:
         return decode_volume_units(norm_qty)
+    elif desired_units == 'pound':
+            return '{0:1.2} pounds'.format(norm_qty / 16)
     elif desired_units == 'each':
         ingredient_conversions = conversion_dict[desired_units]
         try:
-            return str(round(norm_qty / ingredient_conversions[ingredient]))
+            count = round(norm_qty / ingredient_conversions[ingredient])
+            return str(count if count > 0 else 1)
         except:
-            return str(round(norm_qty / ingredient_conversions['other']))
+            count = round(norm_qty / ingredient_conversions['other'])
+            return str(count if count > 0 else 1)
     else:
         try:
             ingredient_conversions = conversion_dict[desired_units]
