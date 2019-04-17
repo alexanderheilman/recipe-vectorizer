@@ -210,23 +210,33 @@ def get_ingredient_frequencies(df):
         frequencies[col] = np.mean(df[col] != 0)
     return frequencies
 
-def generate_recipes(G, df, n_ingredients=20):
+def generate_recipes_from_graph(G, df, ratings, n_ingredients=20):
     recipes = []
+    ratings_array = np.ones(len(df))
+    for i, rating in enumerate(ratings):
+        try:
+            score = rating['rating'] * np.log(rating['reviews'])
+            if score > 0:
+                ratings_array[i] = score
+        except:
+            continue
     subgraphs = list(nx.connected_component_subgraphs(G))
     for subG in subgraphs:
         eigen_centralities = nx.eigenvector_centrality(subG)
         eigen_array = np.array([val for key, val in eigen_centralities.items()])
         
-        # Mask == 'Is recipe in cluster?'
+        # Mask = 'Is recipe in cluster?'
         components = set(subG.nodes)
         mask = [(i in components) for i in range(len(df.index))]
         sub_df = df.loc[mask,:]
-        
+        sub_ratings = ratings_array[mask]
+
+        weights = eigen_array * sub_ratings
         # Get N most commonly listed ingredients for each cluster
         ing_freqs = get_ingredient_frequencies(sub_df)
         ing_list = [key for key, val in ing_freqs.most_common()[:n_ingredients]]
         
         # Weight ingredient proportions by eigenvector centrality of recipes
-        weighted_proportions = sub_df.loc[:,ing_list] * eigen_array.reshape(-1,1)/np.sum(eigen_array)
+        weighted_proportions = sub_df.loc[:,ing_list] * weights.reshape(-1,1)/np.sum(weights)
         recipes.append(np.sum(weighted_proportions, axis=0))
     return recipes
