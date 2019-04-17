@@ -183,10 +183,10 @@ def plot_weighted_graph(G, ax, k=0.5, fixed_axes=None):
 #   Analysis
 #########################################
 
-def get_recipe_names(node_set, recipe_ids, recipe_list):
+def get_recipe_names(index_iter, recipe_ids, recipe_list):
     recipe_names = []
-    for node in node_set:
-        r_id = recipe_ids[node]
+    for idx in index_iter:
+        r_id = recipe_ids[idx]
         for recipe in recipe_list:
             if recipe['id'] == r_id:
                 recipe_names.append(recipe['name'])
@@ -240,3 +240,60 @@ def generate_recipes_from_graph(G, df, ratings, n_ingredients=20):
         weighted_proportions = sub_df.loc[:,ing_list] * weights.reshape(-1,1)/np.sum(weights)
         recipes.append(np.sum(weighted_proportions, axis=0))
     return recipes
+
+def generate_recipes_from_dbscan(labels, df, ratings, n_ingredients=20):
+    recipes = []
+    ratings_array = np.ones(len(df))
+    for i, rating in enumerate(ratings):
+        try:
+            score = rating['rating'] * np.log(rating['reviews'])
+            if score > 0:
+                ratings_array[i] = score
+        except:
+            continue
+    n_clusters = int(max(labels))
+    for i in range(1, n_clusters+1):
+        # Mask = 'Is recipe in cluster?'
+        idxs = [j for j, label in enumerate(labels) if label == i]
+        sub_df = df.iloc[idxs,:]
+        sub_ratings = ratings_array[idxs]
+
+        # Get N most commonly listed ingredients for each cluster
+        ing_freqs = get_ingredient_frequencies(sub_df)
+        ing_list = [key for key, val in ing_freqs.most_common()[:n_ingredients]]
+        
+        # Weight ingredient proportions by eigenvector centrality of recipes
+        weighted_proportions = sub_df.loc[:,ing_list] * sub_ratings.reshape(-1,1)/np.sum(sub_ratings)
+        recipes.append(np.sum(weighted_proportions, axis=0))
+    return recipes
+
+
+#########################################
+#   DBSCAN clustering
+#########################################
+
+def dbscan(similarity_matrix, eps, min_points):
+    labels = np.zeros(len(similarity_matrix))
+    c = 0
+    for i, row in enumerate(similarity_matrix):
+        if labels[i] != 0:
+            continue
+        neighbors = [j for j, sim in enumerate(row) if (sim > eps) and (j != i)]
+        if len(neighbors) < min_points:
+            labels[i] = -1
+            continue
+        c += 1
+        labels[i] = c
+        for j in neighbors:
+            if labels[j] == -1:
+                labels[j] = c
+            if labels[j] != 0:
+                continue
+            labels[j] = c
+            n = [k for k, sim in enumerate(similarity_matrix[j]) if (sim > eps) and (k != j)]
+            if len(n) >= min_points:
+                for point in n:
+                    if point not in neighbors:
+                        neighbors.append(point)
+    return labels
+
